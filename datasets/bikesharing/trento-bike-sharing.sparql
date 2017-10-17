@@ -22,7 +22,7 @@ CONSTRUCT {
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 
   BIND(json:path(?i, "$.id") AS ?id)
-  BIND(URI(CONCAT(?ns, ?id)) AS ?s)
+  BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(?id))) AS ?s)
   BIND(json:path(?i, "$.name") AS ?name)
   BIND(json:path(?i, "$.address") AS ?address)
   BIND(json:path(?i, "$.bikes") AS ?bikes)
