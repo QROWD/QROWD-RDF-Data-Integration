@@ -1,0 +1,41 @@
+
+'/home/raven/Projects/Eclipse/trento-bike-racks/datasets/getparkingsbyagency/underground-parking-COMUNE_DI_TRENTO.json'
+'
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX q: <http://qrowd-project.eu/ontology/>
+CONSTRUCT {
+  ?s
+    a q:UndergroundParking ;
+    rdfs:label ?name ;
+    rdfs:comment ?description ;
+    q:slotsTotal ?slotsTotal ;
+    q:slotsAvailable ?slotsAvailable ;
+    q:monitored ?monitored ;
+    wgs:long ?x ;
+    wgs:lat ?y ;
+
+    q:parkAndRide ?parkAndRide ;
+    .
+}
+{
+  ?r rdfs:label ?str .
+  BIND(json:parse(?str) AS ?json) .
+  ?json json:unnest ?i .
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(json:path(?i, "$.name") AS ?name)
+  BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(?name))) AS ?s)
+  BIND(xsd:decimal(json:path(?i, "$.slotsTotal")) AS ?slotsTotal)
+  BIND(xsd:decimal(json:path(?i, "$.slotsAvailable")) AS ?slotsAvailable)
+  BIND(xsd:decimal(json:path(?i, "$.monitored")) AS ?monitored)
+
+  BIND(json:path(?i, "$.extra") AS ?extra)
+  BIND(json:path(?extra, "$.parkAndRide") AS ?parkAndRide)
+
+  BIND(json:path(?i, "$.position[0]") AS ?x)
+  BIND(json:path(?i, "$.position[1]") AS ?y)
+}
+'
+
+
