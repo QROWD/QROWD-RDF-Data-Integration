@@ -1,0 +1,2475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnagrafica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.meteotrentino.it/">
+  <anagrafica>
+    <codice>T0154</codice>
+    <nome>Ala (Convento)</nome>
+    <nomebreve>Ala Convento</nomebreve>
+    <quota>165</quota>
+    <latitudine>45.75711703</latitudine>
+    <longitudine>10.99987083</longitudine>
+    <est>655530</est>
+    <north>5069007</north>
+    <inizio>01/01/1921</inizio>
+    <fine>22/06/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0405</codice>
+    <nome>Ala (Maso Le Pozze)</nome>
+    <nomebreve>SM Ala Maso Le Pozze</nomebreve>
+    <quota>170</quota>
+    <latitudine>45.786137</latitudine>
+    <longitudine>11.023828</longitudine>
+    <est>657311.5</est>
+    <north>5072278</north>
+    <inizio>17/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0153</codice>
+    <nome>Ala (Ronchi)</nome>
+    <nomebreve>SM Ala Ronchi</nomebreve>
+    <quota>692</quota>
+    <latitudine>45.73919</latitudine>
+    <longitudine>11.06545</longitudine>
+    <est>660681.5</est>
+    <north>5067145</north>
+    <inizio>01/08/1927</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0146</codice>
+    <nome>Aldeno (San Zeno)</nome>
+    <nomebreve>SM Aldeno San Zeno</nomebreve>
+    <quota>182</quota>
+    <latitudine>45.968006</latitudine>
+    <longitudine>11.091231</longitudine>
+    <est>662021</est>
+    <north>5092619</north>
+    <inizio>01/11/1923</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0192</codice>
+    <nome>Arco</nome>
+    <nomebreve>Arco</nomebreve>
+    <quota>91</quota>
+    <latitudine>45.92256083</latitudine>
+    <longitudine>10.89093781</longitudine>
+    <est>646623</est>
+    <north>5087182</north>
+    <inizio>18/07/1985</inizio>
+    <fine>10/02/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0322</codice>
+    <nome>Arco (Arboreto)</nome>
+    <nomebreve>Arco Arboreto</nomebreve>
+    <quota>115</quota>
+    <latitudine>45.92226836</latitudine>
+    <longitudine>10.88303511</longitudine>
+    <est>646011</est>
+    <north>5087135</north>
+    <inizio>31/05/2004</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0401</codice>
+    <nome>Arco (Bruttagosto)</nome>
+    <nomebreve>SM Arco Bruttagosto</nomebreve>
+    <quota>85</quota>
+    <latitudine>45.910374</latitudine>
+    <longitudine>10.887133</longitudine>
+    <est>646360</est>
+    <north>5085821</north>
+    <inizio>30/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0204</codice>
+    <nome>Bezzecca</nome>
+    <nomebreve>Bezzecca</nomebreve>
+    <quota>698</quota>
+    <latitudine>45.89676231</latitudine>
+    <longitudine>10.71907881</longitudine>
+    <est>633359</est>
+    <north>5084014</north>
+    <inizio>01/01/1921</inizio>
+    <fine>06/04/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0402</codice>
+    <nome>Bezzecca (Spessa)</nome>
+    <nomebreve>SM Bezzecca</nomebreve>
+    <quota>710</quota>
+    <latitudine>45.895628</latitudine>
+    <longitudine>10.725025</longitudine>
+    <est>633823</est>
+    <north>5083898</north>
+    <inizio>06/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0015</codice>
+    <nome>Bieno</nome>
+    <nomebreve>SM Bieno</nomebreve>
+    <quota>843</quota>
+    <latitudine>46.081097</latitudine>
+    <longitudine>11.557174</longitudine>
+    <est>697716</est>
+    <north>5106237.2</north>
+    <inizio>01/10/1923</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0222</codice>
+    <nome>Borgo Valsugana</nome>
+    <nomebreve>Borgo Valsugana</nomebreve>
+    <quota>385</quota>
+    <latitudine>46.05298525</latitudine>
+    <longitudine>11.45047883</longitudine>
+    <est>689563</est>
+    <north>5102854</north>
+    <inizio>01/01/1921</inizio>
+    <fine>19/01/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0152</codice>
+    <nome>Brentonico</nome>
+    <nomebreve>Brentonico</nomebreve>
+    <quota>693</quota>
+    <latitudine>45.81722369</latitudine>
+    <longitudine>10.95310717</longitudine>
+    <est>651730</est>
+    <north>5075595</north>
+    <inizio>01/07/1926</inizio>
+    <fine>03/02/2010</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0155</codice>
+    <nome>Brentonico (Diga Di Pra' Da Stua)</nome>
+    <nomebreve>Pra' Da Stua Diga</nomebreve>
+    <quota>1045</quota>
+    <latitudine>45.77222981</latitudine>
+    <longitudine>10.90453761</longitudine>
+    <est>648076</est>
+    <north>5070505</north>
+    <inizio>01/01/1975</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0443</codice>
+    <nome>Brentonico (Santa Caterina)</nome>
+    <nomebreve>SM Brentonico S. C.</nomebreve>
+    <quota>727</quota>
+    <latitudine>45.824004</latitudine>
+    <longitudine>10.959756</longitudine>
+    <est>652228</est>
+    <north>5076361</north>
+    <inizio>21/12/2009</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0415</codice>
+    <nome>Bresimo (Malga Bordolona)</nome>
+    <nomebreve>SM Malga Bordolona</nomebreve>
+    <quota>1815</quota>
+    <latitudine>46.433136</latitudine>
+    <longitudine>10.889328</longitudine>
+    <est>645148</est>
+    <north>5143908</north>
+    <inizio>16/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0231</codice>
+    <nome>Campestrin</nome>
+    <nomebreve>Campestrin</nomebreve>
+    <quota>1385</quota>
+    <latitudine>46.46478094</latitudine>
+    <longitudine>11.71509564</longitudine>
+    <est>708465</est>
+    <north>5149272</north>
+    <inizio>01/09/2002</inizio>
+    <fine>08/01/2013</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0229</codice>
+    <nome>Campitello (Malga Do Col D'Aura)</nome>
+    <nomebreve>SM Malga Col D'Aura</nomebreve>
+    <quota>2050</quota>
+    <latitudine>46.490938</latitudine>
+    <longitudine>11.65755</longitudine>
+    <est>703949</est>
+    <north>5152028</north>
+    <inizio>02/09/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0323</codice>
+    <nome>Campodenno (frana)</nome>
+    <nomebreve>Campodenno frana</nomebreve>
+    <quota>610</quota>
+    <latitudine>46.25977975</latitudine>
+    <longitudine>11.02837922</longitudine>
+    <est>656324</est>
+    <north>5124913</north>
+    <inizio>30/03/2004</inizio>
+    <fine>02/08/2016</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0030</codice>
+    <nome>Canal San Bovo</nome>
+    <nomebreve>SM Canal San Bovo</nomebreve>
+    <quota>750</quota>
+    <latitudine>46.14956</latitudine>
+    <longitudine>11.734845</longitudine>
+    <est>711191</est>
+    <north>5114301</north>
+    <inizio>01/10/1927</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0437</codice>
+    <nome>Canazei</nome>
+    <nomebreve>SM Canazei</nomebreve>
+    <quota>1465</quota>
+    <latitudine>46.478318</latitudine>
+    <longitudine>11.766852</longitudine>
+    <est>712386</est>
+    <north>5150914</north>
+    <inizio>28/03/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0445</codice>
+    <nome>Canazei (Coi de Paussa)</nome>
+    <nomebreve>SEBA Coi de Paussa</nomebreve>
+    <quota>2376</quota>
+    <latitudine>46.47197</latitudine>
+    <longitudine>11.849001</longitudine>
+    <est>718717</est>
+    <north>5150433</north>
+    <inizio>01/01/2009</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0421</codice>
+    <nome>Caoria</nome>
+    <nomebreve>SM Caoria</nomebreve>
+    <quota>803</quota>
+    <latitudine>46.192017</latitudine>
+    <longitudine>11.683911</longitudine>
+    <est>707098.3</est>
+    <north>5118884</north>
+    <inizio>15/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0029</codice>
+    <nome>Caoria (Centrale)</nome>
+    <nomebreve>Caoria Centrale</nomebreve>
+    <quota>908</quota>
+    <latitudine>46.20441542</latitudine>
+    <longitudine>11.66178703</longitudine>
+    <est>705345</est>
+    <north>5120204</north>
+    <inizio>01/01/1921</inizio>
+    <fine>07/01/2002</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0431</codice>
+    <nome>Capriana</nome>
+    <nomebreve>SM Capriana</nomebreve>
+    <quota>1055</quota>
+    <latitudine>46.263079</latitudine>
+    <longitudine>11.33633</longitudine>
+    <est>680046</est>
+    <north>5125931</north>
+    <inizio>04/04/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0065</codice>
+    <nome>Careser (Diga)</nome>
+    <nomebreve>SM Careser Diga</nomebreve>
+    <quota>2600</quota>
+    <latitudine>46.422651</latitudine>
+    <longitudine>10.698905</longitudine>
+    <est>630544</est>
+    <north>5142411</north>
+    <inizio>01/01/1930</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0418</codice>
+    <nome>Castelfondo (Malga Castrin)</nome>
+    <nomebreve>SM Malga Castrin</nomebreve>
+    <quota>1815</quota>
+    <latitudine>46.510001</latitudine>
+    <longitudine>11.043574</longitudine>
+    <est>656776.8</est>
+    <north>5152743.5</north>
+    <inizio>30/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0224</codice>
+    <nome>Castello Tesino</nome>
+    <nomebreve>Castello Tesino</nomebreve>
+    <quota>825</quota>
+    <latitudine>46.06318556</latitudine>
+    <longitudine>11.63083402</longitudine>
+    <est>703477</est>
+    <north>5104433</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/1941</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0469</codice>
+    <nome>Castello Tesino (Le Parti)</nome>
+    <nomebreve>SM Castello Tesino</nomebreve>
+    <quota>801</quota>
+    <latitudine>46.056924</latitudine>
+    <longitudine>11.629929</longitudine>
+    <est>703430</est>
+    <north>5103735</north>
+    <inizio>11/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0367</codice>
+    <nome>Cavalese</nome>
+    <nomebreve>SM Cavalese</nomebreve>
+    <quota>958</quota>
+    <latitudine>46.284782</latitudine>
+    <longitudine>11.451713</longitudine>
+    <est>688863</est>
+    <north>5128611</north>
+    <inizio>04/11/1999</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0107</codice>
+    <nome>Cavalese (Convento)</nome>
+    <nomebreve>Cavalese Convento</nomebreve>
+    <quota>1000</quota>
+    <latitudine>46.29112789</latitudine>
+    <longitudine>11.45922803</longitudine>
+    <est>689420</est>
+    <north>5129334</north>
+    <inizio>01/01/1921</inizio>
+    <fine>12/06/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0118</codice>
+    <nome>Cembra</nome>
+    <nomebreve>SM Cembra</nomebreve>
+    <quota>652</quota>
+    <latitudine>46.170372</latitudine>
+    <longitudine>11.217711</longitudine>
+    <est>671193</est>
+    <north>5115368</north>
+    <inizio>26/11/1993</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0009</codice>
+    <nome>Centa San Nicolo'</nome>
+    <nomebreve>SM Centa</nomebreve>
+    <quota>805</quota>
+    <latitudine>45.970142</latitudine>
+    <longitudine>11.234176</longitudine>
+    <est>673089</est>
+    <north>5093157</north>
+    <inizio>01/12/1929</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0227</codice>
+    <nome>Cermis (Casere)</nome>
+    <nomebreve>SM Cermis</nomebreve>
+    <quota>1900</quota>
+    <latitudine>46.250369</latitudine>
+    <longitudine>11.491486</longitudine>
+    <est>692047</est>
+    <north>5124883</north>
+    <inizio>28/08/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0099</codice>
+    <nome>Cima Paganella</nome>
+    <nomebreve>SM Paganella</nomebreve>
+    <quota>2125</quota>
+    <latitudine>46.143328</latitudine>
+    <longitudine>11.037329</longitudine>
+    <est>657346</est>
+    <north>5111990</north>
+    <inizio>01/01/1932</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0365</codice>
+    <nome>Cima Presena</nome>
+    <nomebreve>SM Cima Presena</nomebreve>
+    <quota>3015</quota>
+    <latitudine>46.219964</latitudine>
+    <longitudine>10.583453</longitudine>
+    <est>622123</est>
+    <north>5119706</north>
+    <inizio>14/12/1994</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0377</codice>
+    <nome>Cima Rosetta</nome>
+    <nomebreve>Cima Rosetta</nomebreve>
+    <quota>2685</quota>
+    <latitudine>46.26463083</latitudine>
+    <longitudine>11.83308053</longitudine>
+    <est>718320</est>
+    <north>5127352</north>
+    <inizio>25/11/2004</inizio>
+    <fine>28/10/2008</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0160</codice>
+    <nome>Cimego (Centrale)</nome>
+    <nomebreve>Cimego Centrale</nomebreve>
+    <quota>490</quota>
+    <latitudine>45.920353</latitudine>
+    <longitudine>10.627037</longitudine>
+    <est>626142</est>
+    <north>5086558</north>
+    <inizio>01/01/1978</inizio>
+    <fine>03/01/2004</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0083</codice>
+    <nome>Cles (Convento)</nome>
+    <nomebreve>Cles Convento</nomebreve>
+    <quota>665</quota>
+    <latitudine>46.36197872</latitudine>
+    <longitudine>11.03124906</longitudine>
+    <est>656254</est>
+    <north>5136272</north>
+    <inizio>01/01/1921</inizio>
+    <fine>06/03/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0397</codice>
+    <nome>Cles (Maso Maiano)</nome>
+    <nomebreve>SM Cles Maso Maiano</nomebreve>
+    <quota>655</quota>
+    <latitudine>46.361167</latitudine>
+    <longitudine>11.039903</longitudine>
+    <est>656922</est>
+    <north>5136199</north>
+    <inizio>23/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0068</codice>
+    <nome>Cogolo Pont (Centrale)</nome>
+    <nomebreve>Cogolo Pont</nomebreve>
+    <quota>1190</quota>
+    <latitudine>46.36499275</latitudine>
+    <longitudine>10.68893881</longitudine>
+    <est>629915</est>
+    <north>5135988</north>
+    <inizio>01/10/1929</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0017</codice>
+    <nome>Costabrunella (Diga)</nome>
+    <nomebreve>Costabrunella Diga</nomebreve>
+    <quota>2030</quota>
+    <latitudine>46.13110764</latitudine>
+    <longitudine>11.58492678</longitudine>
+    <est>699681</est>
+    <north>5111863</north>
+    <inizio>01/01/1943</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0156</codice>
+    <nome>Daone (Diga Di Malga Bissina)</nome>
+    <nomebreve>Malga Bissina Diga</nomebreve>
+    <quota>1792</quota>
+    <latitudine>46.05481467</latitudine>
+    <longitudine>10.51398417</longitudine>
+    <est>617115</est>
+    <north>5101252</north>
+    <inizio>01/01/1960</inizio>
+    <fine>31/10/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0157</codice>
+    <nome>Daone (Diga Di Malga Boazzo)</nome>
+    <nomebreve>Malga Boazzo Diga</nomebreve>
+    <quota>1200</quota>
+    <latitudine>45.99603756</latitudine>
+    <longitudine>10.52379586</longitudine>
+    <est>617999</est>
+    <north>5094736</north>
+    <inizio>01/01/1960</inizio>
+    <fine>31/10/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0158</codice>
+    <nome>Daone (Diga Di Ponte Morandin)</nome>
+    <nomebreve>Ponte Morandin Diga</nomebreve>
+    <quota>720</quota>
+    <latitudine>45.94856539</latitudine>
+    <longitudine>10.60427158</longitudine>
+    <est>624337</est>
+    <north>5089584</north>
+    <inizio>01/01/1960</inizio>
+    <fine>10/02/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0373</codice>
+    <nome>Daone (Malga Bissina)</nome>
+    <nomebreve>SM Malga Bissina</nomebreve>
+    <quota>1785</quota>
+    <latitudine>46.052903</latitudine>
+    <longitudine>10.514122</longitudine>
+    <est>617129.7</est>
+    <north>5101039.9</north>
+    <inizio>03/10/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0410</codice>
+    <nome>Daone (Pracul)</nome>
+    <nomebreve>SM Daone Pracul</nomebreve>
+    <quota>897</quota>
+    <latitudine>45.971466</latitudine>
+    <longitudine>10.563104</longitudine>
+    <est>621026.5</est>
+    <north>5092065</north>
+    <inizio>12/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0233</codice>
+    <nome>Dare'</nome>
+    <nomebreve>Dare'</nomebreve>
+    <quota>622</quota>
+    <latitudine>46.07488881</latitudine>
+    <longitudine>10.71684369</longitudine>
+    <est>632759</est>
+    <north>5103801</north>
+    <inizio>01/01/1988</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0086</codice>
+    <nome>Denno</nome>
+    <nomebreve>Denno</nomebreve>
+    <quota>426</quota>
+    <latitudine>46.27311261</latitudine>
+    <longitudine>11.05085681</longitudine>
+    <est>658018</est>
+    <north>5126437</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/2001</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0382</codice>
+    <nome>Dos Del Sabion (Monte Grual)</nome>
+    <nomebreve>SM Dos Del Sabion</nomebreve>
+    <quota>1899</quota>
+    <latitudine>46.172262</latitudine>
+    <longitudine>10.812237</longitudine>
+    <est>639888.7</est>
+    <north>5114783.5</north>
+    <inizio>24/11/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0379</codice>
+    <nome>Dro (Marocche)</nome>
+    <nomebreve>SM Dro Marocche</nomebreve>
+    <quota>282</quota>
+    <latitudine>45.983947</latitudine>
+    <longitudine>10.94125</longitudine>
+    <est>650358</est>
+    <north>5094096</north>
+    <inizio>13/02/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0210</codice>
+    <nome>Folgaria</nome>
+    <nomebreve>SM Folgaria</nomebreve>
+    <quota>1121</quota>
+    <latitudine>45.915349</latitudine>
+    <longitudine>11.164353</longitudine>
+    <est>667845</est>
+    <north>5086920</north>
+    <inizio>01/07/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0399</codice>
+    <nome>Fondo</nome>
+    <nomebreve>SM Fondo</nomebreve>
+    <quota>910</quota>
+    <latitudine>46.437705</latitudine>
+    <longitudine>11.129627</longitudine>
+    <est>663595</est>
+    <north>5144885</north>
+    <inizio>23/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0080</codice>
+    <nome>Fondo</nome>
+    <nomebreve>Fondo</nomebreve>
+    <quota>987</quota>
+    <latitudine>46.43964531</latitudine>
+    <longitudine>11.13803453</longitudine>
+    <est>664235</est>
+    <north>5145118</north>
+    <inizio>01/01/1921</inizio>
+    <fine>02/08/2004</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0237</codice>
+    <nome>Fontanazzo Di Mazzin</nome>
+    <nomebreve>Fontanazzo</nomebreve>
+    <quota>1400</quota>
+    <latitudine>46.47071717</latitudine>
+    <longitudine>11.72923783</longitudine>
+    <est>709528</est>
+    <north>5149969</north>
+    <inizio>01/01/1974</inizio>
+    <fine>30/09/1988</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0105</codice>
+    <nome>Forte Buso (Diga)</nome>
+    <nomebreve>Forte Buso Diga</nomebreve>
+    <quota>1480</quota>
+    <latitudine>46.30578511</latitudine>
+    <longitudine>11.70438747</longitudine>
+    <est>708247</est>
+    <north>5131578</north>
+    <inizio>01/01/1975</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0203</codice>
+    <nome>Forte D'Ampola</nome>
+    <nomebreve>SM Forte D'Ampola</nomebreve>
+    <quota>740</quota>
+    <latitudine>45.863893</latitudine>
+    <longitudine>10.646293</longitudine>
+    <est>627788</est>
+    <north>5080243</north>
+    <inizio>01/01/1924</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0473</codice>
+    <nome>Ghiacciaio del Careser</nome>
+    <nomebreve>SEBA Ghiacc. Careser</nomebreve>
+    <quota>3093</quota>
+    <latitudine>46.451278</latitudine>
+    <longitudine>10.718272</longitudine>
+    <est>631963</est>
+    <north>5145624</north>
+    <inizio>02/09/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0444</codice>
+    <nome>Ghiacciaio di Fradusta</nome>
+    <nomebreve>CT Fradusta</nomebreve>
+    <quota>2720</quota>
+    <latitudine>46.255107</latitudine>
+    <longitudine>11.871709</longitudine>
+    <est>721335</est>
+    <north>5126401</north>
+    <inizio>01/09/2010</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0439</codice>
+    <nome>Ghiacciaio Presena</nome>
+    <nomebreve>SEBA Gh. Presena</nomebreve>
+    <quota>2852</quota>
+    <latitudine>46.223067</latitudine>
+    <longitudine>10.583565</longitudine>
+    <est>622124.8</est>
+    <north>5120051</north>
+    <inizio>17/11/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0442</codice>
+    <nome>Ghiacciaio Presena (Passo Paradiso)</nome>
+    <nomebreve>SEBA Presena P.Parad</nomebreve>
+    <quota>2587</quota>
+    <latitudine>46.23852341</latitudine>
+    <longitudine>10.58140547</longitudine>
+    <est>621924</est>
+    <north>5121765</north>
+    <inizio>28/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0174</codice>
+    <nome>Giustino (Dos Del Sabion)</nome>
+    <nomebreve>Dos Del Sabion</nomebreve>
+    <quota>2100</quota>
+    <latitudine>46.16710108</latitudine>
+    <longitudine>10.80591858</longitudine>
+    <est>639414</est>
+    <north>5114199</north>
+    <inizio>16/07/1992</inizio>
+    <fine>17/01/2007</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0426</codice>
+    <nome>Giustino (frana)</nome>
+    <nomebreve>SM Giustino frana</nomebreve>
+    <quota>877</quota>
+    <latitudine>46.147487</latitudine>
+    <longitudine>10.775487</longitudine>
+    <est>637113.5</est>
+    <north>5111966.7</north>
+    <inizio>15/12/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0423</codice>
+    <nome>Grigno</nome>
+    <nomebreve>SM Grigno</nomebreve>
+    <quota>238</quota>
+    <latitudine>46.006312</latitudine>
+    <longitudine>11.656835</longitudine>
+    <est>705699</est>
+    <north>5098181</north>
+    <inizio>11/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0407</codice>
+    <nome>Grigno (Barricata)</nome>
+    <nomebreve>SM Grigno Barricata</nomebreve>
+    <quota>1345</quota>
+    <latitudine>45.979906</latitudine>
+    <longitudine>11.590219</longitudine>
+    <est>700637</est>
+    <north>5095077.2</north>
+    <inizio>03/07/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0113</codice>
+    <nome>Grumes</nome>
+    <nomebreve>Grumes</nomebreve>
+    <quota>845</quota>
+    <latitudine>46.22074456</latitudine>
+    <longitudine>11.29667014</longitudine>
+    <est>677126</est>
+    <north>5121138</north>
+    <inizio>28/10/1993</inizio>
+    <fine>06/06/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0178</codice>
+    <nome>La Rocca (Centrale)</nome>
+    <nomebreve>La Rocca</nomebreve>
+    <quota>943</quota>
+    <latitudine>46.02243869</latitudine>
+    <longitudine>10.70815178</longitudine>
+    <est>632212</est>
+    <north>5097959</north>
+    <inizio>01/01/1975</inizio>
+    <fine>10/01/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0209</codice>
+    <nome>Lago Delle Piazze (Diga)</nome>
+    <nomebreve>Lago Piazze Diga</nomebreve>
+    <quota>1028</quota>
+    <latitudine>46.15527033</latitudine>
+    <longitudine>11.27762494</longitudine>
+    <est>675866</est>
+    <north>5113821</north>
+    <inizio>01/01/1975</inizio>
+    <fine>31/12/1999</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0429</codice>
+    <nome>Lago Di Calaita</nome>
+    <nomebreve>SM Lago Di Calaita</nomebreve>
+    <quota>1605</quota>
+    <latitudine>46.200619</latitudine>
+    <longitudine>11.793483</longitudine>
+    <est>715519.3</est>
+    <north>5120131.6</north>
+    <inizio>23/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0190</codice>
+    <nome>Lago Di Cavedine</nome>
+    <nomebreve>Lago Di Cavedine</nomebreve>
+    <quota>245</quota>
+    <latitudine>45.99431719</latitudine>
+    <longitudine>10.9511945</longitudine>
+    <est>651100</est>
+    <north>5095267</north>
+    <inizio>14/10/1991</inizio>
+    <fine>26/09/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0430</codice>
+    <nome>Lago di Monticello al Ghiacciaio Presena</nome>
+    <nomebreve>SEBA Lago Monticello</nomebreve>
+    <quota>2606</quota>
+    <latitudine>46.23610106</latitudine>
+    <longitudine>10.58280148</longitudine>
+    <est>622037</est>
+    <north>5121498</north>
+    <inizio>22/10/2010</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0371</codice>
+    <nome>Lases (frana)</nome>
+    <nomebreve>SM Lases frana</nomebreve>
+    <quota>705</quota>
+    <latitudine>46.139381</latitudine>
+    <longitudine>11.223419</longitudine>
+    <est>671730</est>
+    <north>5111937</north>
+    <inizio>14/07/2000</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0032</codice>
+    <nome>Lavarone (Chiesa)</nome>
+    <nomebreve>SM Lavarone</nomebreve>
+    <quota>1155</quota>
+    <latitudine>45.940308</latitudine>
+    <longitudine>11.253721</longitudine>
+    <est>674697</est>
+    <north>5089885</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0121</codice>
+    <nome>Lavis</nome>
+    <nomebreve>Lavis</nomebreve>
+    <quota>230</quota>
+    <latitudine>46.13843961</latitudine>
+    <longitudine>11.11856042</longitudine>
+    <est>663634</est>
+    <north>5111611</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/08/1994</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0245</codice>
+    <nome>Levico</nome>
+    <nomebreve>Levico</nomebreve>
+    <quota>512</quota>
+    <latitudine>46.01093883</latitudine>
+    <longitudine>11.30855647</longitudine>
+    <est>678720</est>
+    <north>5097854</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/1948</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0246</codice>
+    <nome>Levico (Lido)</nome>
+    <nomebreve>Levico Lido</nomebreve>
+    <quota>440</quota>
+    <latitudine>46.01049889</latitudine>
+    <longitudine>11.28612664</longitudine>
+    <est>676985</est>
+    <north>5097755</north>
+    <inizio>01/01/1949</inizio>
+    <fine>31/12/1973</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0207</codice>
+    <nome>Levico (Selva)</nome>
+    <nomebreve>Levico Selva</nomebreve>
+    <quota>502</quota>
+    <latitudine>46.01164869</latitudine>
+    <longitudine>11.31572944</longitudine>
+    <est>679273</est>
+    <north>5097949</north>
+    <inizio>01/01/1974</inizio>
+    <fine>31/12/1990</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0010</codice>
+    <nome>Levico (Terme)</nome>
+    <nomebreve>SM Levico Terme</nomebreve>
+    <quota>502</quota>
+    <latitudine>46.010558</latitudine>
+    <longitudine>11.305143</longitudine>
+    <est>678457</est>
+    <north>5097804</north>
+    <inizio>01/01/1981</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0119</codice>
+    <nome>Lisignago</nome>
+    <nomebreve>Lisignago</nomebreve>
+    <quota>613</quota>
+    <latitudine>46.1593285</latitudine>
+    <longitudine>11.19208831</longitudine>
+    <est>669249</est>
+    <north>5114086</north>
+    <inizio>17/12/1993</inizio>
+    <fine>02/11/2009</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0232</codice>
+    <nome>Lodrone (frana)</nome>
+    <nomebreve>Lodrone frana</nomebreve>
+    <quota>995</quota>
+    <latitudine>45.83633528</latitudine>
+    <longitudine>10.52485108</longitudine>
+    <est>618420</est>
+    <north>5076994</north>
+    <inizio>02/11/2000</inizio>
+    <fine>31/12/2001</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0286</codice>
+    <nome>Madonna Di Campiglio</nome>
+    <nomebreve>Madonna Di Campiglio</nomebreve>
+    <quota>1510</quota>
+    <latitudine>46.23062447</latitudine>
+    <longitudine>10.82744172</longitudine>
+    <est>640913</est>
+    <north>5121295</north>
+    <inizio>01/02/1921</inizio>
+    <fine>31/12/1974</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0074</codice>
+    <nome>Male'</nome>
+    <nomebreve>SM Male'</nomebreve>
+    <quota>720</quota>
+    <latitudine>46.351598</latitudine>
+    <longitudine>10.918411</longitudine>
+    <est>647602</est>
+    <north>5134902</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0238</codice>
+    <nome>Malga Mare (Centrale)</nome>
+    <nomebreve>Malga Mare Centrale</nomebreve>
+    <quota>1950</quota>
+    <latitudine>46.41423625</latitudine>
+    <longitudine>10.68066064</longitudine>
+    <est>629162</est>
+    <north>5141446</north>
+    <inizio>01/01/1930</inizio>
+    <fine>31/12/1984</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0375</codice>
+    <nome>Marmolada (Pian Dei Fiacconi)</nome>
+    <nomebreve>SEBA Marmolada</nomebreve>
+    <quota>2676</quota>
+    <latitudine>46.44473831</latitudine>
+    <longitudine>11.860795</longitudine>
+    <est>719732</est>
+    <north>5147440</north>
+    <inizio>04/06/2001</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0404</codice>
+    <nome>Marmolada (Sas Del Mul)</nome>
+    <nomebreve>SEBA Marmolada</nomebreve>
+    <quota>2606</quota>
+    <latitudine>46.443614</latitudine>
+    <longitudine>11.880813</longitudine>
+    <est>721274</est>
+    <north>5147371</north>
+    <inizio>19/09/2014</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0265</codice>
+    <nome>Mazzin</nome>
+    <nomebreve>Mazzin</nomebreve>
+    <quota>1380</quota>
+    <latitudine>46.45740378</latitudine>
+    <longitudine>11.700156</longitudine>
+    <est>707346</est>
+    <north>5148413</north>
+    <inizio>01/09/1923</inizio>
+    <fine>31/12/1966</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0071</codice>
+    <nome>Mezzana</nome>
+    <nomebreve>SM Mezzana</nomebreve>
+    <quota>905</quota>
+    <latitudine>46.313313</latitudine>
+    <longitudine>10.795904</longitudine>
+    <est>638273</est>
+    <north>5130427</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0420</codice>
+    <nome>Mezzano</nome>
+    <nomebreve>SM Mezzano</nomebreve>
+    <quota>640</quota>
+    <latitudine>46.154673</latitudine>
+    <longitudine>11.812625</longitudine>
+    <est>717177</est>
+    <north>5115079</north>
+    <inizio>11/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0090</codice>
+    <nome>Mezzolombardo (Convento)</nome>
+    <nomebreve>Mezzolombardo</nomebreve>
+    <quota>225</quota>
+    <latitudine>46.21422703</latitudine>
+    <longitudine>11.09339197</longitudine>
+    <est>661468</est>
+    <north>5119980</north>
+    <inizio>01/01/1921</inizio>
+    <fine>05/03/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0408</codice>
+    <nome>Mezzolombardo (Maso delle Part)</nome>
+    <nomebreve>SM Mezzolombardo</nomebreve>
+    <quota>204</quota>
+    <latitudine>46.187266</latitudine>
+    <longitudine>11.104432</longitudine>
+    <est>662399</est>
+    <north>5117007</north>
+    <inizio>31/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0098</codice>
+    <nome>Moena</nome>
+    <nomebreve>Moena</nomebreve>
+    <quota>1175</quota>
+    <latitudine>46.37577114</latitudine>
+    <longitudine>11.66222669</longitudine>
+    <est>704739</est>
+    <north>5139244</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/1990</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0096</codice>
+    <nome>Moena (Diga Pezze')</nome>
+    <nomebreve>SM Moena Diga Pezze'</nomebreve>
+    <quota>1205</quota>
+    <latitudine>46.383644</latitudine>
+    <longitudine>11.664651</longitudine>
+    <est>704896</est>
+    <north>5140125</north>
+    <inizio>11/09/1990</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0383</codice>
+    <nome>Molveno</nome>
+    <nomebreve>SM Molveno</nomebreve>
+    <quota>835</quota>
+    <latitudine>46.141618</latitudine>
+    <longitudine>10.957526</longitudine>
+    <est>651187.5</est>
+    <north>5111645</north>
+    <inizio>30/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0182</codice>
+    <nome>Montagne (Larzana)</nome>
+    <nomebreve>SM Montagne</nomebreve>
+    <quota>955</quota>
+    <latitudine>46.059072</latitudine>
+    <longitudine>10.7517</longitudine>
+    <est>635493</est>
+    <north>5102102.5</north>
+    <inizio>01/01/1925</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0144</codice>
+    <nome>Monte Bondone</nome>
+    <nomebreve>Monte Bondone</nomebreve>
+    <quota>1500</quota>
+    <latitudine>46.01349442</latitudine>
+    <longitudine>11.05404975</longitudine>
+    <est>659010</est>
+    <north>5097598</north>
+    <inizio>01/07/1926</inizio>
+    <fine>05/04/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0327</codice>
+    <nome>Monte Bondone (Giardino Botanico)</nome>
+    <nomebreve>M. Bondone G Bot</nomebreve>
+    <quota>1552</quota>
+    <latitudine>46.02190281</latitudine>
+    <longitudine>11.03987806</longitudine>
+    <est>657889</est>
+    <north>5098504</north>
+    <inizio>18/08/2004</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0368</codice>
+    <nome>Monte Bondone (Viote)</nome>
+    <nomebreve>SM M. Bondone Viote</nomebreve>
+    <quota>1490</quota>
+    <latitudine>46.013651</latitudine>
+    <longitudine>11.054869</longitudine>
+    <est>659073</est>
+    <north>5097617</north>
+    <inizio>25/11/1999</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0169</codice>
+    <nome>Monte Groste' (Rifugio Graffer)</nome>
+    <nomebreve>SM Rifugio Graffer</nomebreve>
+    <quota>2262</quota>
+    <latitudine>46.219754</latitudine>
+    <longitudine>10.889848</longitudine>
+    <est>645753.8</est>
+    <north>5120200</north>
+    <inizio>11/09/1991</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0226</codice>
+    <nome>Monte Ruioch (Rifugio Tonini)</nome>
+    <nomebreve>SM Rifugio Tonini</nomebreve>
+    <quota>1900</quota>
+    <latitudine>46.167258</latitudine>
+    <longitudine>11.351504</longitudine>
+    <est>681531</est>
+    <north>5115319.2</north>
+    <inizio>16/09/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0151</codice>
+    <nome>Mori (Loppio)</nome>
+    <nomebreve>SM Loppio</nomebreve>
+    <quota>230</quota>
+    <latitudine>45.855333</latitudine>
+    <longitudine>10.931371</longitudine>
+    <est>649939</est>
+    <north>5079788</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0186</codice>
+    <nome>Nembia (Centrale)</nome>
+    <nomebreve>Nembia Centrale</nomebreve>
+    <quota>810</quota>
+    <latitudine>46.10622797</latitudine>
+    <longitudine>10.93802161</longitudine>
+    <est>649777</est>
+    <north>5107676</north>
+    <inizio>01/01/1975</inizio>
+    <fine>09/01/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0262</codice>
+    <nome>Paganella (Dosso Larici)</nome>
+    <nomebreve>Paganella D. Larici</nomebreve>
+    <quota>1850</quota>
+    <latitudine>46.15279528</latitudine>
+    <longitudine>11.04192625</longitudine>
+    <est>657674</est>
+    <north>5113051</north>
+    <inizio>01/08/1931</inizio>
+    <fine>31/12/1956</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0406</codice>
+    <nome>Paganella (Malga Terlago)</nome>
+    <nomebreve>SM Malga Terlago</nomebreve>
+    <quota>1790</quota>
+    <latitudine>46.143008</latitudine>
+    <longitudine>11.021504</longitudine>
+    <est>656124.7</est>
+    <north>5111923.2</north>
+    <inizio>24/11/2016</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0008</codice>
+    <nome>Paneveggio</nome>
+    <nomebreve>IASMA Paneveggio</nomebreve>
+    <quota>1540</quota>
+    <latitudine>46.30951731</latitudine>
+    <longitudine>11.74750902</longitudine>
+    <est>711553</est>
+    <north>5132107.7</north>
+    <inizio>15/01/2006</inizio>
+    <fine>31/12/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0267</codice>
+    <nome>Paneveggio (Bellamonte)</nome>
+    <nomebreve>Paneveggio</nomebreve>
+    <quota>1415</quota>
+    <latitudine>46.31150328</latitudine>
+    <longitudine>11.67558869</longitudine>
+    <est>706008</est>
+    <north>5132138</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/1981</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0355</codice>
+    <nome>Passo Brocon</nome>
+    <nomebreve>SM Passo Brocon</nomebreve>
+    <quota>1610</quota>
+    <latitudine>46.116677</latitudine>
+    <longitudine>11.663267</longitudine>
+    <est>705786.2</est>
+    <north>5110459.7</north>
+    <inizio>09/01/1988</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0168</codice>
+    <nome>Passo Campo Carlo Magno</nome>
+    <nomebreve>P. Campo Carlo Magno</nomebreve>
+    <quota>1681</quota>
+    <latitudine>46.24248267</latitudine>
+    <longitudine>10.83835547</longitudine>
+    <est>641724</est>
+    <north>5122632</north>
+    <inizio>01/01/1975</inizio>
+    <fine>30/09/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0024</codice>
+    <nome>Passo Cereda</nome>
+    <nomebreve>SM Passo Cereda</nomebreve>
+    <quota>1322</quota>
+    <latitudine>46.195903</latitudine>
+    <longitudine>11.915734</longitudine>
+    <est>724970</est>
+    <north>5119947</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0094</codice>
+    <nome>Passo Costalunga</nome>
+    <nomebreve>SM Passo Costalunga</nomebreve>
+    <quota>1750</quota>
+    <latitudine>46.404528</latitudine>
+    <longitudine>11.613615</longitudine>
+    <est>700895</est>
+    <north>5142314.5</north>
+    <inizio>01/01/1967</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0384</codice>
+    <nome>Passo Manghen</nome>
+    <nomebreve>SM Passo Manghen</nomebreve>
+    <quota>2035</quota>
+    <latitudine>46.174924</latitudine>
+    <longitudine>11.439944</longitudine>
+    <est>688332</est>
+    <north>5116377</north>
+    <inizio>18/08/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0082</codice>
+    <nome>Passo Mendola</nome>
+    <nomebreve>SM Passo Mendola</nomebreve>
+    <quota>1315</quota>
+    <latitudine>46.419179</latitudine>
+    <longitudine>11.189336</longitudine>
+    <est>668238.7</est>
+    <north>5142951.8</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0425</codice>
+    <nome>Passo Pian Delle Fugazze</nome>
+    <nomebreve>SM P. Pian Fugazze</nomebreve>
+    <quota>1170</quota>
+    <latitudine>45.758997</latitudine>
+    <longitudine>11.174829</longitudine>
+    <est>669131</est>
+    <north>5069560</north>
+    <inizio>16/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0103</codice>
+    <nome>Passo Rolle</nome>
+    <nomebreve>SM Passo Rolle</nomebreve>
+    <quota>2012</quota>
+    <latitudine>46.297919</latitudine>
+    <longitudine>11.787124</longitudine>
+    <est>714648</est>
+    <north>5130925</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0369</codice>
+    <nome>Passo Sommo</nome>
+    <nomebreve>SM Passo Sommo</nomebreve>
+    <quota>1360</quota>
+    <latitudine>45.918646</latitudine>
+    <longitudine>11.206083</longitudine>
+    <est>671071</est>
+    <north>5087375</north>
+    <inizio>05/08/1999</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0360</codice>
+    <nome>Passo Tonale</nome>
+    <nomebreve>SM Passo Tonale</nomebreve>
+    <quota>1875</quota>
+    <latitudine>46.262564</latitudine>
+    <longitudine>10.596825</longitudine>
+    <est>623059</est>
+    <north>5124460</north>
+    <inizio>27/11/1987</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0069</codice>
+    <nome>Passo Tonale</nome>
+    <nomebreve>Passo Tonale</nomebreve>
+    <quota>1795</quota>
+    <latitudine>46.26330058</latitudine>
+    <longitudine>10.61106828</longitudine>
+    <est>624155</est>
+    <north>5124564</north>
+    <inizio>01/06/1923</inizio>
+    <fine>20/01/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0104</codice>
+    <nome>Passo Valles</nome>
+    <nomebreve>SM Passo Valles</nomebreve>
+    <quota>2032</quota>
+    <latitudine>46.33839</latitudine>
+    <longitudine>11.799791</longitudine>
+    <est>715465</est>
+    <north>5135456</north>
+    <inizio>01/01/1985</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0064</codice>
+    <nome>Peio</nome>
+    <nomebreve>Peio</nomebreve>
+    <quota>1565</quota>
+    <latitudine>46.36398214</latitudine>
+    <longitudine>10.67566039</longitudine>
+    <est>628896</est>
+    <north>5135854</north>
+    <inizio>01/01/1921</inizio>
+    <fine>14/12/2007</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0366</codice>
+    <nome>Peio</nome>
+    <nomebreve>SM Peio</nomebreve>
+    <quota>1585</quota>
+    <latitudine>46.364364</latitudine>
+    <longitudine>10.67783</longitudine>
+    <est>629062</est>
+    <north>5135900</north>
+    <inizio>17/05/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0372</codice>
+    <nome>Peio (Crozzi Taviela)</nome>
+    <nomebreve>SM Crozzi Taviela</nomebreve>
+    <quota>2975</quota>
+    <latitudine>46.384176</latitudine>
+    <longitudine>10.631957</longitudine>
+    <est>625488</est>
+    <north>5138027.5</north>
+    <inizio>22/09/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0409</codice>
+    <nome>Pergine Valsugana</nome>
+    <nomebreve>SM Pergine Valsugana</nomebreve>
+    <quota>458</quota>
+    <latitudine>46.052554</latitudine>
+    <longitudine>11.240239</longitudine>
+    <est>673301</est>
+    <north>5102326.5</north>
+    <inizio>08/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0001</codice>
+    <nome>Pergine Valsugana (Convento)</nome>
+    <nomebreve>Pergine</nomebreve>
+    <quota>475</quota>
+    <latitudine>46.06227631</latitudine>
+    <longitudine>11.23670156</longitudine>
+    <est>672997</est>
+    <north>5103399</north>
+    <inizio>01/01/1921</inizio>
+    <fine>23/01/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0092</codice>
+    <nome>Pian Fedaia (Diga)</nome>
+    <nomebreve>SM Pian Fedaia Diga</nomebreve>
+    <quota>2063</quota>
+    <latitudine>46.459032</latitudine>
+    <longitudine>11.862873</longitudine>
+    <est>719834</est>
+    <north>5149034</north>
+    <inizio>01/01/1938</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0063</codice>
+    <nome>Pian Palu' (Diga)</nome>
+    <nomebreve>SM Pian Palu' Diga</nomebreve>
+    <quota>1800</quota>
+    <latitudine>46.336633</latitudine>
+    <longitudine>10.613936</longitudine>
+    <est>624210</est>
+    <north>5132716.5</north>
+    <inizio>01/01/1973</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0380</codice>
+    <nome>Pian Palu' (Malga Giumella)</nome>
+    <nomebreve>SM Malga Giumella</nomebreve>
+    <quota>1945</quota>
+    <latitudine>46.340912</latitudine>
+    <longitudine>10.612562</longitudine>
+    <est>624094.6</est>
+    <north>5133189.8</north>
+    <inizio>18/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0140</codice>
+    <nome>Piazze Di Pine'</nome>
+    <nomebreve>Piazze Di Pine'</nomebreve>
+    <quota>1025</quota>
+    <latitudine>46.14996958</latitudine>
+    <longitudine>11.27353417</longitudine>
+    <est>675567</est>
+    <north>5113223</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/1985</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0428</codice>
+    <nome>Pieve Di Bono</nome>
+    <nomebreve>SM Pieve Di Bono</nomebreve>
+    <quota>525</quota>
+    <latitudine>45.940987</latitudine>
+    <longitudine>10.642872</longitudine>
+    <est>627346</est>
+    <north>5088803</north>
+    <inizio>20/06/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0422</codice>
+    <nome>Pieve Tesino (Malga Sorgazza)</nome>
+    <nomebreve>SM Malga Sorgazza</nomebreve>
+    <quota>1435</quota>
+    <latitudine>46.133545</latitudine>
+    <longitudine>11.59989</longitudine>
+    <est>700828</est>
+    <north>5112171.5</north>
+    <inizio>03/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0018</codice>
+    <nome>Pieve Tesino (O.P. Enel)</nome>
+    <nomebreve>Pieve Tesino</nomebreve>
+    <quota>785</quota>
+    <latitudine>46.07024353</latitudine>
+    <longitudine>11.61980292</longitudine>
+    <est>702598</est>
+    <north>5105189</north>
+    <inizio>01/01/1942</inizio>
+    <fine>25/06/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0175</codice>
+    <nome>Pinzolo</nome>
+    <nomebreve>SM Pinzolo</nomebreve>
+    <quota>760</quota>
+    <latitudine>46.156507</latitudine>
+    <longitudine>10.757484</longitudine>
+    <est>635701</est>
+    <north>5112938</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0435</codice>
+    <nome>Pinzolo (Malga Zeledria)</nome>
+    <nomebreve>SM Malga Zeledria</nomebreve>
+    <quota>1775</quota>
+    <latitudine>46.244878</latitudine>
+    <longitudine>10.834362</longitudine>
+    <est>641410</est>
+    <north>5122891</north>
+    <inizio>05/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0239</codice>
+    <nome>Pinzolo (Ponte Plaza)</nome>
+    <nomebreve>Pinzolo Ponte Plaza</nomebreve>
+    <quota>1150</quota>
+    <latitudine>46.19819489</latitudine>
+    <longitudine>10.81796719</longitudine>
+    <est>640265</est>
+    <north>5117675</north>
+    <inizio>01/01/1982</inizio>
+    <fine>31/12/1984</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0142</codice>
+    <nome>Povo</nome>
+    <nomebreve>Povo</nomebreve>
+    <quota>430</quota>
+    <latitudine>46.06688236</latitudine>
+    <longitudine>11.15772756</longitudine>
+    <est>666875</est>
+    <north>5103742</north>
+    <inizio>12/05/1989</inizio>
+    <fine>23/01/2006</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0120</codice>
+    <nome>Pozzolago (Centrale)</nome>
+    <nomebreve>Pozzolago Centrale</nomebreve>
+    <quota>420</quota>
+    <latitudine>46.165408</latitudine>
+    <longitudine>11.23185114</longitudine>
+    <est>672300</est>
+    <north>5114847</north>
+    <inizio>01/08/1929</inizio>
+    <fine>31/10/1998</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0167</codice>
+    <nome>Pradalago (Rifugio Viviani)</nome>
+    <nomebreve>SM Pradalago</nomebreve>
+    <quota>2084</quota>
+    <latitudine>46.249695</latitudine>
+    <longitudine>10.813895</longitudine>
+    <est>639820</est>
+    <north>5123390</north>
+    <inizio>06/09/1991</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0389</codice>
+    <nome>Predazzo</nome>
+    <nomebreve>SM Predazzo</nomebreve>
+    <quota>1000</quota>
+    <latitudine>46.297866</latitudine>
+    <longitudine>11.598248</longitudine>
+    <est>700103</est>
+    <north>5130424.5</north>
+    <inizio>13/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0102</codice>
+    <nome>Predazzo (Centrale)</nome>
+    <nomebreve>Predazzo Centrale</nomebreve>
+    <quota>1005</quota>
+    <latitudine>46.31001225</latitudine>
+    <longitudine>11.59506931</longitudine>
+    <est>699814</est>
+    <north>5131766</north>
+    <inizio>01/01/1921</inizio>
+    <fine>28/11/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0324</codice>
+    <nome>Prezzo (frana)</nome>
+    <nomebreve>Prezzo frana</nomebreve>
+    <quota>680</quota>
+    <latitudine>45.93418044</latitudine>
+    <longitudine>10.63174511</longitudine>
+    <est>626499</est>
+    <north>5088029</north>
+    <inizio>03/12/2003</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0241</codice>
+    <nome>Rabbi (Piazzola)</nome>
+    <nomebreve>Piazzola</nomebreve>
+    <quota>1310</quota>
+    <latitudine>46.41065725</latitudine>
+    <longitudine>10.81979853</longitudine>
+    <est>639864</est>
+    <north>5141285</north>
+    <inizio>01/01/1975</inizio>
+    <fine>30/11/1991</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0076</codice>
+    <nome>Rabbi (San Bernardo)</nome>
+    <nomebreve>SM S. Bernardo</nomebreve>
+    <quota>1132</quota>
+    <latitudine>46.401374</latitudine>
+    <longitudine>10.849515</longitudine>
+    <est>642172</est>
+    <north>5140306</north>
+    <inizio>01/01/1986</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0075</codice>
+    <nome>Rabbi (Somrabbi)</nome>
+    <nomebreve>Somrabbi</nomebreve>
+    <quota>1352</quota>
+    <latitudine>46.41032872</latitudine>
+    <longitudine>10.8036145</longitudine>
+    <est>638621</est>
+    <north>5141220</north>
+    <inizio>26/11/1991</inizio>
+    <fine>12/05/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0240</codice>
+    <nome>Rabbi (Tasse')</nome>
+    <nomebreve>Tasse'</nomebreve>
+    <quota>1010</quota>
+    <latitudine>46.39253797</latitudine>
+    <longitudine>10.85799619</longitudine>
+    <est>642847</est>
+    <north>5139340</north>
+    <inizio>01/01/1976</inizio>
+    <fine>31/12/1984</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0436</codice>
+    <nome>Ragoli (Rifugio Alimonta)</nome>
+    <nomebreve>SEBA Rif. Alimonta</nomebreve>
+    <quota>2544</quota>
+    <latitudine>46.172544</latitudine>
+    <longitudine>10.890629</longitudine>
+    <est>645977</est>
+    <north>5115115</north>
+    <inizio>30/06/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0236</codice>
+    <nome>Romeno</nome>
+    <nomebreve>SM Romeno</nomebreve>
+    <quota>958</quota>
+    <latitudine>46.390687</latitudine>
+    <longitudine>11.118861</longitudine>
+    <est>662908</est>
+    <north>5139638.5</north>
+    <inizio>01/11/1923</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0424</codice>
+    <nome>Ronchi Valsugana (Malga Casapinello)</nome>
+    <nomebreve>SM Malga Casapinello</nomebreve>
+    <quota>1710</quota>
+    <latitudine>46.095996</latitudine>
+    <longitudine>11.402298</longitudine>
+    <est>685691.5</est>
+    <north>5107519</north>
+    <inizio>20/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0211</codice>
+    <nome>Ronzo</nome>
+    <nomebreve>Ronzo</nomebreve>
+    <quota>974</quota>
+    <latitudine>45.89105367</latitudine>
+    <longitudine>10.95222708</longitudine>
+    <est>651461</est>
+    <north>5083796</north>
+    <inizio>01/09/1925</inizio>
+    <fine>31/12/1996</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0147</codice>
+    <nome>Rovereto</nome>
+    <nomebreve>SM Rovereto</nomebreve>
+    <quota>203</quota>
+    <latitudine>45.896325</latitudine>
+    <longitudine>11.043987</longitudine>
+    <est>658565</est>
+    <north>5084560</north>
+    <inizio>01/07/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0374</codice>
+    <nome>Rovereto (Malga Zugna)</nome>
+    <nomebreve>SM Rovereto M. Zugna</nomebreve>
+    <quota>1620</quota>
+    <latitudine>45.807557</latitudine>
+    <longitudine>11.058163</longitudine>
+    <est>659919</est>
+    <north>5074726</north>
+    <inizio>12/06/2003</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0417</codice>
+    <nome>Rumo (Lanza)</nome>
+    <nomebreve>SM Rumo Lanza</nomebreve>
+    <quota>1100</quota>
+    <latitudine>46.45391</latitudine>
+    <longitudine>11.008531</longitudine>
+    <est>654247</est>
+    <north>5146442</north>
+    <inizio>14/03/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0184</codice>
+    <nome>San Lorenzo In Banale</nome>
+    <nomebreve>S. Lorenzo In Banale</nomebreve>
+    <quota>734</quota>
+    <latitudine>46.07564461</latitudine>
+    <longitudine>10.89943344</longitudine>
+    <est>646876</est>
+    <north>5104206</north>
+    <inizio>01/01/1983</inizio>
+    <fine>30/11/2001</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0414</codice>
+    <nome>San Lorenzo In Banale (Pergoletti)</nome>
+    <nomebreve>SM S. Lorenzo</nomebreve>
+    <quota>685</quota>
+    <latitudine>46.066311</latitudine>
+    <longitudine>10.9113</longitudine>
+    <est>647818.5</est>
+    <north>5103191</north>
+    <inizio>20/06/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0021</codice>
+    <nome>San Martino di Castrozza</nome>
+    <nomebreve>San Martino</nomebreve>
+    <quota>1450</quota>
+    <latitudine>46.26127945</latitudine>
+    <longitudine>11.80145302</longitudine>
+    <est>715896</est>
+    <north>5126893</north>
+    <inizio>01/01/1921</inizio>
+    <fine>17/12/2007</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0450</codice>
+    <nome>San Martino di Castrozza</nome>
+    <nomebreve>SM S. Martino</nomebreve>
+    <quota>1470</quota>
+    <latitudine>46.261622</latitudine>
+    <longitudine>11.796306</longitudine>
+    <est>715498</est>
+    <north>5126917</north>
+    <inizio>17/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0038</codice>
+    <nome>San Michele All'Adige</nome>
+    <nomebreve>S. Michele</nomebreve>
+    <quota>205</quota>
+    <latitudine>46.19258803</latitudine>
+    <longitudine>11.13246044</longitudine>
+    <est>664546</est>
+    <north>5117656</north>
+    <inizio>01/01/1926</inizio>
+    <fine>29/03/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0242</codice>
+    <nome>San Silvestro (Centrale)</nome>
+    <nomebreve>S. Silvestro Centr.</nomebreve>
+    <quota>577</quota>
+    <latitudine>46.13417825</latitudine>
+    <longitudine>11.76920689</longitudine>
+    <est>713904</est>
+    <north>5112684</north>
+    <inizio>01/01/1975</inizio>
+    <fine>31/08/1995</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0084</codice>
+    <nome>Santa Giustina (Diga)</nome>
+    <nomebreve>S. Giustina Diga</nomebreve>
+    <quota>532</quota>
+    <latitudine>46.34565589</latitudine>
+    <longitudine>11.06173067</longitudine>
+    <est>658646</est>
+    <north>5134519</north>
+    <inizio>01/01/1975</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0189</codice>
+    <nome>Santa Massenza (Centrale)</nome>
+    <nomebreve>SM S. Massenza</nomebreve>
+    <quota>252</quota>
+    <latitudine>46.065195</latitudine>
+    <longitudine>10.980275</longitudine>
+    <est>653156</est>
+    <north>5103197.5</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0172</codice>
+    <nome>Sant'Antonio Di Mavignola</nome>
+    <nomebreve>S. Antonio Mavignola</nomebreve>
+    <quota>1100</quota>
+    <latitudine>46.18847114</latitudine>
+    <longitudine>10.78449781</longitudine>
+    <est>637707</est>
+    <north>5116536</north>
+    <inizio>01/01/1986</inizio>
+    <fine>31/12/1998</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0139</codice>
+    <nome>Sant'Orsola Terme</nome>
+    <nomebreve>SM S. Orsola</nomebreve>
+    <quota>925</quota>
+    <latitudine>46.107093</latitudine>
+    <longitudine>11.30223</longitudine>
+    <est>677921</est>
+    <north>5108523</north>
+    <inizio>01/08/1929</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0115</codice>
+    <nome>Segonzano (Gresta)</nome>
+    <nomebreve>SM Gresta</nomebreve>
+    <quota>660</quota>
+    <latitudine>46.211224</latitudine>
+    <longitudine>11.289609</longitudine>
+    <est>676612</est>
+    <north>5120064</north>
+    <inizio>07/01/1993</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0116</codice>
+    <nome>Segonzano (Scancio)</nome>
+    <nomebreve>Scancio</nomebreve>
+    <quota>720</quota>
+    <latitudine>46.19155853</latitudine>
+    <longitudine>11.26000869</longitudine>
+    <est>674391</est>
+    <north>5117814</north>
+    <inizio>01/12/1993</inizio>
+    <fine>30/11/2010</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0212</codice>
+    <nome>Spormaggiore</nome>
+    <nomebreve>SM Spormaggiore</nomebreve>
+    <quota>555</quota>
+    <latitudine>46.219949</latitudine>
+    <longitudine>11.046814</longitudine>
+    <est>657859</est>
+    <north>5120522</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0183</codice>
+    <nome>Stenico</nome>
+    <nomebreve>Stenico</nomebreve>
+    <quota>632</quota>
+    <latitudine>46.05009892</latitudine>
+    <longitudine>10.85521497</longitudine>
+    <est>643523</est>
+    <north>5101287</north>
+    <inizio>01/01/1921</inizio>
+    <fine>31/12/2001</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0141</codice>
+    <nome>Sternigo</nome>
+    <nomebreve>Sternigo</nomebreve>
+    <quota>1040</quota>
+    <latitudine>46.13993316</latitudine>
+    <longitudine>11.25222344</longitudine>
+    <est>673953</est>
+    <north>5112061</north>
+    <inizio>01/01/1986</inizio>
+    <fine>07/06/2005</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0393</codice>
+    <nome>Storo</nome>
+    <nomebreve>SM Storo</nomebreve>
+    <quota>385</quota>
+    <latitudine>45.846767</latitudine>
+    <longitudine>10.562447</longitudine>
+    <est>621317</est>
+    <north>5078209.5</north>
+    <inizio>07/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0163</codice>
+    <nome>Storo (Centrale)</nome>
+    <nomebreve>Storo Centrale</nomebreve>
+    <quota>393</quota>
+    <latitudine>45.85926706</latitudine>
+    <longitudine>10.57540864</longitudine>
+    <est>622296</est>
+    <north>5079618</north>
+    <inizio>01/01/1961</inizio>
+    <fine>30/10/2000</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0370</codice>
+    <nome>Storo (Lodrone)</nome>
+    <nomebreve>Lodrone</nomebreve>
+    <quota>392</quota>
+    <latitudine>45.82910708</latitudine>
+    <longitudine>10.53564894</longitudine>
+    <est>619274</est>
+    <north>5076207</north>
+    <inizio>22/09/2000</inizio>
+    <fine>24/06/2008</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0110</codice>
+    <nome>Stramentizzo (Diga)</nome>
+    <nomebreve>Stramentizzo Diga</nomebreve>
+    <quota>815</quota>
+    <latitudine>46.26462497</latitudine>
+    <longitudine>11.37614408</longitudine>
+    <est>683109</est>
+    <north>5126194</north>
+    <inizio>01/01/1973</inizio>
+    <fine>31/12/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0392</codice>
+    <nome>Telve</nome>
+    <nomebreve>SM Telve</nomebreve>
+    <quota>410</quota>
+    <latitudine>46.058046</latitudine>
+    <longitudine>11.477478</longitudine>
+    <est>691634</est>
+    <north>5103481</north>
+    <inizio>18/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0014</codice>
+    <nome>Telve (Pontarso)</nome>
+    <nomebreve>SM Pontarso</nomebreve>
+    <quota>925</quota>
+    <latitudine>46.115819</latitudine>
+    <longitudine>11.49451</longitudine>
+    <est>692750</est>
+    <north>5109941</north>
+    <inizio>01/10/1923</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0003</codice>
+    <nome>Tenna</nome>
+    <nomebreve>Tenna</nomebreve>
+    <quota>569</quota>
+    <latitudine>46.01573517</latitudine>
+    <longitudine>11.26363178</longitudine>
+    <est>675227</est>
+    <north>5098287</north>
+    <inizio>01/01/1950</inizio>
+    <fine>31/12/1990</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0200</codice>
+    <nome>Tenno</nome>
+    <nomebreve>SM Tenno</nomebreve>
+    <quota>415</quota>
+    <latitudine>45.91905</latitudine>
+    <longitudine>10.831278</longitudine>
+    <est>642006</est>
+    <north>5086684</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0148</codice>
+    <nome>Terragnolo (Piazza)</nome>
+    <nomebreve>SM Terragnolo Piazza</nomebreve>
+    <quota>800</quota>
+    <latitudine>45.879641</latitudine>
+    <longitudine>11.151135</longitudine>
+    <est>666927</est>
+    <north>5082925</north>
+    <inizio>01/11/1923</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0376</codice>
+    <nome>Tesero (Pala De Santa)</nome>
+    <nomebreve>Pala Santa</nomebreve>
+    <quota>2200</quota>
+    <latitudine>46.34666467</latitudine>
+    <longitudine>11.53030128</longitudine>
+    <est>694697</est>
+    <north>5135677</north>
+    <inizio>20/07/2000</inizio>
+    <fine>02/12/2002</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0179</codice>
+    <nome>Tione</nome>
+    <nomebreve>SM Tione</nomebreve>
+    <quota>533</quota>
+    <latitudine>46.041087</latitudine>
+    <longitudine>10.730879</longitudine>
+    <est>633926</est>
+    <north>5100069</north>
+    <inizio>01/01/1921</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0026</codice>
+    <nome>Tonadico</nome>
+    <nomebreve>Tonadico</nomebreve>
+    <quota>744</quota>
+    <latitudine>46.17919731</latitudine>
+    <longitudine>11.83603261</longitudine>
+    <est>718887</est>
+    <north>5117868</north>
+    <inizio>01/01/1926</inizio>
+    <fine>30/11/2003</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0419</codice>
+    <nome>Tonadico (Castelpietra)</nome>
+    <nomebreve>SM Castelpietra</nomebreve>
+    <quota>1045</quota>
+    <latitudine>46.198934</latitudine>
+    <longitudine>11.865668</longitudine>
+    <est>721095</est>
+    <north>5120143</north>
+    <inizio>11/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0193</codice>
+    <nome>Torbole (Belvedere)</nome>
+    <nomebreve>SM Torbole Belvedere</nomebreve>
+    <quota>90</quota>
+    <latitudine>45.870095</latitudine>
+    <longitudine>10.877355</longitudine>
+    <est>645707</est>
+    <north>5081328</north>
+    <inizio>01/01/1965</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0354</codice>
+    <nome>Tremalzo</nome>
+    <nomebreve>SM Tremalzo</nomebreve>
+    <quota>1560</quota>
+    <latitudine>45.841658</latitudine>
+    <longitudine>10.684142</longitudine>
+    <est>630778</est>
+    <north>5077834</north>
+    <inizio>08/01/1988</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0356</codice>
+    <nome>Trento (Aeroporto)</nome>
+    <nomebreve>SM TN Aeroporto</nomebreve>
+    <quota>185</quota>
+    <latitudine>46.015993</latitudine>
+    <longitudine>11.12606</longitudine>
+    <est>664577</est>
+    <north>5098022</north>
+    <inizio>30/11/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0129</codice>
+    <nome>Trento (Laste)</nome>
+    <nomebreve>SM Trento Laste</nomebreve>
+    <quota>312</quota>
+    <latitudine>46.071801</latitudine>
+    <longitudine>11.135703</longitudine>
+    <est>665157</est>
+    <north>5104242.5</north>
+    <inizio>01/09/1920</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0454</codice>
+    <nome>Trento (Liceo Galilei)</nome>
+    <nomebreve>SM Trento Galilei</nomebreve>
+    <quota>255</quota>
+    <latitudine>46.064375</latitudine>
+    <longitudine>11.13742</longitudine>
+    <est>665312</est>
+    <north>5103421</north>
+    <inizio>11/06/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0137</codice>
+    <nome>Trento (Piazza Vittoria)</nome>
+    <nomebreve>Trento P. Vittoria</nomebreve>
+    <quota>196</quota>
+    <latitudine>46.06766133</latitudine>
+    <longitudine>11.12384094</longitudine>
+    <est>664252</est>
+    <north>5103758</north>
+    <inizio>02/11/1987</inizio>
+    <fine>30/04/1992</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0135</codice>
+    <nome>Trento (Roncafort)</nome>
+    <nomebreve>SM Trento Roncafort</nomebreve>
+    <quota>194</quota>
+    <latitudine>46.095645</latitudine>
+    <longitudine>11.10137</longitudine>
+    <est>662432</est>
+    <north>5106821</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0136</codice>
+    <nome>Trento (Ufficio)</nome>
+    <nomebreve>Trento Ufficio</nomebreve>
+    <quota>218</quota>
+    <latitudine>46.09001961</latitudine>
+    <longitudine>11.11795975</longitudine>
+    <est>663731</est>
+    <north>5106230</north>
+    <inizio>03/06/1992</inizio>
+    <fine>31/12/1999</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0088</codice>
+    <nome>Tres</nome>
+    <nomebreve>SM Tres</nomebreve>
+    <quota>838</quota>
+    <latitudine>46.32065</latitudine>
+    <longitudine>11.101437</longitudine>
+    <est>661775</est>
+    <north>5131821</north>
+    <inizio>18/11/1993</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0109</codice>
+    <nome>Val Cadino (Segheria Canton)</nome>
+    <nomebreve>SM Val Cadino</nomebreve>
+    <quota>964</quota>
+    <latitudine>46.245819</latitudine>
+    <longitudine>11.414535</longitudine>
+    <est>686131</est>
+    <north>5124194</north>
+    <inizio>01/09/1926</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0413</codice>
+    <nome>Val D'Ambiez</nome>
+    <nomebreve>SM Val D'Ambiez</nomebreve>
+    <quota>1888</quota>
+    <latitudine>46.133428</latitudine>
+    <longitudine>10.881405</longitudine>
+    <est>645330</est>
+    <north>5110593</north>
+    <inizio>18/11/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0177</codice>
+    <nome>Val di Breguzzo (Ponte Arno')</nome>
+    <nomebreve>SM Val di Breguzzo</nomebreve>
+    <quota>1148</quota>
+    <latitudine>46.032015</latitudine>
+    <longitudine>10.640606</longitudine>
+    <est>626962</est>
+    <north>5098913</north>
+    <inizio>01/01/1975</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0166</codice>
+    <nome>Val Di Genova (O.P. Enel)</nome>
+    <nomebreve>Val Genova Enel</nomebreve>
+    <quota>900</quota>
+    <latitudine>46.16960419</latitudine>
+    <longitudine>10.72725081</longitudine>
+    <est>633335</est>
+    <north>5114342</north>
+    <inizio>01/01/1975</inizio>
+    <fine>05/09/2012</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0433</codice>
+    <nome>Val Genova (Malga Caret)</nome>
+    <nomebreve>SM Val Genova</nomebreve>
+    <quota>1418</quota>
+    <latitudine>46.18142</latitudine>
+    <longitudine>10.634818</longitudine>
+    <est>626172.7</est>
+    <north>5115503.8</north>
+    <inizio>06/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0027</codice>
+    <nome>Val Noana (Diga)</nome>
+    <nomebreve>SM Val Noana</nomebreve>
+    <quota>1030</quota>
+    <latitudine>46.138717</latitudine>
+    <longitudine>11.839286</longitudine>
+    <est>719299</est>
+    <north>5113379.5</north>
+    <inizio>01/01/1981</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0432</codice>
+    <nome>Val Sella (Montagnola)</nome>
+    <nomebreve>SM Val Sella</nomebreve>
+    <quota>956</quota>
+    <latitudine>46.006134</latitudine>
+    <longitudine>11.379319</longitudine>
+    <est>684214</est>
+    <north>5097481.5</north>
+    <inizio>24/05/2007</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0114</codice>
+    <nome>Valda</nome>
+    <nomebreve>Valda</nomebreve>
+    <quota>855</quota>
+    <latitudine>46.20915722</latitudine>
+    <longitudine>11.26712192</longitudine>
+    <est>674884</est>
+    <north>5119785</north>
+    <inizio>30/03/1994</inizio>
+    <fine>06/10/2009</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0149</codice>
+    <nome>Vallarsa (Diga di Speccheri)</nome>
+    <nomebreve>Speccheri Diga</nomebreve>
+    <quota>875</quota>
+    <latitudine>45.76846972</latitudine>
+    <longitudine>11.13497183</longitudine>
+    <est>666003</est>
+    <north>5070540</north>
+    <inizio>01/01/1967</inizio>
+    <fine>22/01/2013</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0150</codice>
+    <nome>Vallarsa (Foxi)</nome>
+    <nomebreve>Vallarsa Foxi</nomebreve>
+    <quota>665</quota>
+    <latitudine>45.79013947</latitudine>
+    <longitudine>11.11099339</longitudine>
+    <est>664075</est>
+    <north>5072898</north>
+    <inizio>01/08/1922</inizio>
+    <fine>29/11/2007</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0363</codice>
+    <nome>Vallarsa (Malga Boffetal)</nome>
+    <nomebreve>Vallarsa</nomebreve>
+    <quota>1550</quota>
+    <latitudine>45.75064292</latitudine>
+    <longitudine>11.16345165</longitudine>
+    <est>668271</est>
+    <north>5068619</north>
+    <inizio>14/02/1998</inizio>
+    <fine>08/07/2009</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0381</codice>
+    <nome>Vallarsa (Parrocchia)</nome>
+    <nomebreve>SM Parrocchia</nomebreve>
+    <quota>737</quota>
+    <latitudine>45.780307</latitudine>
+    <longitudine>11.122849</longitudine>
+    <est>665025.5</est>
+    <north>5071830</north>
+    <inizio>19/04/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0364</codice>
+    <nome>Vermiglio (Capanna Presena)</nome>
+    <nomebreve>SM Capanna Presena</nomebreve>
+    <quota>2735</quota>
+    <latitudine>46.228093</latitudine>
+    <longitudine>10.578733</longitudine>
+    <est>621741</est>
+    <north>5120602</north>
+    <inizio>17/07/2000</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0416</codice>
+    <nome>Vermiglio (Masi di Palu')</nome>
+    <nomebreve>SM Masi Palu'</nomebreve>
+    <quota>1575</quota>
+    <latitudine>46.284146</latitudine>
+    <longitudine>10.694689</longitudine>
+    <est>630549.5</est>
+    <north>5127014.5</north>
+    <inizio>19/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0243</codice>
+    <nome>Vetriolo</nome>
+    <nomebreve>Vetriolo</nomebreve>
+    <quota>1490</quota>
+    <latitudine>46.04233992</latitudine>
+    <longitudine>11.30597436</longitudine>
+    <est>678419</est>
+    <north>5101337</north>
+    <inizio>01/01/1935</inizio>
+    <fine>30/12/1960</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0228</codice>
+    <nome>Vigo Di Fassa (Stalon De Vael)</nome>
+    <nomebreve>SM Stalon De Vael</nomebreve>
+    <quota>2040</quota>
+    <latitudine>46.424419</latitudine>
+    <longitudine>11.636119</longitudine>
+    <est>702551</est>
+    <north>5144582</north>
+    <inizio>30/08/2002</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0326</codice>
+    <nome>Vigolo Vattaro (frana)</nome>
+    <nomebreve>Vigolo Vattaro frana</nomebreve>
+    <quota>815</quota>
+    <latitudine>46.00920814</latitudine>
+    <longitudine>11.18136839</longitudine>
+    <est>668879</est>
+    <north>5097384</north>
+    <inizio>22/04/2004</inizio>
+    <fine>10/06/2008</fine>
+  </anagrafica>
+  <anagrafica>
+    <codice>T0411</codice>
+    <nome>Villa Rendena (Rifugio Gork)</nome>
+    <nomebreve>SM Rifugio Gork</nomebreve>
+    <quota>1203</quota>
+    <latitudine>46.080894</latitudine>
+    <longitudine>10.660678</longitudine>
+    <est>628402</est>
+    <north>5104376</north>
+    <inizio>13/10/2011</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0101</codice>
+    <nome>Zambana (Idrovora)</nome>
+    <nomebreve>SM Zambana</nomebreve>
+    <quota>205</quota>
+    <latitudine>46.156797</latitudine>
+    <longitudine>11.079051</longitudine>
+    <est>660529</est>
+    <north>5113570</north>
+    <inizio>01/01/1935</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0059</codice>
+    <nome>Ziano di Fiemme (Malga Sadole)</nome>
+    <nomebreve>SM Malga Sadole</nomebreve>
+    <quota>1608</quota>
+    <latitudine>46.260619</latitudine>
+    <longitudine>11.597609</longitudine>
+    <est>700189.5</est>
+    <north>5126284.5</north>
+    <inizio>24/05/2012</inizio>
+    <fine />
+  </anagrafica>
+  <anagrafica>
+    <codice>T0412</codice>
+    <nome>Zuclo (Malga Casinot)</nome>
+    <nomebreve>SM Malga Casinot</nomebreve>
+    <quota>1695</quota>
+    <latitudine>45.971281</latitudine>
+    <longitudine>10.742036</longitudine>
+    <est>634959</est>
+    <north>5092332</north>
+    <inizio>26/11/2011</inizio>
+    <fine />
+  </anagrafica>
+</ArrayOfAnagrafica>

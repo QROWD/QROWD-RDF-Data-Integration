@@ -1,0 +1,13 @@
+SELECT * {
+ ?s ?p ?o
+} 
+
+
+
+SELECT * {
+  ?x ?y ?z
+} SELECT * {
+?a ?b ?c }
+
+
+
