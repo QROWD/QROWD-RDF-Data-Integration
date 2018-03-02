@@ -16,7 +16,7 @@ CONSTRUCT {
 }
 {
   <trento-bike-sharing.json> url:text ?src .
-  BIND(json:parse(?src) AS ?json) .
+  BIND(STRDT(?src, xsd:json) AS ?json) .
 
   ?json json:unnest ?i .
 
