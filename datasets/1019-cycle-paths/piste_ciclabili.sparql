@@ -1,0 +1,41 @@
+
+# Mappings of types to IRIs
+INSERT DATA {
+  eg:RT1 rdfs:label "Pista di raccordo" .
+  eg:RT2 rdfs:label "Pista verde" .
+}
+
+
+CONSTRUCT {
+  ?s
+    a eg:BikeRack ;
+    eg:type ?t ;
+    rdfs:label ?l ;
+    rdfs:comment ?c ;
+    .
+}
+WHERE {
+  <piste_ciclabili.gml> url:text ?src .
+  BIND(strdt(?src, xsd:xml) AS ?xml) .
+  ?xml xml:unnest ("//*[local-name()='piste_ciclabili']" ?o)
+  BIND(xml:path(?o, "@fid") AS ?id)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(URI(CONCAT(?ns, ?id)) AS ?s)
+  BIND(xml:path(?o, "tipo") AS ?tipo)
+  BIND(xml:path(?o, "fumetto") AS ?l)
+  BIND(xml:path(?o, "descrizione") AS ?c)
+  # TODO Add conversion function for geo reference systems...
+
+  OPTIONAL {
+    ?tu rdfs:label ?tipo
+  }
+
+  BIND(COALESCE(?tu, URI(CONCAT(?ns, ENCODE_FOR_URI(?tipo)))) AS ?t)
+}
+
+#aSELECT DISTINCT ?o {
+#  ?s eg:type ?o
+#}
+
