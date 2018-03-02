@@ -18,6 +18,7 @@ WHERE {
   <piste_ciclabili.gml> url:text ?src .
   BIND(strdt(?src, xsd:xml) AS ?xml) .
   ?xml xml:unnest ("//*[local-name()='piste_ciclabili']" ?o)
+ 
   BIND(xml:path(?o, "@fid") AS ?id)
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
@@ -28,14 +29,11 @@ WHERE {
   BIND(xml:path(?o, "descrizione") AS ?c)
   # TODO Add conversion function for geo reference systems...
 
-  OPTIONAL {
-    ?tu rdfs:label ?tipo
-  }
-
+  OPTIONAL { ?tu rdfs:label ?tipo }
   BIND(COALESCE(?tu, URI(CONCAT(?ns, ENCODE_FOR_URI(?tipo)))) AS ?t)
 }
 
-#aSELECT DISTINCT ?o {
+#SELECT DISTINCT ?o {
 #  ?s eg:type ?o
 #}
 
