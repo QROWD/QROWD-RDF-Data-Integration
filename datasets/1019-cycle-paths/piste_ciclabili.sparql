@@ -15,10 +15,16 @@ CONSTRUCT {
     .
 }
 WHERE {
+  # Load the content of the relative URL (interpreted as a reference to a file) as a string into ?src
   <piste_ciclabili.gml> url:text ?src .
+
+  # Parse the string as XML
   BIND(STRDT(?src, xsd:xml) AS ?xml) .
+
+  # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
   ?xml xml:unnest ("//*[local-name()='piste_ciclabili']" ?o)
  
+  # Read out attributes from each (xml) node
   BIND(xml:path(?o, "@fid") AS ?id)
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
@@ -29,7 +35,10 @@ WHERE {
   BIND(xml:path(?o, "descrizione") AS ?c)
   # TODO Add conversion function for geo reference systems...
 
+  # Check the local store for whether there is an URI for the strings of ?tipo
   OPTIONAL { ?tu rdfs:label ?tipo }
+
+  # If there was an URI, use it, otherwise, generate a new URI
   BIND(COALESCE(?tu, URI(CONCAT(?ns, ENCODE_FOR_URI(?tipo)))) AS ?t)
 }
 
