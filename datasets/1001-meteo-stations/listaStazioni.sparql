@@ -1,4 +1,4 @@
-CONSTRUCT WHERE {
+CONSTRUCT {
   eg:quote
     rdfs:label "I don't know what this quote measures" ;
     .
@@ -6,6 +6,8 @@ CONSTRUCT WHERE {
   eg:east
     rdfs:label "I don't know what reference system this refers to" ;
     .
+} WHERE {
+  #Empty graph pattern evaluates to a single solution which does not bind variables, hence the triples above are emitted
 }
 
 
