@@ -1,0 +1,93 @@
+# Fill up the store with resources holding the workloads
+# This is an experimental pattern aimed at allowing the RDFization to run on arbitrary workloads
+# In principle, the sparql statements that set up the workloads (and which transformations to run)
+# could go into separate files
+INSERT {
+  eg:workload1 eg:workload ?o
+}
+WHERE {
+  <TB_R2_R.json> url:text ?src .
+  BIND(STRDT(?src, xsd:json) AS ?o)
+}
+
+
+# Create stops
+INSERT {
+  GRAPH eg:result { ?s a eg:Stop }
+
+  ?s eg:stopId ?i
+}
+#SELECT ?stops
+WHERE {
+  ?x eg:workload ?o .
+  BIND(json:path(?o, "$.stopIds") AS ?stops)
+
+  ?stops json:unnest (?stop ?i)
+
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+  BIND(URI(CONCAT(?ns, 'stop-', ENCODE_FOR_URI(?stop))) AS ?s)
+}
+
+# Add stop labels
+INSERT {
+  GRAPH eg:result { ?s rdfs:label ?l }
+}
+#SELECT ?s ?i ?l
+WHERE {
+  ?x eg:workload ?o
+  BIND(json:path(?o, "$.stopNames") AS ?stopNames)
+  ?stopNames json:unnest (?l ?i) .
+
+  ?s eg:stopId ?i
+}
+
+
+# A trip is a sequence of stops served at certain times
+INSERT {
+  GRAPH eg:result {
+  ?trip
+    a eg:Trip ;
+    eg:serves ?service ;
+    .
+
+  ?service
+    eg:stop ?stop ;
+    eg:atTime ?time ;
+     .
+  }
+}
+#SELECT ?tripId ?stopId ?time ?trip ?service ?stop
+WHERE {
+  ?x eg:workload ?o
+  BIND(json:path(?o, "$.trips") AS ?trips)
+  ?trips json:unnest (?tripJson ?i) .
+
+  BIND(json:path(?tripJson, "$.tripId") AS ?tripId)
+
+  # NOTE If unnesting the stopTimes yeld an empty array, we would not get the triples for the trip 
+  BIND(json:path(?tripJson, "$.stopTimes") AS ?stopTimes)
+  ?stopTimes json:unnest (?timeStr ?stopId) .
+  FILTER(?timeStr != "")
+
+  # Parse the time as xsd:time; inject seconds component
+  BIND(xsd:time(CONCAT(?timeStr, ":00")) AS ?time)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(URI(CONCAT(?ns, 'trip-', ?tripId)) AS ?trip)
+  BIND(URI(CONCAT(?ns, 'service-', ?tripId, "-", ?timeStr)) AS ?service)
+
+  ?stop eg:stopId ?stopId
+
+} 
+
+
+
+#SELECT * { GRAPH ?g { ?s ?p ?o } }
+
+
+# Emit the result graph
+CONSTRUCT { ?s ?p ?o } WHERE { GRAPH eg:result { ?s ?p ?o } }
+
+
