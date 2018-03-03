@@ -1,0 +1,55 @@
+CONSTRUCT WHERE {
+  eg:quote
+    rdfs:label "I don't know what this quote measures" ;
+    .
+  
+  eg:east
+    rdfs:label "I don't know what reference system this refers to" ;
+    .
+}
+
+
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+CONSTRUCT {
+  ?s
+    a eg:WeatherStation ;
+    rdfs:label ?l ;
+    eg:shortName ?sl ;
+    eg:code ?c ;
+    eg:quote ?q ;
+    geo:long ?long ;
+    geo:lat ?lat ;
+    eg:east ?east ;
+    eg:north ?north ;
+    eg:start ?start ;
+    eg:end ?end ;
+    .
+}
+WHERE {
+  # Use 'mysql' as base format (because it has quote char set to NULL which is what we want)
+  # and set the field delimiter to |
+  <listaStazioni.xml> url:text ?src .
+  BIND(STRDT(?src, xsd:xml) AS ?xml)
+
+  ?xml xml:unnest ("//anagrafica" ?o)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  # Create subject URI
+  BIND(xml:path(?o, "codice") AS ?c)
+  BIND(URI(CONCAT(?ns, ?c)) AS ?s)
+
+  # Attributes
+  BIND(xml:path(?o, "nome") AS ?l)
+  BIND(xml:path(?o, "nomebreve") AS ?sl)
+  BIND(xsd:integer(xml:path(?o, "quota")) AS ?q)
+  BIND(xsd:decimal(xml:path(?o, "longitudine")) AS ?long)
+  BIND(xsd:decimal(xml:path(?o, "latitudine")) AS ?lat)
+  BIND(xsd:decimal(xml:path(?o, "est")) AS ?east)
+  BIND(xsd:decimal(xml:path(?o, "north")) AS ?north)
+
+  BIND(xsd:date(xml:path(?o, "inzio")) AS ?start)
+  BIND(xsd:date(xml:path(?o, "fine")) AS ?end)
+
+}
+
