@@ -18,7 +18,8 @@ CONSTRUCT {
   <trento-bike-sharing.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?json) .
 
-  ?json json:unnest ?i .
+  # TODO the index var ?foo should be optional
+  ?json json:unnest (?i ?foo) .
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 

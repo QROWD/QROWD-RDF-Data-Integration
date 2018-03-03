@@ -1,0 +1,97 @@
+
+# Demonstrates
+# * CSV parsing with custom delimiter
+# * Type conversion (string -> integer)
+# * Use of 'mapping graphs' (analoguous to mapping tables)
+# * bit:array
+
+
+# We exploit RDF to model associative arrays (i.e. Maps) and use named graphs to discriminate between them
+INSERT DATA {
+  GRAPH eg:flags {
+    eg:flagX1 eg:hasBit 1 .
+    eg:flagX2 eg:hasBit 2 .
+    eg:flagX3 eg:hasBit 4 .
+  }
+}
+
+
+# Reusing eg:hasBit property for the sake of demonstrating discrimination by graphs
+INSERT DATA {
+  GRAPH eg:units {
+    eg:undefined eg:hasBit 0 .
+    eg:kmh eg:hasBit 1 .
+    eg:mph eg:hasBit 2 .
+  }
+}
+
+
+CONSTRUCT {
+  ?s
+    a eg:Junction ;
+    eg:unit ?u ;
+    eg:long ?x ;
+    eg:lat ?y ;
+    .
+}
+WHERE {
+  # Use 'mysql' as base format (because it has quote char set to NULL which is what we want)
+  # and set the field delimiter to |
+  <data.csv> csv:parse (?row "mysql -d |")
+  
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(json:path(?row, "$[0]") AS ?id)
+  BIND(xsd:integer(json:path(?row, "$[3]")) AS ?unit)
+
+  BIND(URI(CONCAT(?ns, ?id)) AS ?s)
+
+  BIND(xsd:decimal(json:path(?row, "$[6]")) AS ?x)
+  BIND(xsd:decimal(json:path(?row, "$[7]")) AS ?y)
+
+  
+  # Resolve unit flag against the mappings in graph eg:units
+  OPTIONAL { GRAPH eg:units { ?u eg:hasBit ?unit} } 
+
+}
+
+
+
+# Conversion of the bitfields
+# Implemented as a second parse over the CSV data
+CONSTRUCT {
+  ?s
+    rdf:type ?t ;
+    .
+}
+WHERE {
+  # Use 'mysql' as base format (because it has quote char set to NULL which is what we want)
+  # and set the field delimiter to |
+  <data.csv> csv:parse (?row "mysql -d |")
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(json:path(?row, "$[0]") AS ?id)
+  BIND(xsd:integer(json:path(?row, "$[2]")) AS ?bitmask)
+
+
+  BIND(URI(CONCAT(?ns, ?id)) AS ?s)
+
+
+  # Convert the bitmask to a string, split that string into a json array, and reverse the array
+  # Note: the behavor of the split regex may unfortunately vary between jvms
+  # https://stackoverflow.com/questions/5235401/split-string-into-array-of-character-strings
+  BIND(json:reverse(json:split(json:binaryString(?bitmask), "(?!$)")) AS ?bitarr)
+
+  # Unnest the bitmask array with index
+  ?bitarr json:unnest (?bitstr ?bitindex)
+
+  # Only output for non-zero bits (note: ?bit is of type string)
+  FILTER(?bitstr != "0")
+
+  BIND(math:pow(2, ?bitindex) AS ?val)
+
+  OPTIONAL { GRAPH eg:flags { ?t eg:hasBit ?val } }
+}
+
+
