@@ -1,9 +1,10 @@
 
 # Demonstrates
 # * CSV parsing with custom delimiter
+# * Unnesting of json arrays (with index)
 # * Type conversion (string -> integer)
 # * Use of 'mapping graphs' (analoguous to mapping tables)
-# * bit:array
+# * Mapping bit fields
 
 
 # We exploit RDF to model associative arrays (i.e. Maps) and use named graphs to discriminate between them
@@ -83,10 +84,10 @@ WHERE {
   # https://stackoverflow.com/questions/5235401/split-string-into-array-of-character-strings
   BIND(json:reverse(json:split(json:binaryString(?bitmask), "(?!$)")) AS ?bitarr)
 
-  # Unnest the bitmask array with index
+  # Unnest the bit string array with index
   ?bitarr json:unnest (?bitstr ?bitindex)
 
-  # Only output for non-zero bits (note: ?bit is of type string)
+  # Only output for non-zero bits
   FILTER(?bitstr != "0")
 
   BIND(math:pow(2, ?bitindex) AS ?val)
