@@ -1,3 +1,5 @@
+
+# Static triples; used for ad-hoc ontology
 CONSTRUCT {
   eg:quote
     rdfs:label "I don't know what this quote measures" ;
@@ -28,8 +30,6 @@ CONSTRUCT {
     .
 }
 WHERE {
-  # Use 'mysql' as base format (because it has quote char set to NULL which is what we want)
-  # and set the field delimiter to |
   <listaStazioni.xml> url:text ?src .
   BIND(STRDT(?src, xsd:xml) AS ?xml)
 
@@ -50,8 +50,9 @@ WHERE {
   BIND(xsd:decimal(xml:path(?o, "est")) AS ?east)
   BIND(xsd:decimal(xml:path(?o, "north")) AS ?north)
 
-  BIND(xsd:date(xml:path(?o, "inzio")) AS ?start)
-  BIND(xsd:date(xml:path(?o, "fine")) AS ?end)
+  # TODO Add a date:parse(format, string) sparql extension
+  BIND((xml:path(?o, "inizio")) AS ?start)
+  BIND((xml:path(?o, "fine")) AS ?end)
 
 }
 
