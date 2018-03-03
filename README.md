@@ -3,7 +3,7 @@ This repository contains RDF conversions for many of the public datasets used in
 Most datasets are related to Trento (Italy).
 
 * [Table of Datasets](https://docs.google.com/spreadsheets/d/1TuDj3OzJyrLbJaM3MVKwKR4L3B5cjyIoofVM3Fw9nsM/edit#gid=1481713892).
-* Conversion is done mainly with [Sparqlintegrate](https://github.com/SmartDataAnalytics/Sparqlintegrate). Further [Documentation](https://github.com/SmartDataAnalytics/jena-sparql-api/tree/master/jena-sparql-api-sparql-ext) for Sparqlintegrate.
+* Most conversions are performed using the [Sparqlintegrate tool](https://github.com/SmartDataAnalytics/Sparqlintegrate), which means that the conversion scripts are sequences of SPARQL queries that make use of function extensions for dealing with heterogeneous data. The extensions are documented in this [SPARQL extensions reference guide](https://github.com/SmartDataAnalytics/jena-sparql-api/tree/master/jena-sparql-api-sparql-ext).
 * The folder Datasets has example Data and a sparql query for every dataset.
 
 ## 1007 and 1008
