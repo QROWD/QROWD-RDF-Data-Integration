@@ -1,7 +1,10 @@
-# Trento RDF
+# QROWD RDF Data Integration
+This repository contains RDF conversions for many of the public datasets used in the [QROWD project](http://qrowd-project.eu).
+Most datasets are related to Trento (Italy).
 
-Here happens the conversion to RDF of these datasets: [Table of Datasets](https://docs.google.com/spreadsheets/d/1TuDj3OzJyrLbJaM3MVKwKR4L3B5cjyIoofVM3Fw9nsM/edit#gid=1481713892). Conversion is done mainly with [Sparqlintegrate](https://github.com/SmartDataAnalytics/Sparqlintegrate). Further [Documentation](https://github.com/SmartDataAnalytics/jena-sparql-api/tree/master/jena-sparql-api-sparql-ext) for Sparqlintegrate.
-The folder Datasets has example Data and a sparql query for every dataset.
+* [Table of Datasets](https://docs.google.com/spreadsheets/d/1TuDj3OzJyrLbJaM3MVKwKR4L3B5cjyIoofVM3Fw9nsM/edit#gid=1481713892).
+* Conversion is done mainly with [Sparqlintegrate](https://github.com/SmartDataAnalytics/Sparqlintegrate). Further [Documentation](https://github.com/SmartDataAnalytics/jena-sparql-api/tree/master/jena-sparql-api-sparql-ext) for Sparqlintegrate.
+* The folder Datasets has example Data and a sparql query for every dataset.
 
 ## 1007 and 1008
 
