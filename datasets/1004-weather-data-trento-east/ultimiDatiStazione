@@ -1,0 +1,3437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datiOggi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.meteotrentino.it/">
+  <data>2018/03/06</data>
+  <tmin>4.4</tmin>
+  <tmax>7.1</tmax>
+  <rain>4.2000000000000011</rain>
+  <temperature>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T00:00:00</data>
+      <temperatura>2.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T00:15:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T00:30:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T00:45:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T01:00:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T01:15:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T01:30:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T01:45:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T02:00:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T02:15:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T02:30:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T02:45:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T03:00:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T03:15:00</data>
+      <temperatura>2.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T03:30:00</data>
+      <temperatura>2.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T03:45:00</data>
+      <temperatura>2.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T04:00:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T04:15:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T04:30:00</data>
+      <temperatura>3.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T04:45:00</data>
+      <temperatura>3.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T05:00:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T05:15:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T05:30:00</data>
+      <temperatura>3.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T05:45:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T06:00:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T06:15:00</data>
+      <temperatura>3.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T06:30:00</data>
+      <temperatura>3.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T06:45:00</data>
+      <temperatura>3.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T07:00:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T07:15:00</data>
+      <temperatura>3.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T07:30:00</data>
+      <temperatura>3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T07:45:00</data>
+      <temperatura>3.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T08:00:00</data>
+      <temperatura>3.3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T08:15:00</data>
+      <temperatura>3.3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T08:30:00</data>
+      <temperatura>3.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T08:45:00</data>
+      <temperatura>3.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T09:00:00</data>
+      <temperatura>3.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T09:15:00</data>
+      <temperatura>3.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T09:30:00</data>
+      <temperatura>4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T09:45:00</data>
+      <temperatura>4.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T10:00:00</data>
+      <temperatura>4.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T10:15:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T10:30:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T10:45:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T11:00:00</data>
+      <temperatura>5.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T11:15:00</data>
+      <temperatura>5.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T11:30:00</data>
+      <temperatura>5.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T11:45:00</data>
+      <temperatura>5.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T12:00:00</data>
+      <temperatura>5.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T12:15:00</data>
+      <temperatura>6.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T12:30:00</data>
+      <temperatura>6.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T12:45:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T13:00:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T13:15:00</data>
+      <temperatura>6.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T13:30:00</data>
+      <temperatura>7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T13:45:00</data>
+      <temperatura>7.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T14:00:00</data>
+      <temperatura>7.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T14:15:00</data>
+      <temperatura>7.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T14:30:00</data>
+      <temperatura>7.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T14:45:00</data>
+      <temperatura>7.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T15:00:00</data>
+      <temperatura>7.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T15:15:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T15:30:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T15:45:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T16:00:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T16:15:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T16:30:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T16:45:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T17:00:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T17:15:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T17:30:00</data>
+      <temperatura>7.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T17:45:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T18:00:00</data>
+      <temperatura>7.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T18:15:00</data>
+      <temperatura>7.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T18:30:00</data>
+      <temperatura>7.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T18:45:00</data>
+      <temperatura>7.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T19:00:00</data>
+      <temperatura>6.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T19:15:00</data>
+      <temperatura>6.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T19:30:00</data>
+      <temperatura>6.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T19:45:00</data>
+      <temperatura>6.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T20:00:00</data>
+      <temperatura>6.3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T20:15:00</data>
+      <temperatura>6.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T20:30:00</data>
+      <temperatura>6.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T20:45:00</data>
+      <temperatura>6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T21:00:00</data>
+      <temperatura>5.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T21:15:00</data>
+      <temperatura>5.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T21:30:00</data>
+      <temperatura>5.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T21:45:00</data>
+      <temperatura>5.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T22:00:00</data>
+      <temperatura>5.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T22:15:00</data>
+      <temperatura>5.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T22:30:00</data>
+      <temperatura>5.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T22:45:00</data>
+      <temperatura>5.3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T23:00:00</data>
+      <temperatura>5.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T23:15:00</data>
+      <temperatura>5.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T23:30:00</data>
+      <temperatura>5.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-05T23:45:00</data>
+      <temperatura>5.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T00:00:00</data>
+      <temperatura>5.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T00:15:00</data>
+      <temperatura>5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T00:30:00</data>
+      <temperatura>5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T00:45:00</data>
+      <temperatura>5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T01:00:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T01:15:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T01:30:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T01:45:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T02:00:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T02:15:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T02:30:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T02:45:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T03:00:00</data>
+      <temperatura>4.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T03:15:00</data>
+      <temperatura>4.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T03:30:00</data>
+      <temperatura>4.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T03:45:00</data>
+      <temperatura>4.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T04:00:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T04:15:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T04:30:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T04:45:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T05:00:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T05:15:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T05:30:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T05:45:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T06:00:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T06:15:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T06:30:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T06:45:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T07:00:00</data>
+      <temperatura>4.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T07:15:00</data>
+      <temperatura>4.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T07:30:00</data>
+      <temperatura>4.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T07:45:00</data>
+      <temperatura>4.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T08:00:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T08:15:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T08:30:00</data>
+      <temperatura>4.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T08:45:00</data>
+      <temperatura>4.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T09:00:00</data>
+      <temperatura>4.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T09:15:00</data>
+      <temperatura>4.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T09:30:00</data>
+      <temperatura>4.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T09:45:00</data>
+      <temperatura>5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T10:00:00</data>
+      <temperatura>5.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T10:15:00</data>
+      <temperatura>5.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T10:30:00</data>
+      <temperatura>5.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T10:45:00</data>
+      <temperatura>5.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T11:00:00</data>
+      <temperatura>5.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T11:15:00</data>
+      <temperatura>5.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T11:30:00</data>
+      <temperatura>6.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T11:45:00</data>
+      <temperatura>6.4</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T12:00:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T12:15:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T12:30:00</data>
+      <temperatura>6.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T12:45:00</data>
+      <temperatura>6.7</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T13:00:00</data>
+      <temperatura>6.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T13:15:00</data>
+      <temperatura>6.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T13:30:00</data>
+      <temperatura>6.9</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T13:45:00</data>
+      <temperatura>6.8</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T14:00:00</data>
+      <temperatura>6.6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T14:15:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T14:30:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T14:45:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T15:00:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T15:15:00</data>
+      <temperatura>6.5</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T15:30:00</data>
+      <temperatura>6.3</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T15:45:00</data>
+      <temperatura>6.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T16:00:00</data>
+      <temperatura>6.2</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T16:15:00</data>
+      <temperatura>6.1</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T16:30:00</data>
+      <temperatura>6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T16:45:00</data>
+      <temperatura>6</temperatura>
+    </temperatura_aria>
+    <temperatura_aria UM="°C">
+      <data>2018-03-06T17:00:00</data>
+      <temperatura>6</temperatura>
+    </temperatura_aria>
+  </temperature>
+  <precipitazioni>
+    <precipitazione UM="mm">
+      <data>2018-03-05T00:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T00:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T00:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T00:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T01:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T01:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T01:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T01:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T02:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T02:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T02:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T02:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T03:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T03:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T03:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T03:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T04:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T04:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T04:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T04:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T05:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T05:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T05:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T05:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T06:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T06:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T06:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T06:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T07:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T07:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T07:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T07:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T08:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T08:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T08:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T08:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T09:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T09:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T09:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T09:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T10:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T10:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T10:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T10:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T11:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T11:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T11:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T11:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T12:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T12:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T12:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T12:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T13:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T13:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T13:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T13:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T14:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T14:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T14:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T14:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T15:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T15:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T15:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T15:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T16:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T16:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T16:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T16:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T17:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T17:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T17:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T17:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T18:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T18:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T18:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T18:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T19:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T19:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T19:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T19:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T20:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T20:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T20:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T20:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T21:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T21:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T21:30:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T21:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T22:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T22:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T22:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T22:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T23:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T23:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T23:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-05T23:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T00:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T00:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T00:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T00:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T01:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T01:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T01:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T01:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T02:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T02:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T02:30:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T02:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T03:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T03:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T03:30:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T03:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T04:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T04:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T04:30:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T04:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T05:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T05:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T05:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T05:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T06:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T06:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T06:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T06:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T07:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T07:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T07:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T07:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T08:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T08:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T08:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T08:45:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T09:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T09:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T09:30:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T09:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T10:00:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T10:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T10:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T10:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T11:00:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T11:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T11:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T11:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T12:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T12:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T12:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T12:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T13:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T13:15:00</data>
+      <pioggia>0.2</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T13:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T13:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T14:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T14:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T14:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T14:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T15:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T15:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T15:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T15:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T16:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T16:15:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T16:30:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T16:45:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+    <precipitazione UM="mm">
+      <data>2018-03-06T17:00:00</data>
+      <pioggia>0</pioggia>
+    </precipitazione>
+  </precipitazioni>
+  <venti>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T00:00:00</data>
+      <v>1</v>
+      <d>102</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T00:15:00</data>
+      <v>1.2</v>
+      <d>94</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T00:30:00</data>
+      <v>0.7</v>
+      <d>186</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T00:45:00</data>
+      <v>1</v>
+      <d>183</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T01:00:00</data>
+      <v>0.3</v>
+      <d>302</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T01:15:00</data>
+      <v>1</v>
+      <d>308</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T01:30:00</data>
+      <v>0.3</v>
+      <d>141</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T01:45:00</data>
+      <v>0.2</v>
+      <d>145</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T02:00:00</data>
+      <v>0.9</v>
+      <d>147</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T02:15:00</data>
+      <v>0.7</v>
+      <d>157</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T02:30:00</data>
+      <v>0.9</v>
+      <d>134</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T02:45:00</data>
+      <v>0.8</v>
+      <d>147</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T03:00:00</data>
+      <v>0.2</v>
+      <d>118</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T03:30:00</data>
+      <v>0.8</v>
+      <d>336</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T03:45:00</data>
+      <v>0.3</v>
+      <d>315</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T04:00:00</data>
+      <v>1</v>
+      <d>331</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T04:15:00</data>
+      <v>1.5</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T04:30:00</data>
+      <v>1.7</v>
+      <d>349</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T04:45:00</data>
+      <v>2.1</v>
+      <d>324</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T05:00:00</data>
+      <v>1.6</v>
+      <d>327</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T05:15:00</data>
+      <v>2.1</v>
+      <d>321</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T05:30:00</data>
+      <v>2</v>
+      <d>322</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T05:45:00</data>
+      <v>1.6</v>
+      <d>330</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T06:00:00</data>
+      <v>1.2</v>
+      <d>317</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T06:15:00</data>
+      <v>1.6</v>
+      <d>336</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T06:30:00</data>
+      <v>1.4</v>
+      <d>331</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T06:45:00</data>
+      <v>1.1</v>
+      <d>318</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T07:00:00</data>
+      <v>1.3</v>
+      <d>315</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T07:15:00</data>
+      <v>1.2</v>
+      <d>324</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T07:30:00</data>
+      <v>1.9</v>
+      <d>321</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T07:45:00</data>
+      <v>1.4</v>
+      <d>323</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T08:00:00</data>
+      <v>1</v>
+      <d>43</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T08:15:00</data>
+      <v>1.4</v>
+      <d>307</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T08:30:00</data>
+      <v>1.3</v>
+      <d>318</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T08:45:00</data>
+      <v>0.7</v>
+      <d>339</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T09:00:00</data>
+      <v>1.8</v>
+      <d>310</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T09:15:00</data>
+      <v>1</v>
+      <d>316</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T09:30:00</data>
+      <v>1.4</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T09:45:00</data>
+      <v>1.1</v>
+      <d>313</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T10:00:00</data>
+      <v>0.9</v>
+      <d>312</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T10:15:00</data>
+      <v>1.2</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T10:30:00</data>
+      <v>1.5</v>
+      <d>326</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T10:45:00</data>
+      <v>1.4</v>
+      <d>322</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T11:00:00</data>
+      <v>0.8</v>
+      <d>324</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T11:15:00</data>
+      <v>0.8</v>
+      <d>291</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T11:30:00</data>
+      <v>0.8</v>
+      <d>288</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T11:45:00</data>
+      <v>1.1</v>
+      <d>283</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T12:00:00</data>
+      <v>1.3</v>
+      <d>296</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T12:15:00</data>
+      <v>1.1</v>
+      <d>279</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T12:30:00</data>
+      <v>0.5</v>
+      <d>308</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T12:45:00</data>
+      <v>0.7</v>
+      <d>261</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T13:00:00</data>
+      <v>0.8</v>
+      <d>255</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T13:15:00</data>
+      <v>0.9</v>
+      <d>298</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T13:30:00</data>
+      <v>1.2</v>
+      <d>315</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T13:45:00</data>
+      <v>1.5</v>
+      <d>312</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T14:00:00</data>
+      <v>1.8</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T14:15:00</data>
+      <v>1.6</v>
+      <d>303</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T14:30:00</data>
+      <v>1.7</v>
+      <d>298</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T14:45:00</data>
+      <v>1.7</v>
+      <d>296</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T15:00:00</data>
+      <v>2</v>
+      <d>317</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T15:15:00</data>
+      <v>1.7</v>
+      <d>308</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T15:30:00</data>
+      <v>1.9</v>
+      <d>305</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T15:45:00</data>
+      <v>1.6</v>
+      <d>308</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T16:00:00</data>
+      <v>1.7</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T16:15:00</data>
+      <v>1.5</v>
+      <d>310</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T16:30:00</data>
+      <v>0.4</v>
+      <d>299</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T16:45:00</data>
+      <v>0.9</v>
+      <d>263</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T17:00:00</data>
+      <v>0.2</v>
+      <d>289</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T17:30:00</data>
+      <v>0.5</v>
+      <d>134</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T17:45:00</data>
+      <v>0.6</v>
+      <d>114</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T18:00:00</data>
+      <v>0.3</v>
+      <d>124</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T18:15:00</data>
+      <v>0.3</v>
+      <d>129</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T18:30:00</data>
+      <v>1.5</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T18:45:00</data>
+      <v>1.8</v>
+      <d>310</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T19:00:00</data>
+      <v>1.6</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T19:15:00</data>
+      <v>1.6</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T19:30:00</data>
+      <v>1.2</v>
+      <d>294</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T19:45:00</data>
+      <v>1.3</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T20:00:00</data>
+      <v>1.2</v>
+      <d>313</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T20:15:00</data>
+      <v>1.2</v>
+      <d>316</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T20:30:00</data>
+      <v>1.1</v>
+      <d>323</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T20:45:00</data>
+      <v>0.9</v>
+      <d>321</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T21:00:00</data>
+      <v>0.3</v>
+      <d>315</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T21:15:00</data>
+      <v>0.6</v>
+      <d>265</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T21:30:00</data>
+      <v>0.1</v>
+      <d>249</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T22:00:00</data>
+      <v>0</v>
+      <d>192</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T22:15:00</data>
+      <v>0.3</v>
+      <d>148</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T22:30:00</data>
+      <v>0.7</v>
+      <d>155</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T22:45:00</data>
+      <v>0.6</v>
+      <d>145</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T23:00:00</data>
+      <v>0.4</v>
+      <d>141</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T23:30:00</data>
+      <v>0.4</v>
+      <d>151</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-05T23:45:00</data>
+      <v>0.4</v>
+      <d>149</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T00:00:00</data>
+      <v>0.4</v>
+      <d>183</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T01:00:00</data>
+      <v>0.3</v>
+      <d>144</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T01:15:00</data>
+      <v>0.4</v>
+      <d>150</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T01:30:00</data>
+      <v>0.2</v>
+      <d>142</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T02:00:00</data>
+      <v>0.3</v>
+      <d>138</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T02:30:00</data>
+      <v>0.5</v>
+      <d>172</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T02:45:00</data>
+      <v>0.5</v>
+      <d>181</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T03:00:00</data>
+      <v>0.8</v>
+      <d>201</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T03:15:00</data>
+      <v>0.5</v>
+      <d>197</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T03:30:00</data>
+      <v>0.2</v>
+      <d>158</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T03:45:00</data>
+      <v>0.8</v>
+      <d>191</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T04:00:00</data>
+      <v>1.1</v>
+      <d>172</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T04:15:00</data>
+      <v>1.5</v>
+      <d>180</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T04:30:00</data>
+      <v>1.4</v>
+      <d>170</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T04:45:00</data>
+      <v>1.4</v>
+      <d>167</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T05:00:00</data>
+      <v>0.9</v>
+      <d>181</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T05:15:00</data>
+      <v>1.4</v>
+      <d>185</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T05:30:00</data>
+      <v>1.2</v>
+      <d>164</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T05:45:00</data>
+      <v>1.2</v>
+      <d>147</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T06:00:00</data>
+      <v>1</v>
+      <d>152</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T06:15:00</data>
+      <v>1</v>
+      <d>142</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T06:30:00</data>
+      <v>1.6</v>
+      <d>158</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T06:45:00</data>
+      <v>1.4</v>
+      <d>151</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T07:00:00</data>
+      <v>1.3</v>
+      <d>130</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T07:15:00</data>
+      <v>1.2</v>
+      <d>140</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T07:30:00</data>
+      <v>1</v>
+      <d>133</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T07:45:00</data>
+      <v>1</v>
+      <d>141</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T08:00:00</data>
+      <v>0.7</v>
+      <d>142</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T08:15:00</data>
+      <v>0.2</v>
+      <d>91</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T08:30:00</data>
+      <v>0.4</v>
+      <d>109</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T08:45:00</data>
+      <v>0.9</v>
+      <d>131</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T09:00:00</data>
+      <v>0.5</v>
+      <d>145</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T09:15:00</data>
+      <v>0.4</v>
+      <d>145</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T09:30:00</data>
+      <v>0.9</v>
+      <d>135</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T09:45:00</data>
+      <v>1.1</v>
+      <d>128</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T10:00:00</data>
+      <v>1.1</v>
+      <d>151</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T10:15:00</data>
+      <v>1</v>
+      <d>141</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T10:30:00</data>
+      <v>0.7</v>
+      <d>126</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T10:45:00</data>
+      <v>0.8</v>
+      <d>121</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T11:00:00</data>
+      <v>0.7</v>
+      <d>161</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T11:15:00</data>
+      <v>0.8</v>
+      <d>135</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T11:30:00</data>
+      <v>0.8</v>
+      <d>117</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T11:45:00</data>
+      <v>0.4</v>
+      <d>106</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T12:00:00</data>
+      <v>0.6</v>
+      <d>229</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T12:15:00</data>
+      <v>0.6</v>
+      <d>163</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T12:30:00</data>
+      <v>0.9</v>
+      <d>116</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T12:45:00</data>
+      <v>0.5</v>
+      <d>147</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T13:00:00</data>
+      <v>0.1</v>
+      <d>46</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T13:15:00</data>
+      <v>0.3</v>
+      <d>325</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T13:30:00</data>
+      <v>0.2</v>
+      <d>5</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T13:45:00</data>
+      <v>0.6</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T14:00:00</data>
+      <v>0.9</v>
+      <d>302</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T14:15:00</data>
+      <v>1</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T14:30:00</data>
+      <v>1.1</v>
+      <d>304</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T14:45:00</data>
+      <v>0.7</v>
+      <d>316</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T15:00:00</data>
+      <v>1.2</v>
+      <d>319</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T15:15:00</data>
+      <v>1.9</v>
+      <d>310</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T15:30:00</data>
+      <v>1.3</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T15:45:00</data>
+      <v>1.5</v>
+      <d>323</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T16:00:00</data>
+      <v>1.7</v>
+      <d>329</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T16:15:00</data>
+      <v>2.1</v>
+      <d>313</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T16:30:00</data>
+      <v>2.3</v>
+      <d>306</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T16:45:00</data>
+      <v>2.3</v>
+      <d>314</d>
+    </vento_al_suolo>
+    <vento_al_suolo UM_VV="m/s" UM_DV="gN">
+      <data>2018-03-06T17:00:00</data>
+      <v>2</v>
+      <d>315</d>
+    </vento_al_suolo>
+  </venti>
+  <radiazione>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T00:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T00:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T00:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T00:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T01:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T01:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T01:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T01:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T02:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T02:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T02:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T02:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T03:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T03:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T03:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T03:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T04:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T04:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T04:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T04:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T05:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T05:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T05:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T05:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T06:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T06:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T06:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T06:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T07:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T07:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T07:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T07:45:00</data>
+      <rsg>1</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T08:00:00</data>
+      <rsg>19</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T08:15:00</data>
+      <rsg>27</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T08:30:00</data>
+      <rsg>35</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T08:45:00</data>
+      <rsg>43</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T09:00:00</data>
+      <rsg>58</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T09:15:00</data>
+      <rsg>65</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T09:30:00</data>
+      <rsg>70</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T09:45:00</data>
+      <rsg>79</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T10:00:00</data>
+      <rsg>88</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T10:15:00</data>
+      <rsg>98</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T10:30:00</data>
+      <rsg>130</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T10:45:00</data>
+      <rsg>158</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T11:00:00</data>
+      <rsg>161</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T11:15:00</data>
+      <rsg>178</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T11:30:00</data>
+      <rsg>194</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T11:45:00</data>
+      <rsg>167</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T12:00:00</data>
+      <rsg>191</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T12:15:00</data>
+      <rsg>174</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T12:30:00</data>
+      <rsg>160</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T12:45:00</data>
+      <rsg>162</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T13:00:00</data>
+      <rsg>172</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T13:15:00</data>
+      <rsg>201</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T13:30:00</data>
+      <rsg>202</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T13:45:00</data>
+      <rsg>194</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T14:00:00</data>
+      <rsg>208</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T14:15:00</data>
+      <rsg>221</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T14:30:00</data>
+      <rsg>207</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T14:45:00</data>
+      <rsg>181</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T15:00:00</data>
+      <rsg>190</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T15:15:00</data>
+      <rsg>166</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T15:30:00</data>
+      <rsg>140</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T15:45:00</data>
+      <rsg>138</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T16:00:00</data>
+      <rsg>130</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T16:15:00</data>
+      <rsg>104</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T16:30:00</data>
+      <rsg>79</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T16:45:00</data>
+      <rsg>62</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T17:00:00</data>
+      <rsg>47</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T17:15:00</data>
+      <rsg>35</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T17:30:00</data>
+      <rsg>23</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T17:45:00</data>
+      <rsg>3</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T18:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T18:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T18:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T18:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T19:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T19:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T19:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T19:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T20:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T20:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T20:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T20:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T21:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T21:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T21:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T21:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T22:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T22:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T22:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T22:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T23:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T23:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T23:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-05T23:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T00:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T00:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T00:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T00:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T01:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T01:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T01:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T01:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T02:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T02:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T02:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T02:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T03:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T03:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T03:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T03:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T04:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T04:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T04:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T04:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T05:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T05:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T05:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T05:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T06:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T06:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T06:30:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T06:45:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T07:00:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T07:15:00</data>
+      <rsg>0</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T07:30:00</data>
+      <rsg>4</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T07:45:00</data>
+      <rsg>18</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T08:00:00</data>
+      <rsg>24</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T08:15:00</data>
+      <rsg>37</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T08:30:00</data>
+      <rsg>47</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T08:45:00</data>
+      <rsg>48</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T09:00:00</data>
+      <rsg>60</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T09:15:00</data>
+      <rsg>82</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T09:30:00</data>
+      <rsg>99</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T09:45:00</data>
+      <rsg>108</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T10:00:00</data>
+      <rsg>159</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T10:15:00</data>
+      <rsg>173</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T10:30:00</data>
+      <rsg>179</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T10:45:00</data>
+      <rsg>167</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T11:00:00</data>
+      <rsg>146</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T11:15:00</data>
+      <rsg>155</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T11:30:00</data>
+      <rsg>181</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T11:45:00</data>
+      <rsg>185</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T12:00:00</data>
+      <rsg>179</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T12:15:00</data>
+      <rsg>156</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T12:30:00</data>
+      <rsg>164</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T12:45:00</data>
+      <rsg>157</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T13:00:00</data>
+      <rsg>121</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T13:15:00</data>
+      <rsg>126</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T13:30:00</data>
+      <rsg>94</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T13:45:00</data>
+      <rsg>91</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T14:00:00</data>
+      <rsg>86</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T14:15:00</data>
+      <rsg>57</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T14:30:00</data>
+      <rsg>68</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T14:45:00</data>
+      <rsg>51</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T15:00:00</data>
+      <rsg>83</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T15:15:00</data>
+      <rsg>54</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T15:30:00</data>
+      <rsg>37</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T15:45:00</data>
+      <rsg>42</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T16:00:00</data>
+      <rsg>50</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T16:15:00</data>
+      <rsg>41</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T16:30:00</data>
+      <rsg>25</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T16:45:00</data>
+      <rsg>20</rsg>
+    </radiazioneglobale>
+    <radiazioneglobale UM="W/mq">
+      <data>2018-03-06T17:00:00</data>
+      <rsg>10</rsg>
+    </radiazioneglobale>
+  </radiazione>
+  <umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T00:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T00:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T00:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T00:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T01:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T01:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T01:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T01:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T02:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T02:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T02:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T02:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T03:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T03:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T03:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T03:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T04:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T04:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T04:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T04:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T05:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T05:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T05:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T05:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T06:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T06:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T06:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T06:45:00</data>
+      <rh>99</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T07:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T07:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T07:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T07:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T08:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T08:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T08:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T08:45:00</data>
+      <rh>99</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T09:00:00</data>
+      <rh>98</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T09:15:00</data>
+      <rh>98</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T09:30:00</data>
+      <rh>98</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T09:45:00</data>
+      <rh>97</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T10:00:00</data>
+      <rh>96</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T10:15:00</data>
+      <rh>95</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T10:30:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T10:45:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T11:00:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T11:15:00</data>
+      <rh>92</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T11:30:00</data>
+      <rh>90</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T11:45:00</data>
+      <rh>88</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T12:00:00</data>
+      <rh>87</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T12:15:00</data>
+      <rh>86</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T12:30:00</data>
+      <rh>85</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T12:45:00</data>
+      <rh>85</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T13:00:00</data>
+      <rh>84</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T13:15:00</data>
+      <rh>83</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T13:30:00</data>
+      <rh>82</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T13:45:00</data>
+      <rh>81</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T14:00:00</data>
+      <rh>81</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T14:15:00</data>
+      <rh>80</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T14:30:00</data>
+      <rh>80</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T14:45:00</data>
+      <rh>80</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T15:00:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T15:15:00</data>
+      <rh>77</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T15:30:00</data>
+      <rh>76</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T15:45:00</data>
+      <rh>77</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T16:00:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T16:15:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T16:30:00</data>
+      <rh>79</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T16:45:00</data>
+      <rh>79</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T17:00:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T17:15:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T17:30:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T17:45:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T18:00:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T18:15:00</data>
+      <rh>78</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T18:30:00</data>
+      <rh>79</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T18:45:00</data>
+      <rh>81</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T19:00:00</data>
+      <rh>82</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T19:15:00</data>
+      <rh>83</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T19:30:00</data>
+      <rh>84</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T19:45:00</data>
+      <rh>86</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T20:00:00</data>
+      <rh>88</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T20:15:00</data>
+      <rh>89</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T20:30:00</data>
+      <rh>90</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T20:45:00</data>
+      <rh>91</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T21:00:00</data>
+      <rh>92</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T21:15:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T21:30:00</data>
+      <rh>95</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T21:45:00</data>
+      <rh>97</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T22:00:00</data>
+      <rh>98</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T22:15:00</data>
+      <rh>99</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T22:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T22:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T23:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T23:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T23:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-05T23:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T00:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T00:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T00:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T00:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T01:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T01:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T01:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T01:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T02:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T02:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T02:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T02:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T03:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T03:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T03:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T03:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T04:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T04:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T04:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T04:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T05:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T05:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T05:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T05:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T06:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T06:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T06:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T06:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T07:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T07:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T07:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T07:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T08:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T08:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T08:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T08:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T09:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T09:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T09:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T09:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T10:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T10:15:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T10:30:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T10:45:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T11:00:00</data>
+      <rh>100</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T11:15:00</data>
+      <rh>99</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T11:30:00</data>
+      <rh>98</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T11:45:00</data>
+      <rh>97</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T12:00:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T12:15:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T12:30:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T12:45:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T13:00:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T13:15:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T13:30:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T13:45:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T14:00:00</data>
+      <rh>95</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T14:15:00</data>
+      <rh>95</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T14:30:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T14:45:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T15:00:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T15:15:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T15:30:00</data>
+      <rh>95</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T15:45:00</data>
+      <rh>94</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T16:00:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T16:15:00</data>
+      <rh>93</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T16:30:00</data>
+      <rh>92</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T16:45:00</data>
+      <rh>92</rh>
+    </umidita_relativa>
+    <umidita_relativa UM="%">
+      <data>2018-03-06T17:00:00</data>
+      <rh>92</rh>
+    </umidita_relativa>
+  </umidita_relativa>
+</datiOggi>
