@@ -1,0 +1,28 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+
+CONSTRUCT {
+  ?s a aws:TemperatureSensor .
+
+  ?o
+    a sosa:Observation ;
+    sosa:madeBySensor ?s ;
+    sosa:resultTime ?date ;
+    sosa:simpleResult ?temp .
+}
+
+WHERE {
+  BIND("trento-east" as ?s) # Link to WeatherStations dataset
+
+  <ultimiDatiStazione> url:text ?src .
+  BIND(STRDT(?src, xsd:xml) AS ?xml)
+
+  ?xml xml:unnest ("//temperatura_aria" ?observation)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  # Create subject URI
+  BIND(xml:path(?observation, "data") AS ?date)
+  BIND(URI(CONCAT(?ns, ?s, ?date)) AS ?o)
+  BIND(xsd:decimal(xml:path(?observation, "temperatura")) AS ?temp)
+}
