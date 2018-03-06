@@ -1,6 +1,12 @@
+INSERT {
+  eg:workload1 eg:workload ?o
+}
+WHERE { 
+  <COMUNE_DI_TRENTO.json> url:text ?src .
+  BIND(STRDT(?src, xsd:json) AS ?o)
+}
 
-'/home/raven/Projects/Eclipse/trento-bike-racks/datasets/getparkingsbyagency/underground-parking-COMUNE_DI_TRENTO.json'
-'
+
 PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX q: <http://qrowd-project.eu/ontology/>
 CONSTRUCT {
@@ -18,9 +24,8 @@ CONSTRUCT {
     .
 }
 {
-  ?r rdfs:label ?str .
-  BIND(json:parse(?str) AS ?json) .
-  ?json json:unnest ?i .
+  ?workload eg:workload ?json .
+  ?json json:unnest (?i ?index).
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 
@@ -36,6 +41,5 @@ CONSTRUCT {
   BIND(json:path(?i, "$.position[0]") AS ?x)
   BIND(json:path(?i, "$.position[1]") AS ?y)
 }
-'
 
 
