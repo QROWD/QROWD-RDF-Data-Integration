@@ -79,8 +79,7 @@
     "Marilleva Ferrovia",
     "Mezzana Ferrovia"
   ],
-  "trips": [
-    {
+  "trips": [{
       "tripId": "302$2017091020180622",
       "delay": {
         "SERVICE": "0"
