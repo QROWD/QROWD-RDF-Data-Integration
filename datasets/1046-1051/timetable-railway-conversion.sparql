@@ -1,16 +1,3 @@
-# Fill up the store with resources holding the workloads
-# This is an experimental pattern aimed at allowing the RDFization to run on arbitrary workloads
-# In principle, the sparql statements that set up the workloads (and which transformations to run)
-# could go into separate files
-INSERT {
-  eg:workload1 eg:workload ?o
-}
-WHERE {
-  <TB_R2_R.json> url:text ?src .
-  BIND(STRDT(?src, xsd:json) AS ?o)
-}
-
-
 # Create stops
 INSERT {
   GRAPH eg:result { ?s a eg:Stop }
