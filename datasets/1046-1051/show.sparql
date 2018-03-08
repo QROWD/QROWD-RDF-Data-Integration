@@ -1,0 +1,16 @@
+SELECT ?trip ?stop ?time {
+GRAPH eg:result {
+
+  ?trip
+    a eg:Trip ;
+    eg:serves [
+      eg:stop [
+        rdfs:label ?stop
+      ] ; 
+      eg:atTime ?time
+    ] 
+    .
+}
+}
+ORDER BY ?trip ?time
+
