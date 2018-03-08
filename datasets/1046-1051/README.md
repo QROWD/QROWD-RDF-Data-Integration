@@ -6,7 +6,7 @@ sh generate-workloads.sh > workloads.sparql
 ```
 
 ```bash
-sparql-integrate workloads.sparql timetable-railway-conversion.sparql output.sparql
+sparql-integrate workloads.sparql process.sparql show.sparql
 ```
 
 * [create-workloads.sh](create-workloads.sh) is a short bash script that creates a file with SPARQL INSERT statements based on the datasets in the subfolders 
