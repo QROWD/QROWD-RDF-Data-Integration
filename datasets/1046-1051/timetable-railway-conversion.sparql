@@ -2,7 +2,7 @@
 INSERT {
   GRAPH eg:result { ?s a eg:Stop }
 
-  ?s eg:stopId ?i
+  GRAPH ?x { ?s eg:stopId ?i }
 }
 #SELECT ?stops
 WHERE {
@@ -26,7 +26,7 @@ WHERE {
   BIND(json:path(?o, "$.stopNames") AS ?stopNames)
   ?stopNames json:unnest (?l ?i) .
 
-  ?s eg:stopId ?i
+  GRAPH ?x { ?s eg:stopId ?i }
 }
 
 
@@ -65,7 +65,7 @@ WHERE {
   BIND(URI(CONCAT(?ns, 'trip-', ?tripId)) AS ?trip)
   BIND(URI(CONCAT(?ns, 'service-', ?tripId, "-", ?timeStr)) AS ?service)
 
-  ?stop eg:stopId ?stopId
+  GRAPH ?x { ?stop eg:stopId ?stopId }
 
 } 
 
