@@ -1,42 +1,54 @@
 INSERT {
   eg:workload0 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1046-timetable-railway-trento-male/555.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
 INSERT {
   eg:workload1 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1047-timetable-railway-male-trento/556.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
 INSERT {
   eg:workload2 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1050-timetable-railway-valsugana-trento-bassano/TB_R2_G.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
 INSERT {
   eg:workload3 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1051-timetable-railway-valsugana-bassano-trento/TB_R2_R.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
 INSERT {
   eg:workload4 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1048-timetable-railway-bolzano-verona/BV_R1_G.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
 INSERT {
   eg:workload5 eg:workload ?o
-  }
-  WHERE {
+}
+WHERE {
   <1049-timetable-railway-verona-bolzano/BV_R1_R.json> url:text ?src .
   BIND(STRDT(?src, xsd:json) AS ?o)
-  }
+}
+
+
