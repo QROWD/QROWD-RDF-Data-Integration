@@ -17,3 +17,17 @@ npm install -g gtfs-csv2rdf
 ## 1020 to 1033
 
 [GeoKnow/TripleGeo: TripleGeo utility for converting geospatial data into triples](https://github.com/GeoKnow/TripleGeo)
+
+
+
+## Ckan uploads
+This is accomplished using a python script
+
+```bash
+sudo apt-get update
+sudo apt-get -y install python3-pip
+
+sudo pip3 install rdflib
+
+```
+
