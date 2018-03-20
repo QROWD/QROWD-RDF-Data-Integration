@@ -1,0 +1,28 @@
+PREFIX lgd: <http://linkedgeodata.org/ontology/> 
+
+CONSTRUCT {
+  ?p
+    a lgd:Parking ;
+    lgd:TODO_disability ?d ;
+    rdfs:label ?l ;
+    .
+}
+WHERE {
+  # Load the content of the relative URL (interpreted as a reference to a file) as a string into ?src
+  <parcheggi_disabili.gml> url:text ?src .
+
+  # Parse the string as XML
+  BIND(STRDT(?src, xsd:xml) AS ?xml) .
+
+  # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
+  ?xml xml:unnest ("//*[local-name()='parcheggi_disabili']" ?o)
+ 
+  # Read out attributes from each (xml) node
+  BIND(xml:path(?o, "@fid") AS ?id)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(URI(CONCAT(?ns, ?id)) AS ?p)
+  BIND(xml:path(?o, "fumetto") AS ?l)
+  # TODO Add conversion function for geo reference systems...
+}
