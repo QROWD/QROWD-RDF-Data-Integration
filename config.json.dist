@@ -1,0 +1,7 @@
+{
+  "ckan": {
+    "url": "http://ckan.qrowd.aksw.org/",
+    "apiKey": "secret",
+    "userAgent": "Your Name <your@email.address>"
+  }
+}
