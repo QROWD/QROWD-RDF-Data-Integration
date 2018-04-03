@@ -1,5 +1,38 @@
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+INSERT DATA{
+  eg:trentoRailwayTimeTablesDataset
+    a dcat:Dataset ;
+    dct:identifier "trento-railway-time-tables" ;
+    dct:title "Trento Railway Timetables" ;
+    dct:description "Timetables" ;
+    .
+}
+
+
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload0 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1046-timetable-railway-trento-male ;
+    .  
+
+  eg:resource-1046-timetable-railway-trento-male
+    a dcat:Distribution ;
+#    dct:identifier "1046-timetable-railway-trento-male" ;
+    dct:title "1046-timetable-railway-trento-male" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1046-timetable-railway-trento-male ;
+    .
+
+  eg:workload-1046-timetable-railway-trento-male
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1046-timetable-railway-trento-male ;
+    .
+
 }
 WHERE {
   <1046-timetable-railway-trento-male/555.json> url:text ?src .
@@ -7,8 +40,28 @@ WHERE {
 }
 
 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload1 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1047-timetable-railway-male-trento ;
+    .  
+
+  eg:resource-1047-timetable-railway-male-trento
+    a dcat:Distribution ;
+#    dct:identifier "1047-timetable-railway-male-trento" ;
+    dct:title "1047-timetable-railway-male-trento" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1047-timetable-railway-male-trento ;
+    .
+
+  eg:workload-1047-timetable-railway-male-trento
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1047-timetable-railway-male-trento ;
+    .
+
 }
 WHERE {
   <1047-timetable-railway-male-trento/556.json> url:text ?src .
@@ -16,8 +69,28 @@ WHERE {
 }
 
 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload2 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1050-timetable-railway-valsugana-trento-bassano ;
+    .  
+
+  eg:resource-1050-timetable-railway-valsugana-trento-bassano
+    a dcat:Distribution ;
+#    dct:identifier "1050-timetable-railway-valsugana-trento-bassano" ;
+    dct:title "1050-timetable-railway-valsugana-trento-bassano" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1050-timetable-railway-valsugana-trento-bassano ;
+    .
+
+  eg:workload-1050-timetable-railway-valsugana-trento-bassano
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1050-timetable-railway-valsugana-trento-bassano ;
+    .
+
 }
 WHERE {
   <1050-timetable-railway-valsugana-trento-bassano/TB_R2_G.json> url:text ?src .
@@ -25,8 +98,28 @@ WHERE {
 }
 
 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload3 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1051-timetable-railway-valsugana-bassano-trento ;
+    .  
+
+  eg:resource-1051-timetable-railway-valsugana-bassano-trento
+    a dcat:Distribution ;
+#    dct:identifier "1051-timetable-railway-valsugana-bassano-trento" ;
+    dct:title "1051-timetable-railway-valsugana-bassano-trento" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1051-timetable-railway-valsugana-bassano-trento ;
+    .
+
+  eg:workload-1051-timetable-railway-valsugana-bassano-trento
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1051-timetable-railway-valsugana-bassano-trento ;
+    .
+
 }
 WHERE {
   <1051-timetable-railway-valsugana-bassano-trento/TB_R2_R.json> url:text ?src .
@@ -34,8 +127,28 @@ WHERE {
 }
 
 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload4 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1048-timetable-railway-bolzano-verona ;
+    .  
+
+  eg:resource-1048-timetable-railway-bolzano-verona
+    a dcat:Distribution ;
+#    dct:identifier "1048-timetable-railway-bolzano-verona" ;
+    dct:title "1048-timetable-railway-bolzano-verona" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1048-timetable-railway-bolzano-verona ;
+    .
+
+  eg:workload-1048-timetable-railway-bolzano-verona
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1048-timetable-railway-bolzano-verona ;
+    .
+
 }
 WHERE {
   <1048-timetable-railway-bolzano-verona/BV_R1_G.json> url:text ?src .
@@ -43,8 +156,28 @@ WHERE {
 }
 
 
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
-  eg:workload5 eg:workload ?o
+  eg:trentoRailwayTimeTablesDataset
+    dcat:distribution eg:resource-1049-timetable-railway-verona-bolzano ;
+    .  
+
+  eg:resource-1049-timetable-railway-verona-bolzano
+    a dcat:Distribution ;
+#    dct:identifier "1049-timetable-railway-verona-bolzano" ;
+    dct:title "1049-timetable-railway-verona-bolzano" ;
+    dct:description "TODO comment" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1049-timetable-railway-verona-bolzano ;
+    .
+
+  eg:workload-1049-timetable-railway-verona-bolzano
+    eg:workload ?o ;
+    eg:resultGraph eg:graph-1049-timetable-railway-verona-bolzano ;
+    .
+
 }
 WHERE {
   <1049-timetable-railway-verona-bolzano/BV_R1_R.json> url:text ?src .

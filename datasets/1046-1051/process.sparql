@@ -1,12 +1,13 @@
 # Create stops
 INSERT {
-  GRAPH eg:result { ?s a eg:Stop }
+  GRAPH ?g { ?s a eg:Stop }
 
   GRAPH ?x { ?s eg:stopId ?i }
 }
 #SELECT ?stops
 WHERE {
-  ?x eg:workload ?o .
+  ?x eg:workload ?o ; eg:resultGraph ?g .
+
   BIND(json:path(?o, "$.stopIds") AS ?stops)
 
   ?stops json:unnest (?stop ?i)
@@ -18,11 +19,12 @@ WHERE {
 
 # Add stop labels
 INSERT {
-  GRAPH eg:result { ?s rdfs:label ?l }
+  GRAPH ?g { ?s rdfs:label ?l }
 }
 #SELECT ?s ?i ?l
 WHERE {
-  ?x eg:workload ?o
+  ?x eg:workload ?o ; eg:resultGraph ?g .
+
   BIND(json:path(?o, "$.stopNames") AS ?stopNames)
   ?stopNames json:unnest (?l ?i) .
 
@@ -32,21 +34,22 @@ WHERE {
 
 # A trip is a sequence of stops served at certain times
 INSERT {
-  GRAPH eg:result {
-  ?trip
-    a eg:Trip ;
-    eg:serves ?service ;
-    .
+  GRAPH ?g {
+    ?trip
+      a eg:Trip ;
+      eg:serves ?service ;
+      .
 
-  ?service
-    eg:stop ?stop ;
-    eg:atTime ?time ;
+    ?service
+      eg:stop ?stop ;
+      eg:atTime ?time ;
      .
   }
 }
 #SELECT ?tripId ?stopId ?time ?trip ?service ?stop
 WHERE {
-  ?x eg:workload ?o
+  ?x eg:workload ?o ; eg:resultGraph ?g .
+
   BIND(json:path(?o, "$.trips") AS ?trips)
   ?trips json:unnest (?tripJson ?i) .
 

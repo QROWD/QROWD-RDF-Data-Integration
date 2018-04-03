@@ -21,20 +21,29 @@ INSERT DATA{
 for f in $(find -name '*.json' | sed "s|^\./||"); do 
 # TODO derive name - remove file extension, replace / with -
 
+#g=${f%.*}
+g=`dirname "$f"`
+
   echo "
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 INSERT {
   eg:trentoRailwayTimeTablesDataset
-    dcat:distribution eg:resource${COUNTER} ;
+    dcat:distribution eg:resource-$g ;
     .  
 
-  eg:resource${COUNTER}
+  eg:resource-$g
     a dcat:Distribution ;
-    dct:identifier \"$f\" ;
-    rdfs:label \"TODO label\" ;
-    rdfs:comment \"TODO comment\" ;
+#    dct:identifier \"$g\" ;
+    dct:title \"$g\" ;
+    dct:description \"TODO comment\" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-$g ;
+    .
+
+  eg:workload-$g
     eg:workload ?o ;
+    eg:resultGraph eg:graph-$g ;
     .
 
 }
