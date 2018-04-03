@@ -1,7 +1,0 @@
-{
-  "datasets": [{
-    "id": "time-table",
-    "cmd": "sparql-integrate workloads.json"
-    "x": ""
-  }]
-}

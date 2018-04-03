@@ -74,7 +74,8 @@ WHERE {
 #SELECT * { GRAPH ?g { ?s ?p ?o } }
 
 
+# Note Emit is done using another emit.sparql file
 # Emit the result graph
-CONSTRUCT { ?s ?p ?o } WHERE { GRAPH eg:result { ?s ?p ?o } }
+# CONSTRUCT { ?s ?p ?o } WHERE { GRAPH eg:result { ?s ?p ?o } }
 
 
