@@ -1,0 +1,36 @@
+PREFIX lgd: <http://linkedgeodata.org/ontology/> 
+
+CONSTRUCT {
+  ?p
+    a lgd:Parking ;
+    lgd:TODO_paid ?t ;
+    rdfs:label ?l ;
+    rdfs:comment ?c ;
+    lgd:TODO_area ?a ;
+    lgd:TODO_perimeter ?pe ;
+    lgd:TODO_pianopark ?pi ;
+    .
+}
+WHERE {
+  # Load the content of the relative URL (interpreted as a reference to a file) as a string into ?src
+  <zone_parcheggio.gml> url:text ?src .
+
+  # Parse the string as XML
+  BIND(STRDT(?src, xsd:xml) AS ?xml) .
+
+  # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
+  ?xml xml:unnest ("//*[local-name()='zone_parcheggio']" ?o)
+ 
+  # Read out attributes from each (xml) node
+  BIND(xml:path(?o, "@fid") AS ?id)
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  BIND(URI(CONCAT(?ns, ?id)) AS ?p)
+  BIND(xml:path(?o, "fumetto") AS ?l)
+  BIND(xml:path(?o, "descrizione") AS ?c)
+  BIND(xml:path(?o, "area") AS ?a)
+  BIND(xml:path(?o, "perimeter") AS ?pe)
+  BIND(xml:path(?o, "pianopark") AS ?pi)
+  # TODO Add conversion function for geo reference systems...
+}
