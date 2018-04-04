@@ -36,7 +36,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier \"$g\" ;
     dct:title \"$g\" ;
-    dct:description \"TODO comment\" ;
+    dct:description \"RDF dataset with timetables for $g\" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-$g ;
     .

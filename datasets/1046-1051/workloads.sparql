@@ -23,7 +23,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1046-timetable-railway-trento-male" ;
     dct:title "1046-timetable-railway-trento-male" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1046-timetable-railway-trento-male" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1046-timetable-railway-trento-male ;
     .
@@ -52,7 +52,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1047-timetable-railway-male-trento" ;
     dct:title "1047-timetable-railway-male-trento" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1047-timetable-railway-male-trento" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1047-timetable-railway-male-trento ;
     .
@@ -81,7 +81,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1050-timetable-railway-valsugana-trento-bassano" ;
     dct:title "1050-timetable-railway-valsugana-trento-bassano" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1050-timetable-railway-valsugana-trento-bassano" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1050-timetable-railway-valsugana-trento-bassano ;
     .
@@ -110,7 +110,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1051-timetable-railway-valsugana-bassano-trento" ;
     dct:title "1051-timetable-railway-valsugana-bassano-trento" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1051-timetable-railway-valsugana-bassano-trento" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1051-timetable-railway-valsugana-bassano-trento ;
     .
@@ -139,7 +139,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1048-timetable-railway-bolzano-verona" ;
     dct:title "1048-timetable-railway-bolzano-verona" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1048-timetable-railway-bolzano-verona" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1048-timetable-railway-bolzano-verona ;
     .
@@ -168,7 +168,7 @@ INSERT {
     a dcat:Distribution ;
 #    dct:identifier "1049-timetable-railway-verona-bolzano" ;
     dct:title "1049-timetable-railway-verona-bolzano" ;
-    dct:description "TODO comment" ;
+    dct:description "RDF dataset with timetables for 1049-timetable-railway-verona-bolzano" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL eg:graph-1049-timetable-railway-verona-bolzano ;
     .
