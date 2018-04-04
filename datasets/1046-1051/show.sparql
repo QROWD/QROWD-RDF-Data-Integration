@@ -1,5 +1,9 @@
 SELECT ?trip ?stop ?time {
-GRAPH eg:result {
+
+# Get all result graphs of the corresponding workloads
+?x eg:resultGraph ?g .
+
+GRAPH ?g {
 
   ?trip
     a eg:Trip ;
