@@ -13,6 +13,7 @@ INSERT DATA{
     dct:identifier \"trento-railway-time-tables\" ;
     dct:title \"Trento Railway Timetables\" ;
     dct:description \"Timetables\" ;
+    dcat:keyword \"qrowd\", \"trento\", \"timetable\", \"railway\", \"rdf\" ;
     .
 }
 
