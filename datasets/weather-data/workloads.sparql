@@ -1,0 +1,71 @@
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+INSERT DATA{
+  eg:WeatherDataDataset
+    a dcat:Dataset ;
+    dct:identifier "weather-data" ;
+    dct:title " Weather Data" ;
+    dct:description "Stuff" ;
+    dcat:keyword "Keyword", "Keyword" ;
+    .
+}
+
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+INSERT {
+  eg:WeatherDataDataset
+    dcat:distribution eg:resource-1004-trento-east ;
+    .  
+
+  eg:resource-1004-trento-east
+    a dcat:Distribution ;
+#   dct:identifier "1004-trento-east" ;
+    dct:title "1004-trento-east" ;
+    dct:description "RDF dataset with timetables for 1004-trento-east" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1004-trento-east ;
+    .
+
+  eg:workload-1004-trento-east
+    eg:workload ?workload ;
+    eg:resultGraph eg:graph-1004-trento-east ;
+    aws:TemperatureSensor <http://qrowd-project.eu/resource/1004-trento-east-sensor> ;
+    .
+
+}
+WHERE {
+  <distributions/1004-trento-east> url:text ?workload .
+}
+
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+INSERT {
+  eg:WeatherDataDataset
+    dcat:distribution eg:resource-1005-trento-north ;
+    .  
+
+  eg:resource-1005-trento-north
+    a dcat:Distribution ;
+#   dct:identifier "1005-trento-north" ;
+    dct:title "1005-trento-north" ;
+    dct:description "RDF dataset with timetables for 1005-trento-north" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1005-trento-north ;
+    .
+
+  eg:workload-1005-trento-north
+    eg:workload ?workload ;
+    eg:resultGraph eg:graph-1005-trento-north ;
+    aws:TemperatureSensor <http://qrowd-project.eu/resource/1005-trento-north-sensor> ;
+    .
+
+}
+WHERE {
+  <distributions/1005-trento-north> url:text ?workload .
+}
+

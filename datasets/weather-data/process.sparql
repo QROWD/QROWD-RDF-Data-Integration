@@ -1,0 +1,25 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+
+INSERT {
+  GRAPH ?g {
+    ?s a aws:TemperatureSensor .
+
+    ?o
+      a sosa:Observation ;
+      sosa:madeBySensor ?s ;
+      sosa:resultTime ?date ;
+      sosa:simpleResult ?temp .
+  }
+}
+
+WHERE {
+  ?x eg:workload ?workload ; eg:resultGraph ?g ; aws:TemperatureSensor ?s .
+  BIND(STRDT(?workload, xsd:xml) AS ?w)
+  ?w xml:unnest ("//temperatura_aria" ?observation)
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+  # Create subject URI
+  BIND(xml:path(?observation, "data") AS ?date)
+  BIND(URI(CONCAT(?ns, STR(?s), "-", ?date)) AS ?o)
+  BIND(xsd:decimal(xml:path(?observation, "temperatura")) AS ?temp)
+}
