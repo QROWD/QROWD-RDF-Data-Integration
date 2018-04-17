@@ -1,4 +1,12 @@
-.PHONY:
+SUBDIRS := $(dir $(wildcard datasets/*/Makefile))
+export CKAN_INSTANCE=ckan
+export API_KEY=key
+
+upload-data: $(SUBDIRS)
+$(SUBDIRS):
+	$(MAKE) upload-data -C $@
+
+.PHONY: all $(SUBDIRS)
 
 integrate:
 	# gtfs-csv2rdf ./datasets/1007-bus-lines-suburban/google_transit_extraurbano_tte.zip http://data.gtfs.org/sample-feed/0.1/
