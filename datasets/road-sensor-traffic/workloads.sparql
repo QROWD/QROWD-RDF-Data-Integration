@@ -1,0 +1,69 @@
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+INSERT DATA{
+  eg:RoadSensorTrafficDataset
+    a dcat:Dataset ;
+    dct:identifier "road-sensor-traffic" ;
+    dct:title " Road Sensor Traffic" ;
+    dct:description "Stuff" ;
+    dcat:keyword "Keyword", "Keyword" ;
+    .
+}
+
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+INSERT {
+  eg:RoadSensorTrafficDataset
+    dcat:distribution eg:resource-1012-2015.csv ;
+    .  
+
+  eg:resource-1012-2015.csv
+    a dcat:Distribution ;
+#   dct:identifier "1012-2015.csv" ;
+    dct:title "1012-2015.csv" ;
+    dct:description "RDF dataset with timetables for 1012-2015.csv" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1012-2015.csv ;
+    .
+
+  eg:workload-1012-2015.csv
+    eg:workload ?workload ;
+    eg:resultGraph eg:graph-1012-2015.csv ;
+    .
+
+}
+WHERE {
+  <distributions/1012-2015.csv> url:text ?workload .
+}
+
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+INSERT {
+  eg:RoadSensorTrafficDataset
+    dcat:distribution eg:resource-1013-2014.csv ;
+    .  
+
+  eg:resource-1013-2014.csv
+    a dcat:Distribution ;
+#   dct:identifier "1013-2014.csv" ;
+    dct:title "1013-2014.csv" ;
+    dct:description "RDF dataset with timetables for 1013-2014.csv" ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL eg:graph-1013-2014.csv ;
+    .
+
+  eg:workload-1013-2014.csv
+    eg:workload ?workload ;
+    eg:resultGraph eg:graph-1013-2014.csv ;
+    .
+
+}
+WHERE {
+  <distributions/1013-2014.csv> url:text ?workload .
+}
+

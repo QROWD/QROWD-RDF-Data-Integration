@@ -1,6 +1,27 @@
 
 # Static triples; used for ad-hoc ontology
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 CONSTRUCT {
+  eg:MeteoStationsDataset
+    a dcat:Dataset ;
+    dct:identifier "Meteo-Stations" ;
+    dct:title "Meteo-Stations" ;
+    dct:description "Stuff" ;
+    dcat:keyword "Keyword", "Keyword" ;
+    dcat:distribution eg:resource-meteo-stations ;
+    .
+
+  eg:resource-resource-meteo-stations
+    a dcat:Distribution ;
+#   dct:identifier \"$DISTRIBUTION_NAME\" ;
+    dct:title "Meteo-Stations" ;
+    dct:description "RDF dataset with meteorological data for trento." ;
+# Hijacking the dcat namespace to refer to a set of graphs within this dataset
+    dcat:accessURL <dataset.nq> ;
+    .
+
   eg:quote
     rdfs:label "I don't know what this quote measures" ;
     .
