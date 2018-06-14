@@ -44,6 +44,7 @@ WHERE {
   BIND(xml:path(?o, "description") AS ?c)
   BIND(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='via']") AS ?st)
   BIND(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='zona']") AS ?r)
+  BIND(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='tipologia']") AS ?t)
   BIND(xsd:integer(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='n_posti']")) AS ?cap)
   
   BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(?l))) AS ?p)
