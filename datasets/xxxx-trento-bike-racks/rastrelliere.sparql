@@ -1,0 +1,69 @@
+# Workloads
+PREFIX lgd: <http://linkedgeodata.org/ontology/>
+INSERT {
+  <rastrelliere.kml>
+    eg:workload ?xml ;
+    eg:resultGraph <rastrelliere.kml>
+} WHERE {
+  # Load the content of the relative URL and parse the string as XML
+  <rastrelliere.kml> url:text ?src .
+  BIND(STRDT(?src, xsd:xml) AS ?xml) .
+}
+
+# type mappings
+PREFIX lgd: <http://linkedgeodata.org/ontology/>
+INSERT DATA {
+  lgd:type-single-sided rdfs:label "monofacciale" .
+}
+
+PREFIX lgd: <http://linkedgeodata.org/ontology/>
+INSERT {
+  GRAPH ?g {
+    ?p
+      a lgd:BicycleParking ;
+      rdfs:label ?l ;
+      lgd:type ?t ;
+      lgd:capacity ?cap ;
+      rdfs:comment ?c ;
+      lgd:street ?st ;
+      lgd:region ?r ;
+      .
+  }
+}
+WHERE {
+  # Load the content of the relative URL and parse the string as XML
+  ?x eg:workload ?xml ; eg:resultGraph ?g .
+
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+
+  # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
+  ?xml xml:unnest ("//*[local-name()='Placemark']" ?o)
+ 
+  # Read out attributes from each (xml) node
+  BIND(xml:path(?o, "name") AS ?l)
+  BIND(xml:path(?o, "description") AS ?c)
+  BIND(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='via']") AS ?st)
+  BIND(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='zona']") AS ?r)
+  BIND(xsd:integer(xml:path(?o, "ExtendedData/SchemaData/SimpleData[@name='n_posti']")) AS ?cap)
+  
+  BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(?l))) AS ?p)
+}
+
+#CONSTRUCT {
+#  GRAPH ?g {
+#    ?s
+#      a lgd:Address ;
+#      lgd:street ?st ;
+#      lgd:region ?r ;
+#  }
+#} WHERE {
+#
+#}
+
+CONSTRUCT {
+  GRAPH ?g { ?s ?p ?o }
+} {
+  ?x eg:resultGraph ?g .
+  GRAPH ?g { ?s ?p ?o }
+}
+
