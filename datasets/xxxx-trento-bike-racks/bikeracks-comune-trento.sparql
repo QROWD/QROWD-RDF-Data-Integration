@@ -1,0 +1,34 @@
+#PREFIX dct: <http://purl.org/dc/terms/>
+
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+CONSTRUCT {
+  ?s
+    a lgdo:BicycleParking ;
+    dct:identifier ?id ;
+    geo:geometry ?g ;
+    eg:source <http://qrowd-project.eu/resource/comune-trento> ;
+    .
+
+  ?g
+    a geo:Geometry ;
+    geo:asWKT ?wkt ;
+    .
+
+} WHERE {
+  <refined/df_comune_wkt.json> url:text ?text .
+  BIND(STRDT(?text, xsd:json) AS ?json) .
+
+  ?json json:unnest (?o ?i) .
+
+  BIND("http://example.org/comune/" AS ?ns)
+
+  BIND(STR(xsd:integer(json:path(?o, "$.id"))) AS ?id)
+  BIND(json:path(?o, "$.wkt") AS ?wkt)
+
+  BIND(URI(CONCAT(?ns, "resource", ?id)) AS ?s)
+  BIND(URI(CONCAT(?ns, "geometry", ?id)) AS ?g)
+
+}
+

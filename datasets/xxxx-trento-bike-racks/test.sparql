@@ -1,0 +1,15 @@
+#PREFIX dct: <http://purl.org/dc/terms/>
+
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+CONSTRUCT {
+  <http://foo> <http://bar> ?id
+} WHERE {
+  <refined/df_comune_wkt.json> url:text ?text .
+  BIND(STRDT(?text, xsd:json) AS ?json) .
+
+  ?json json:unnest (?o ?i) .
+  BIND(json:path(?o, "$.id") AS ?id)
+}
+

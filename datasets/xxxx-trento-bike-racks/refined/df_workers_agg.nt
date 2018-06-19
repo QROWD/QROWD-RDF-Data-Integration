@@ -1,0 +1,87 @@
+File: df_workers_agg.json
+<http://example.org/resource/bikerack0> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack0> .
+<http://example.org/geometry/bikerack0> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.120736353556916 46.06961272137506)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack1> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack1> .
+<http://example.org/geometry/bikerack1> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.121452143533201 46.069681700225516)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack2> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack2> .
+<http://example.org/geometry/bikerack2> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.121642330531737 46.0697098544776)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack3> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack3> .
+<http://example.org/geometry/bikerack3> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12405233710587 46.069898791987285)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack4> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack4> .
+<http://example.org/geometry/bikerack4> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124530507808723 46.06920456457078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack5> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack5> .
+<http://example.org/geometry/bikerack5> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123016403853835 46.06695605671664)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack6> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack6> .
+<http://example.org/geometry/bikerack6> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12265424258088 46.06841445984187)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack7> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack7> .
+<http://example.org/geometry/bikerack7> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.122655618067618 46.06852838181465)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack8> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack8> .
+<http://example.org/geometry/bikerack8> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123519017850017 46.067783347307106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack9> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack9> .
+<http://example.org/geometry/bikerack9> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.122797123073402 46.06780301202595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack10> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack10> .
+<http://example.org/geometry/bikerack10> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12402838596515 46.06593283295444)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack11> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack11> .
+<http://example.org/geometry/bikerack11> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124165846461175 46.06599695568392)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack12> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack12> .
+<http://example.org/geometry/bikerack12> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124107964928797 46.068433894203565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack13> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack13> .
+<http://example.org/geometry/bikerack13> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124458625816112 46.06844045510855)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack14> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack14> .
+<http://example.org/geometry/bikerack14> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12390846353158 46.068408439493105)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack15> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack15> .
+<http://example.org/geometry/bikerack15> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.122976269197103 46.06508179621056)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack16> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack16> .
+<http://example.org/geometry/bikerack16> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.122521173261765 46.06525522027577)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack17> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack17> .
+<http://example.org/geometry/bikerack17> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12233960128228 46.06528329041839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack18> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack18> .
+<http://example.org/geometry/bikerack18> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.125985165302598 46.06891929520823)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack19> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack19> .
+<http://example.org/geometry/bikerack19> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12557391969339 46.06953149570186)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack20> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack20> .
+<http://example.org/geometry/bikerack20> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.126039783612859 46.07073228541452)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack21> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack21> .
+<http://example.org/geometry/bikerack21> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123412424475568 46.067264622294424)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack22> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack22> .
+<http://example.org/geometry/bikerack22> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123734550775525 46.06748385673618)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack23> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack23> .
+<http://example.org/geometry/bikerack23> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124710077405972 46.06574529704608)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack24> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack24> .
+<http://example.org/geometry/bikerack24> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123580294198275 46.06565409877067)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack25> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack25> .
+<http://example.org/geometry/bikerack25> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.125353438451713 46.06810722054785)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack26> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack26> .
+<http://example.org/geometry/bikerack26> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.120165503493874 46.0686774680653)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack27> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack27> .
+<http://example.org/geometry/bikerack27> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124170431076859 46.06681974660484)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack28> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack28> .
+<http://example.org/geometry/bikerack28> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.123456003103835 46.06922000131823)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack29> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack29> .
+<http://example.org/geometry/bikerack29> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124717496528868 46.067819159367154)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack30> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack30> .
+<http://example.org/geometry/bikerack30> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.119913364554062 46.066681075424775)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack31> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack31> .
+<http://example.org/geometry/bikerack31> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.119384994711885 46.06660949951051)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack32> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack32> .
+<http://example.org/geometry/bikerack32> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12016521463648 46.0670909962869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack33> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack33> .
+<http://example.org/geometry/bikerack33> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.121809791238737 46.0673798838813)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack34> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack34> .
+<http://example.org/geometry/bikerack34> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.119363562714208 46.06880388328852)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack35> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack35> .
+<http://example.org/geometry/bikerack35> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.125206666813673 46.0672470961595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack36> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack36> .
+<http://example.org/geometry/bikerack36> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.12468417260546 46.07115391619032)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack37> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack37> .
+<http://example.org/geometry/bikerack37> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124069025179628 46.06690327788153)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack38> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack38> .
+<http://example.org/geometry/bikerack38> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.118718427216853 46.06970278257117)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack39> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack39> .
+<http://example.org/geometry/bikerack39> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.126660653747308 46.070500966787854)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack40> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack40> .
+<http://example.org/geometry/bikerack40> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124179808044346 46.06728092112689)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack41> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack41> .
+<http://example.org/geometry/bikerack41> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.126687073480829 46.06948468961746)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
+<http://example.org/resource/bikerack42> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/bikerack42> .
+<http://example.org/geometry/bikerack42> <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124710553850946 46.06957506925429)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>.
