@@ -1,10 +1,10 @@
 ## Conversion / interlinking / fusion of bikerack data
 
 ### Steps
-* Input: pickle files under [raw](/raw)
-* Phase 1 JSON conversion using [pickle2json4.py](/refined/pickle2json4.py)
+* Input: pickle files under [raw](raw)
+* Phase 1 JSON conversion using [pickle2json4.py](refined/pickle2json4.py)
   * Currently requires manual addition of a missing comma to make it valid json
-* Phase 2 JSON conversion using [zip-coordinates.js](/refined/zip-coordinates.js) of the output of the prior step. Output is an array of json objects, such as
+* Phase 2 JSON conversion using [zip-coordinates.js](refined/zip-coordinates.js) of the output of the prior step. Output is an array of json objects, such as
 ```
 [
   {
