@@ -1,6 +1,10 @@
 <!DOCTYPE LIMES SYSTEM "limes.dtd">
 <LIMES>
 	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+		<LABEL>owl</LABEL>
+	</PREFIX>
+	<PREFIX>
 		<NAMESPACE>http://geovocab.org/geometry#</NAMESPACE>
 		<LABEL>geom</LABEL>
 	</PREFIX>
@@ -17,39 +21,44 @@
         <LABEL>rdfs</LABEL>
     </PREFIX>
 	<SOURCE>
-		<ID>linkedgeodata-bikeracks</ID>
+		<ID>comune-bikeracks</ID>
+<!--
 		<ENDPOINT>http://localhost:8890/sparql</ENDPOINT>
 		<GRAPH>http://linkedgeodata.org/2018-06-15/osm/italy-north/bikeracks/
+-->
+		<ENDPOINT>/home/raven/Projects/Eclipse/QROWD-RDF-Data-Integration/datasets/xxxx-trento-bike-racks/refined/df_comune.nt</ENDPOINT>
 		<VAR>?x</VAR>
 		<PAGESIZE>2000</PAGESIZE>
 		<RESTRICTION>?x a lgdo:BicycleParking</RESTRICTION>
-		<PROPERTY>geom:geometry/geos:asWKT RENAME polygon</PROPERTY>
+		<PROPERTY>geos:geometry/geos:asWKT RENAME polygon</PROPERTY>
+		<TYPE>N-TRIPLE</TYPE>
 	</SOURCE>
 	<TARGET>
-		<ID>linkedgeodata</ID>
-		<ENDPOINT>http://linkedgeodata.org/sparql</ENDPOINT>
+		<ID>crowd-bikeracks</ID>
+<!--		<ENDPOINT>http://linkedgeodata.org/sparql</ENDPOINT> -->
+                <ENDPOINT>/home/raven/Projects/Eclipse/QROWD-RDF-Data-Integration/datasets/xxxx-trento-bike-racks/refined/df_workers.nt</ENDPOINT>
 		<VAR>?y</VAR>
 		<PAGESIZE>2000</PAGESIZE>
-		<RESTRICTION>?y a lgdo:RelayBox</RESTRICTION>
-		<PROPERTY>geom:geometry/geos:asWKT RENAME polygon</PROPERTY>
+		<RESTRICTION>?y a lgdo:BicycleParking</RESTRICTION>
+		<PROPERTY>geos:geometry/geos:asWKT RENAME polygon</PROPERTY>
+		<TYPE>N-TRIPLE</TYPE>
 	</TARGET>
 	<METRIC>geo_hausdorff(x.polygon, y.polygon)</METRIC>
 	<ACCEPTANCE>
 		<THRESHOLD>0.9</THRESHOLD>
-		<FILE>lgd_relaybox_verynear.nt</FILE>
-		<RELATION>lgdo:near</RELATION>
+		<FILE>links-bikeracks-comune-crowd.accept.nt</FILE>
+		<RELATION>owl:sameAs</RELATION>
 	</ACCEPTANCE>
 	<REVIEW>
 		<THRESHOLD>0.5</THRESHOLD>
-		<FILE>lgd_relaybox_near.nt</FILE>
-		<RELATION>lgdo:near</RELATION>
+		<FILE>links-bikeracks-comune-crowd.review.nt</FILE>
+		<RELATION>owl:sameAs</RELATION>
 	</REVIEW>
-
 	<EXECUTION>
 		<REWRITER>default</REWRITER>
 		<PLANNER>default</PLANNER>
 		<ENGINE>default</ENGINE>
 	</EXECUTION>
 
-	<OUTPUT>TAB</OUTPUT>
+	<OUTPUT>NT</OUTPUT>
 </LIMES>
