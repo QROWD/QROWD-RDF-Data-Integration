@@ -25,13 +25,14 @@ CONSTRUCT {
   BIND("http://example.org" AS ?ns)
   BIND("crowdsourcing-bikeracks-2018-02" AS ?dataset)
   BIND("bikerack" AS ?entity)
-  BIND(CONCAT(?ns, "/resource/", ?dataset, "/", ?entity) AS ?base)
+  BIND(CONCAT(?ns, "/resource/", ?dataset, "/", ?entity) AS ?resourceBase)
+  BIND(CONCAT(?ns, "/geometry/", ?dataset, "/", ?entity) AS ?geometryBase)
 
   BIND(STR(xsd:integer(json:path(?o, "$.id"))) AS ?id)
   BIND(json:path(?o, "$.wkt") AS ?wkt)
 
-  BIND(URI(CONCAT(?base, ?id)) AS ?s)
-  BIND(URI(CONCAT(?base, ?id)) AS ?g)
+  BIND(IRI(CONCAT(?resourceBase, ?id)) AS ?s)
+  BIND(IRI(CONCAT(?geometryBase, ?id)) AS ?g)
 
 }
 

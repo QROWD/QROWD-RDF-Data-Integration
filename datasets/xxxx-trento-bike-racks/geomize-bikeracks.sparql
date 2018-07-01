@@ -1,0 +1,66 @@
+# Create a dataset with linestrings connecting the centroids of the respective geometries
+LOAD <links-bikeracks-comune-crowd.accept.nt>
+
+LOAD <refined/df_comune.nt>
+LOAD <refined/df_workers_agg.nt>
+
+
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+CONSTRUCT {
+ ?x
+    a eg:Link ;
+    rdf:subject ?s ;
+    rdf:object ?o ;
+    geo:geometry ?gx ;
+    .
+
+  ?gx
+    geo:asWKT ?xw ;
+    .
+} {
+#SELECT * {
+  ?s owl:sameAs ?o .
+  OPTIONAL { ?s geo:geometry/geo:asWKT ?sw . }
+  OPTIONAL { ?o geo:geometry/geo:asWKT ?ow . }
+
+  BIND(geo:nearestPoints(?sw, ?ow) AS ?xw)
+
+  BIND(CONCAT(afn:localname(?s), '-', afn:localname(?o)) AS ?id)
+
+  BIND(IRI(CONCAT("http://example.org/", "resource/", ?id)) AS ?x)
+  BIND(IRI(CONCAT("http://example.org/", "geometry/", ?id)) AS ?gx)
+}
+
+
+
+## not needed if we load local files - but maybe we could use it later for the remote use case
+
+# Resolve subject geometries
+#PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+#INSERT {
+#  ?s geo:geometry ?g .
+#  ?g geo:asWKT ?wkt 
+# 
+#} WHERE {
+#  ?s owl:sameAs ?o .
+#  OPTIONAL {
+#      ?s geo:geometry ?g .
+#      ?g geo:asWKT ?wkt .
+#  }
+#}
+
+#PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+#INSERT {
+#  ?o geo:geometry ?g .
+# ?g geo:asWKT ?wkt
+#
+#} WHERE {
+#  ?s owl:sameAs ?o .
+#  OPTIONAL {
+#      ?o geo:geometry ?g .
+#      ?g geo:asWKT ?wkt .
+#  }
+#}
+
+
