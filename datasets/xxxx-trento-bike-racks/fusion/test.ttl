@@ -1,0 +1,23 @@
+@prefix eg: <http://www.example.org/> .
+
+@prefix o: <http://linkedgeodata.org/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+eg:bikeRack1
+  a o:BikeRack ;
+  prov:source eg:OSM ;
+  .
+
+eg:bikeRack2
+  a o:BikeRack ;
+  prov:source eg:TomTom ;
+  .
+
+eg:bikeRack3
+  a o:BikeRack ;
+  prov:source eg:Trento ;
+  .
+
+eg:bikeRack1 owl:sameAs eg:bikeRack2 .
+eg:bikeRack2 owl:sameAs eg:bikeRack3 . 

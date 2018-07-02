@@ -1,4 +1,4 @@
-# Create a dataset with linestrings connecting the centroids of the respective geometries
+# Create a dataset with linestrings connecting the nearest points of the respective geometries of a given set of links
 LOAD <links-bikeracks-comune-crowd.accept.nt>
 
 LOAD <refined/df_comune.nt>

@@ -1,0 +1,61 @@
+# Load the data
+LOAD <test.ttl>
+
+
+# Register source weights
+PREFIX eg: <http://www.example.org/>
+INSERT DATA {
+  eg:Trento eg:score 1.0 .
+  eg:TomTom eg:score 0.8 .
+  eg:OSM eg:score 0.6 .
+}
+
+
+# Create sameAs clusters
+INSERT {
+  ?c
+    a eg:SameAsCluster ;
+    eg:contains ?s ;
+    .
+} WHERE {
+  { SELECT ?s (GROUP_CONCAT(?o) AS ?cs) {
+    { SELECT ?s ?o { ?s (owl:sameAs|^owl:sameAs)* ?o } ORDER BY ?s ?o }
+  } GROUP BY ?s }
+
+  BIND(IRI(CONCAT('http://example.org/', ENCODE_FOR_URI(?cs))) AS ?c)
+}
+
+
+# For each cluster obtain the highest score among its members
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX eg: <http://www.example.org/>
+INSERT {
+  ?c eg:maxScore ?max . 
+} WHERE {
+  { SELECT ?c (MAX(?score) AS ?max) {
+    ?c eg:contains/prov:source/eg:score ?score
+  } GROUP BY ?c }
+}
+
+# For each cluster, chose the member with the highest score as the representative
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX eg: <http://www.example.org/>
+INSERT {
+  ?c
+    eg:representative ?s ;
+    .
+} WHERE {
+  ?c eg:contains ?s .
+  ?s prov:source ?source .
+  ?source eg:score ?score .
+  ?c eg:maxScore ?maxScore .
+  FILTER(?score = ?maxScore)
+}
+
+# Emit the result
+PREFIX eg: <http://www.example.org/>
+SELECT * {
+  ?c eg:representative ?s
+}
+
+

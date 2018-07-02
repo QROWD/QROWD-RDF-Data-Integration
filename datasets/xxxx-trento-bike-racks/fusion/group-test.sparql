@@ -1,0 +1,17 @@
+
+# Register source weights
+PREFIX eg: <http://www.example.org/>
+INSERT DATA {
+  eg:Trento eg:score 1.0 .
+  eg:TomTom eg:score 0.8 .
+  eg:OSM eg:score 0.6 .
+}
+
+
+SELECT * {
+  { SELECT ?s {
+    ?s ?p ?o .
+  } GROUP BY
+}
+
+
