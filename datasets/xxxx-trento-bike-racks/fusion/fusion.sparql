@@ -64,8 +64,10 @@ INSERT {
 }
 
 # Emit the result
-PREFIX eg: <http://www.example.org/>
-SELECT ?s ?p ?o {
+#SELECT ?s ?p ?o {
+CONSTRUCT {
+  ?s ?p ?o
+} {
   ?c eg:representative ?s .
   ?s ?p ?o
 }
