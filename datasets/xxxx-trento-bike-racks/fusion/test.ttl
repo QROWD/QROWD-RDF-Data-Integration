@@ -7,16 +7,19 @@
 eg:bikeRack1
   a o:BikeRack ;
   prov:source eg:OSM ;
+  eg:attr1 "attr" ;
   .
 
 eg:bikeRack2
   a o:BikeRack ;
   prov:source eg:TomTom ;
+  eg:attr2 "attr" ;
   .
 
 eg:bikeRack3
   a o:BikeRack ;
   prov:source eg:Trento ;
+  eg:attr3 "attr" ;
   .
 
 eg:bikeRack1 owl:sameAs eg:bikeRack2 .

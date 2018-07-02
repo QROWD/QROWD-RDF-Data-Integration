@@ -11,11 +11,11 @@ INSERT DATA {
 }
 
 
-# Create sameAs clusters
+# Create sameAs clusters (domain independent)
 INSERT {
   ?c
     a eg:SameAsCluster ;
-    eg:contains ?s ;
+    eg:member ?s ;
     .
 } WHERE {
   { SELECT ?s (GROUP_CONCAT(?o) AS ?cs) {
@@ -33,29 +33,41 @@ INSERT {
   ?c eg:maxScore ?max . 
 } WHERE {
   { SELECT ?c (MAX(?score) AS ?max) {
-    ?c eg:contains/prov:source/eg:score ?score
+    ?c eg:member/prov:source/eg:score ?score
   } GROUP BY ?c }
 }
 
 # For each cluster, chose the member with the highest score as the representative
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX eg: <http://www.example.org/>
 INSERT {
   ?c
     eg:representative ?s ;
     .
 } WHERE {
-  ?c eg:contains ?s .
+  ?c eg:member ?s .
   ?s prov:source ?source .
-  ?source eg:score ?score .
+  ?source eg:score ?score 
+.
   ?c eg:maxScore ?maxScore .
   FILTER(?score = ?maxScore)
 }
 
+# Copy attributes
+PREFIX prov: <http://www.w3.org/ns/prov#>
+INSERT {
+  ?s ?p ?o
+} WHERE {
+  ?c eg:representative ?s .
+  ?c eg:member ?m .
+  ?m ?p ?o .
+  FILTER(?p NOT IN (prov:source))
+}
+
 # Emit the result
 PREFIX eg: <http://www.example.org/>
-SELECT * {
-  ?c eg:representative ?s
+SELECT ?s ?p ?o {
+  ?c eg:representative ?s .
+  ?s ?p ?o
 }
 
 
