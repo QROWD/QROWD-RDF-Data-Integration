@@ -29,7 +29,8 @@ CONSTRUCT {
   BIND(CONCAT(?ns, "/geometry/", ?dataset, "/", ?entity) AS ?geometryBase)
 
   BIND(STR(xsd:integer(json:path(?o, "$.id"))) AS ?id)
-  BIND(json:path(?o, "$.wkt") AS ?wkt)
+  BIND(json:path(?o, "$.wkt") AS ?wktStr)
+  BIND(STRDT(?wktStr, geo:wktLiteral) AS ?wkt)
 
   BIND(IRI(CONCAT(?resourceBase, ?id)) AS ?s)
   BIND(IRI(CONCAT(?geometryBase, ?id)) AS ?g)

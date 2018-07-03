@@ -37,7 +37,7 @@ INSERT {
   } GROUP BY ?c }
 }
 
-# For each cluster, chose the member with the highest score as the representative
+# For each cluster, choose the member with the highest score as the representative
 PREFIX prov: <http://www.w3.org/ns/prov#>
 INSERT {
   ?c

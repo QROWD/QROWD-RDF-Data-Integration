@@ -1,0 +1,5 @@
+LOAD <refined/df_comune.nt>
+LOAD <refined/df_workers_agg.nt>
+LOAD <links-bikeracks-comune-crowd.accept.nt>
+
+CONSTRUCT WHERE { ?s ?p ?o }

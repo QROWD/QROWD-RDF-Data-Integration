@@ -24,6 +24,9 @@ CONSTRUCT {
   OPTIONAL { ?s geo:geometry/geo:asWKT ?sw . }
   OPTIONAL { ?o geo:geometry/geo:asWKT ?ow . }
 
+#  BIND(geo:nearestPoints(?sw, ?ow) AS ?xwStr)
+#  BIND(STRDT(?xwStr, geo:wktLiteral) AS ?xw)
+
   BIND(geo:nearestPoints(?sw, ?ow) AS ?xw)
 
   BIND(CONCAT(afn:localname(?s), '-', afn:localname(?o)) AS ?id)

@@ -25,7 +25,8 @@ CONSTRUCT {
   BIND("http://example.org/comune/" AS ?ns)
 
   BIND(STR(xsd:integer(json:path(?o, "$.id"))) AS ?id)
-  BIND(json:path(?o, "$.wkt") AS ?wkt)
+  BIND(json:path(?o, "$.wkt") AS ?wktStr)
+  BIND(STRDT(?wktStr, geo:wktLiteral) AS ?wkt)
 
   BIND(URI(CONCAT(?ns, "resource", ?id)) AS ?s)
   BIND(URI(CONCAT(?ns, "geometry", ?id)) AS ?g)

@@ -26,7 +26,7 @@
 		<ENDPOINT>http://localhost:8890/sparql</ENDPOINT>
 		<GRAPH>http://linkedgeodata.org/2018-06-15/osm/italy-north/bikeracks/
 -->
-		<ENDPOINT>/home/raven/Projects/Eclipse/QROWD-RDF-Data-Integration/datasets/xxxx-trento-bike-racks/refined/df_comune.nt</ENDPOINT>
+		<ENDPOINT>/home/raven/Projects/Eclipse/qrowd-rdf-data-integration/datasets/xxxx-trento-bike-racks/refined/df_comune.nt</ENDPOINT>
 		<VAR>?x</VAR>
 		<PAGESIZE>2000</PAGESIZE>
 		<RESTRICTION>?x a lgdo:BicycleParking</RESTRICTION>
@@ -36,7 +36,7 @@
 	<TARGET>
 		<ID>crowd-bikeracks</ID>
 <!--		<ENDPOINT>http://linkedgeodata.org/sparql</ENDPOINT> -->
-                <ENDPOINT>/home/raven/Projects/Eclipse/QROWD-RDF-Data-Integration/datasets/xxxx-trento-bike-racks/refined/df_workers.nt</ENDPOINT>
+                <ENDPOINT>/home/raven/Projects/Eclipse/qrowd-rdf-data-integration/datasets/xxxx-trento-bike-racks/refined/df_workers_agg.nt</ENDPOINT>
 		<VAR>?y</VAR>
 		<PAGESIZE>2000</PAGESIZE>
 		<RESTRICTION>?y a lgdo:BicycleParking</RESTRICTION>
@@ -45,12 +45,12 @@
 	</TARGET>
 	<METRIC>geo_hausdorff(x.polygon, y.polygon)</METRIC>
 	<ACCEPTANCE>
-		<THRESHOLD>0.9</THRESHOLD>
+		<THRESHOLD>0.995</THRESHOLD>
 		<FILE>links-bikeracks-comune-crowd.accept.nt</FILE>
 		<RELATION>owl:sameAs</RELATION>
 	</ACCEPTANCE>
 	<REVIEW>
-		<THRESHOLD>0.5</THRESHOLD>
+		<THRESHOLD>0.1</THRESHOLD>
 		<FILE>links-bikeracks-comune-crowd.review.nt</FILE>
 		<RELATION>owl:sameAs</RELATION>
 	</REVIEW>
