@@ -1,2 +1,0 @@
-CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
-CONSTRUCT WHERE { ?s ?p ?o }

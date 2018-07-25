@@ -1,0 +1,114 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix eg: <http://xm.com/foaf/0.1/> .
+
+<http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Trento - Male railway" ;
+  dct:identifier "1046-timetable-railway-trento-male-json" ;
+  dct:title "Timetable Railway Trento Male JSON" ;
+  dcat:downloadURL <1046-timetable-railway-trento-male/555.json> .
+
+<http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Trento - Male railway" ;
+  dct:identifier "1046-timetable-railway-trento-male-nt" ;
+  dct:title "Timetable Railway Trento Male N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-json> .
+
+<http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Male - Trento railway" ;
+  dct:identifier "1047-timetable-railway-male-trento-json" ;
+  dct:title "Timetable Railway Male Trento JSON" ;
+  dcat:downloadURL <1047-timetable-railway-male-trento/556.json> .
+
+<http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Male - Trento railway" ;
+  dct:identifier "1047-timetable-railway-male-trento-nt" ;
+  dct:title "Timetable Railway Male Trento N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-json> .
+
+<http://qrowd-project.eu/resource/1048-timetable-railway-bolzano-verona-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Bolzano - Verona railway" ;
+  dct:identifier "1048-timetable-railway-bolzano-verona-json" ;
+  dct:title "Timetable Railway Bolzano Verona JSON" ;
+  dcat:downloadURL <1048-timetable-railway-bolzano-verona/BV_R1_G.json> .
+
+<http://qrowd-project.eu/resource/1048-timetable-railway-bolzano-verona-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Bolzano - Verona railway" ;
+  dct:identifier "1048-timetable-railway-bolzano-verona-nt" ;
+  dct:title "Timetable Railway Bolzano Verona N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1048-timetable-railway-bolzano-verona-json> .
+
+<http://qrowd-project.eu/resource/1049-timetable-railway-verona-bolzano-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Verona - Bolzano railway" ;
+  dct:identifier "1049-timetable-railway-verona-bolzano" ;
+  dct:title "Timetable Railway Verona Bolzano JSON" ;
+  dcat:downloadURL <1049-timetable-railway-verona-bolzano/BV_R1_R.json> .
+
+<http://qrowd-project.eu/resource/1049-timetable-railway-verona-bolzano-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Verona - Bolzano railway" ;
+  dct:identifier "1049-timetable-railway-verona-bolzano-nt" ;
+  dct:title "Timetable Railway Verona Bolzano N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1049-timetable-railway-verona-bolzano-json> .
+
+<http://qrowd-project.eu/resource/1050-timetable-railway-valsugana-trento-bassano-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Trento - Bassano railway" ;
+  dct:identifier "1050-timetable-railway-valsugana-trento-bassano-json" ;
+  dct:title "Timetable Railway Valsugana Trento Bassano JSON" ;
+  dcat:downloadURL <1050-timetable-railway-valsugana-trento-bassano/TB_R2_G.json> .
+
+<http://qrowd-project.eu/resource/1050-timetable-railway-valsugana-trento-bassano-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Trento - Bassano railway" ;
+  dct:identifier "1050-timetable-railway-valsugana-trento-bassano-nt" ;
+  dct:title "Timetable Railway Valsugana Trento Bassano N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1050-timetable-railway-valsugana-trento-bassano-json> .
+
+<http://qrowd-project.eu/resource/1051-timetable-railway-valsugana-bassano-trento-json>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Bassano - Trento railway" ;
+  dct:identifier "1051-timetable-railway-valsugana-bassano-trento" ;
+  dct:title "Timetable Railway Valsugana Bassano Trento JSON" ;
+  dcat:downloadURL <1051-timetable-railway-valsugana-bassano-trento/TB_R2_R.json> .
+
+<http://qrowd-project.eu/resource/1051-timetable-railway-valsugana-bassano-trento-nt>
+  a dcat:Distribution ;
+  dct:description "Timetables for the Bassano - Trento railway" ;
+  dct:identifier "1051-timetable-railway-valsugana-bassano-trento-nt" ;
+  dct:title "Timetable Railway Valsugana Bassano Trento N-TRIPLES" ;
+  dct:isFormatOf <http://qrowd-project.eu/resource/1051-timetable-railway-valsugana-bassano-trento-json> .
+
+<http://qrowd-project.eu/resource/timetable-railway>
+  a dcat:Dataset ;
+  dct:description "Timetables for Trento railways" ;
+  dct:publisher <http://orgs.vocab.org/some-org> ;
+  dct:identifier "timetable-railway" ;
+  dct:title "Trento Railway Timetables" ;
+  dcat:keyword "qrowd", "trento", "timetable", "railway", "rdf" ;
+  dcat:distribution <http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-nt> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-nt> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1048-timetable-railway-bolzano-verona-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1048-timetable-railway-bolzano-verona-nt> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1049-timetable-railway-verona-bolzano-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1049-timetable-railway-verona-bolzano-nt> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1050-timetable-railway-valsugana-trento-bassano-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1050-timetable-railway-valsugana-trento-bassano-nt> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1051-timetable-railway-valsugana-bassano-trento-json> ;
+  dcat:distribution <http://qrowd-project.eu/resource/1051-timetable-railway-valsugana-bassano-trento-nt> .
+
+<http://orgs.vocab.org/some-org>
+  a foaf:Agent ;
+  foaf:name "Publishing Organization for dataset 1" .
+

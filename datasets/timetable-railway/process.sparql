@@ -1,40 +1,49 @@
+LOAD <dcat.ttl>
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+INSERT {
+?distribution
+  eg:workload ?sourceString ;
+  dcat:accessURL ?distribution ;
+  eg:resultGraph ?distribution .
+}
+WHERE {
+  ?distribution dct:isFormatOf ?sourceDistribution .
+  ?sourceDistribution dcat:downloadURL ?sourceFile .
+  ?sourceFile url:text ?source .
+  BIND(STRDT(?source, xsd:json) AS ?sourceString)
+}
+
 # Create stops
 INSERT {
-  GRAPH ?g { ?s a eg:Stop }
-
+  GRAPH ?x { ?s a eg:Stop }
   GRAPH ?x { ?s eg:stopId ?i }
 }
-#SELECT ?stops
+# SELECT ?stops
 WHERE {
-  ?x eg:workload ?o ; eg:resultGraph ?g .
-
+  ?x eg:workload ?o .
   BIND(json:path(?o, "$.stopIds") AS ?stops)
-
   ?stops json:unnest (?stop ?i)
-
-
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
   BIND(URI(CONCAT(?ns, 'stop-', ENCODE_FOR_URI(?stop))) AS ?s)
 }
 
 # Add stop labels
 INSERT {
-  GRAPH ?g { ?s rdfs:label ?l }
+  GRAPH ?x { ?s rdfs:label ?l }
 }
-#SELECT ?s ?i ?l
+# SELECT ?s ?i ?l
 WHERE {
-  ?x eg:workload ?o ; eg:resultGraph ?g .
-
+  ?x eg:workload ?o  .
   BIND(json:path(?o, "$.stopNames") AS ?stopNames)
   ?stopNames json:unnest (?l ?i) .
-
   GRAPH ?x { ?s eg:stopId ?i }
 }
 
-
 # A trip is a sequence of stops served at certain times
 INSERT {
-  GRAPH ?g {
+  GRAPH ?x {
     ?trip
       a eg:Trip ;
       eg:serves ?service ;
@@ -46,39 +55,24 @@ INSERT {
      .
   }
 }
-#SELECT ?tripId ?stopId ?time ?trip ?service ?stop
+# SELECT ?tripId ?stopId ?time ?trip ?service ?stop
 WHERE {
-  ?x eg:workload ?o ; eg:resultGraph ?g .
-
+  ?x eg:workload ?o .
   BIND(json:path(?o, "$.trips") AS ?trips)
   ?trips json:unnest (?tripJson ?i) .
-
   BIND(json:path(?tripJson, "$.tripId") AS ?tripId)
-
   # NOTE If unnesting the stopTimes yeld an empty array, we would not get the triples for the trip 
   BIND(json:path(?tripJson, "$.stopTimes") AS ?stopTimes)
   ?stopTimes json:unnest (?timeStr ?stopId) .
   FILTER(?timeStr != "")
-
   # Parse the time as xsd:time; inject seconds component
   BIND(xsd:time(CONCAT(?timeStr, ":00")) AS ?time)
-
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
-
   BIND(URI(CONCAT(?ns, 'trip-', ?tripId)) AS ?trip)
   BIND(URI(CONCAT(?ns, 'service-', ?tripId, "-", ?timeStr)) AS ?service)
-
   GRAPH ?x { ?stop eg:stopId ?stopId }
-
 } 
 
-
-
-#SELECT * { GRAPH ?g { ?s ?p ?o } }
-
-
-# Note Emit is done using another emit.sparql file
-# Emit the result graph
-# CONSTRUCT { ?s ?p ?o } WHERE { GRAPH eg:result { ?s ?p ?o } }
-
-
+# Emit the triples
+CONSTRUCT WHERE { GRAPH ?g { ?s ?p ?o } }
+CONSTRUCT WHERE { ?s ?p ?o }
