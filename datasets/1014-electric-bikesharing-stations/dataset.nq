@@ -1,14 +1,3 @@
-<http://www.example.org/ElectricBikeSharingDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.example.org/ElectricBikeSharingDataset> <http://purl.org/dc/terms/identifier> "BikeSharing" .
-<http://www.example.org/ElectricBikeSharingDataset> <http://purl.org/dc/terms/title> "Bike-Sharing-Stations" .
-<http://www.example.org/ElectricBikeSharingDataset> <http://purl.org/dc/terms/description> "Stuff" .
-<http://www.example.org/ElectricBikeSharingDataset> <http://www.w3.org/ns/dcat#keyword> "Keyword" .
-<http://www.example.org/ElectricBikeSharingDataset> <http://www.w3.org/ns/dcat#keyword> "Keyword" .
-<http://www.example.org/ElectricBikeSharingDataset> <http://www.w3.org/ns/dcat#distribution> <http://www.example.org/resource-electric-bike-sharing> .
-<http://www.example.org/resource-electric-bike-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.example.org/resource-electric-bike-sharing> <http://purl.org/dc/terms/title> "Bike-Sharing-Stations" .
-<http://www.example.org/resource-electric-bike-sharing> <http://purl.org/dc/terms/description> "RDF dataset with BikeSharing Stations" .
-<http://www.example.org/resource-electric-bike-sharing> <http://www.w3.org/ns/dcat#accessURL> <file:///home/beavis/Cloud/work/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/dataset.nq> .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Aeroporto - Trento" .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Aeroporto" .
@@ -180,3 +169,24 @@
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.072996732945235"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.121911281089751"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://purl.org/dc/terms/description> "Electric bike sharing stations in Trento" .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://purl.org/dc/terms/publisher> <http://orgs.vocab.org/some-org> .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://purl.org/dc/terms/identifier> "electric-bikesharing-stations" .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://purl.org/dc/terms/title> "Electric Bikesharing Stations" .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://www.w3.org/ns/dcat#distribution> <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://www.w3.org/ns/dcat#distribution> <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> .
+<http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://www.w3.org/ns/dcat#keyword> "RDF bike sharing" .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/description> "This distribution describes bike sharing stations in Trento." .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/identifier> "1014-electric-bikesharing-stations-nt" .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/title> "Electric Bikesharing Stations N-TRIPLES" .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/isFormatOf> <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://www.w3.org/ns/dcat#downloadURL> <file:///home/beavis/Cloud/work/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/dataset.nq> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/description> "This distribution describes bike sharing stations in Trento." .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/identifier> "1014-electric-bikesharing-stations-json" .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/title> "Electric Bikesharing Stations JSON" .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://www.w3.org/ns/dcat#downloadURL> <file:///home/beavis/Cloud/work/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/trento-bike-sharing.json> .
+<http://orgs.vocab.org/some-org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://orgs.vocab.org/some-org> <http://xmlns.com/foaf/0.1/name> "QROWD" .
