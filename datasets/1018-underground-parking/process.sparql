@@ -1,14 +1,10 @@
-INSERT {
-  eg:workload1 eg:workload ?o
-}
-WHERE { 
-  <COMUNE_DI_TRENTO.json> url:text ?src .
-  BIND(STRDT(?src, xsd:json) AS ?o)
-}
-
+LOAD <dcat.ttl>
 
 PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX q: <http://qrowd-project.eu/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+
 CONSTRUCT {
   ?s
     a q:UndergroundParking ;
@@ -24,7 +20,10 @@ CONSTRUCT {
     .
 }
 {
-  ?workload eg:workload ?json .
+  ?distribution dct:isFormatOf ?sourceDistribution .
+  ?sourceDistribution dcat:downloadURL ?sourceFile .
+  ?sourceFile url:text ?src .
+  BIND(STRDT(?src, xsd:json) AS ?json) .
   ?json json:unnest (?i ?index).
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
@@ -42,4 +41,4 @@ CONSTRUCT {
   BIND(json:path(?i, "$.position[1]") AS ?y)
 }
 
-
+CONSTRUCT WHERE { ?s ?p ?o }
