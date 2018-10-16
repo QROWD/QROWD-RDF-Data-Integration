@@ -1,0 +1,8 @@
+@prefix eg: <http://example.org/>
+
+<>
+  a eg:SparqlIntegrateJob ;
+  eg:sources (
+  .
+
+

@@ -9,8 +9,9 @@ PREFIX afn: <http://jena.apache.org/ARQ/function#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 CONSTRUCT {
  ?x
-    a eg:Link ;
+    a rdf:Statement ;
     rdf:subject ?s ;
+    rdf:predicate ?p ;
     rdf:object ?o ;
     geo:geometry ?gx ;
     .
@@ -19,10 +20,11 @@ CONSTRUCT {
     geo:asWKT ?xw ;
     .
 } {
-#SELECT * {
-  ?s owl:sameAs ?o .
-  OPTIONAL { ?s geo:geometry/geo:asWKT ?sw . }
-  OPTIONAL { ?o geo:geometry/geo:asWKT ?ow . }
+  ?s ?p ?o .
+  FiLTER(?p = owl:sameAs)
+
+  ?s geo:geometry/geo:asWKT ?sw .
+  ?o geo:geometry/geo:asWKT ?ow .
 
 #  BIND(geo:nearestPoints(?sw, ?ow) AS ?xwStr)
 #  BIND(STRDT(?xwStr, geo:wktLiteral) AS ?xw)

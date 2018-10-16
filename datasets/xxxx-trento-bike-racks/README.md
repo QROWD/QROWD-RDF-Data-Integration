@@ -26,5 +26,14 @@ Output is a set of sameAs links [links-bikeracks-comune-crowd.accept.nt](links-b
 
 
 
+### Spatial distance with limes
+* Spatial Threshold for Hausdorff: 1 / (1 + distancInKilometers)
+```
+	...
+        <METRIC>geo_hausdorff(x.polygon, y.polygon)</METRIC>
+        <ACCEPTANCE>
+                <THRESHOLD>0.995</THRESHOLD>
+		...
+```
 
 

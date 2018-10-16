@@ -3,6 +3,8 @@ import json
 import os
 import glob
 import argparse
+import rdflib
+
 from pprint import pprint
 from ckanapi import RemoteCKAN
 
@@ -33,6 +35,10 @@ for filename in glob.iglob('**/*.json', recursive=True):
 
 
 #ua = 'ckanapiexample/1.0 (+http://example.com/my/website)'
+
+pkg=ckan.action.package_show(
+    id='my-test-dataset')
+pprint(pkg)
 
 print('package update')
 ckan.action.package_update(

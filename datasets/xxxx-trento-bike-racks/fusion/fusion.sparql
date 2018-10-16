@@ -3,7 +3,6 @@ LOAD <test.ttl>
 
 
 # Register source weights
-PREFIX eg: <http://www.example.org/>
 INSERT DATA {
   eg:Trento eg:score 1.0 .
   eg:TomTom eg:score 0.8 .
@@ -12,23 +11,55 @@ INSERT DATA {
 
 
 # Create sameAs clusters (domain independent)
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
 INSERT {
   ?c
     a eg:SameAsCluster ;
     eg:member ?s ;
     .
 } WHERE {
-  { SELECT ?s (GROUP_CONCAT(?o) AS ?cs) {
-    { SELECT ?s ?o { ?s (owl:sameAs|^owl:sameAs)* ?o } ORDER BY ?s ?o }
+  { SELECT ?s (GROUP_CONCAT(?o;separator='-') AS ?cs) {
+    { SELECT ?s ?o { ?s (owl:sameAs|^owl:sameAs)+ ?oo . BIND(afn:localname(?oo) AS ?o) } ORDER BY ?s ?o }
   } GROUP BY ?s }
 
-  BIND(IRI(CONCAT('http://example.org/', ENCODE_FOR_URI(?cs))) AS ?c)
+  BIND(IRI(CONCAT('http://example.org/cluster/', ENCODE_FOR_URI(?cs))) AS ?c)
+}
+
+SELECT * { ?s ?p ?o }
+
+## Mark clusters as inconsistent whenever it contains members NOT related via sameAs
+INSERT {
+  ?c
+    eg:missingLink ?m ;
+    eg:inconsistent true ;
+    .
+
+  # While we are at it, log any members of the cluster not related via sameAs as 'missing links', and mark the cluster as inconistent
+  # TODO We may want to introduce reifiers for links - then again, it makes the process more complex because links could be in forward / backward direction
+  ?m
+    rdf:subject ?a ;
+    rdf:object ?b ;
+    .
+
+} WHERE {
+  ?c
+    a eg:SameAsCluster ;
+    eg:member ?a ;
+    eg:member ?b ;
+    .
+
+  # Use lexicographic order
+  FILTER(str(?a) < str(?b))
+  FILTER(?a != ?b)
+
+  FILTER(NOT EXISTS { ?a owl:sameAs ?b } && NOT EXISTS { ?b owl:sameAs ?a })
+
+  BIND(IRI(CONCAT(STR(?c), '-missing-', ENCODE_FOR_URI(afn:localname(?a)), '-', ENCODE_FOR_URI(afn:localname(?b)))) AS ?m)
 }
 
 
 # For each cluster obtain the highest score among its members
 PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX eg: <http://www.example.org/>
 INSERT {
   ?c eg:maxScore ?max . 
 } WHERE {
@@ -52,7 +83,7 @@ INSERT {
   FILTER(?score = ?maxScore)
 }
 
-# Copy attributes
+# Copy attributes of all cluster members to the member choses as the representative
 PREFIX prov: <http://www.w3.org/ns/prov#>
 INSERT {
   ?s ?p ?o
@@ -63,13 +94,19 @@ INSERT {
   FILTER(?p NOT IN (prov:source))
 }
 
-# Emit the result
-#SELECT ?s ?p ?o {
-CONSTRUCT {
-  ?s ?p ?o
-} {
-  ?c eg:representative ?s .
-  ?s ?p ?o
-}
+
+# Cluster information
+#CONSTRUCT { ?s ?p ?o } { ?s a eg:SameAsCluster ; ?p ?o }
+#CONSTRUCT { ?s ?p ?o } { ?x a eg:SameAsCluster ; ?x ?s . ?s ?p ?o }
+
+# Output inconistent clusters
+SELECT (afn:localname(?c) As ?missing_links_in_cluster) ?a ?b { ?c a eg:SameAsCluster ; eg:missingLink [ rdf:subject ?a ; rdf:object ?b ] }
+
+#SELECT * { ?s ?p ?o }
+
+
+# Emit the final dataset
+CONSTRUCT { ?s ?p ?o } { ?c eg:representative ?s . ?s ?p ?o }
+
 
 
