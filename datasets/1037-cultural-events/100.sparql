@@ -21,16 +21,16 @@ CONSTRUCT {
   # url:text is a property function that fetches the content of subject URL and
   # makes it available as a SPARQL result set row via the object variable
   <100.json> url:text ?src .
-  BIND(json:parse(?src) AS ?json) .
+  BIND(STRDT(?src, xsd:json) AS ?json) .
   BIND(json:path(?json, "$.nodes") AS ?events)
 
   # Unnest each item of the json array into its own SPARQL result set row
-  ?events json:unnest ?event .
+  ?events json:unnest (?event) .
 
   # For each row, craft the values for the CONSTRUCT template
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
   BIND(json:path(?event, "$.objectId") AS ?id)
-  BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(?id))) AS ?e)
+  BIND(URI(CONCAT(?ns, ENCODE_FOR_URI(STR(?id)))) AS ?e)
   BIND(json:path(?event, "$.objectName") AS ?name)
   BIND(json:path(?event, "$.datePublished") AS ?datePublished)
   BIND(json:path(?event, "$.dateModified") AS ?dateModified)
