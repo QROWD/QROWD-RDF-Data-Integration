@@ -1,0 +1,71 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix foxo:  <http://ns.aksw.org/fox/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix foxr:  <http://ns.aksw.org/fox/resource#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix its:   <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+foxr:org.aksw.fox.Fox
+        a                       schema:SoftwareApplication , prov:SoftwareAgent ;
+        schema:softwareVersion  "2.5.1" ;
+        foaf:name               "org.aksw.fox.Fox" .
+
+<http://ns.aksw.org/fox/demo/document-1#char0,58>
+        a               nif:CString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "58"^^xsd:nonNegativeInteger ;
+        nif:isString    "Barack Obama and Michelle Robinson are married since 1992." .
+
+foxr:1542647321464  a       oa:Annotation , rdf:Statement , foxo:Relation ;
+        rdf:object          dbr:Michelle_Obama ;
+        rdf:predicate       dbo:spouse ;
+        rdf:subject         dbr:Barack_Obama ;
+        foxo:objectPhrase   "http://ns.aksw.org/fox/demo/document-1#char17,34" ;
+        foxo:subjectPhrase  "http://ns.aksw.org/fox/demo/document-1#char0,12" ;
+        oa:hasTarget        [ a             oa:SpecificResource ;
+                              oa:hasSource  <http://ns.aksw.org/fox/demo/document-1#char0,58>
+                            ] .
+
+<http://ns.aksw.org/fox/demo/document-1#char17,34>
+        a                     nif:Phrase ;
+        nif:anchorOf          "Michelle Robinson" ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://ns.aksw.org/fox/demo/document-1#char0,58> ;
+        its:taClassRef        schema:Person , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> , dbo:Person , foxo:PERSON ;
+        its:taIdentRef        dbr:Michelle_Obama .
+
+<http://ns.aksw.org/fox/demo/document-1#char0,12>
+        a                     nif:Phrase ;
+        nif:anchorOf          "Barack Obama" ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://ns.aksw.org/fox/demo/document-1#char0,58> ;
+        its:taClassRef        dbo:Person , foxo:PERSON , <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> , schema:Person ;
+        its:taIdentRef        dbr:Barack_Obama .
+
+[ a                   foxo:NamedEntityRecognition , prov:Activity ;
+  prov:endedAtTime    "2018-11-19T18:08:39.090+01:00"^^xsd:dateTime ;
+  prov:generated      <http://ns.aksw.org/fox/demo/document-1#char17,34> , <http://ns.aksw.org/fox/demo/document-1#char0,12> ;
+  prov:startedAtTime  "2018-11-19T18:08:38.824+01:00"^^xsd:dateTime ;
+  prov:used           foxr:org.aksw.fox.Fox
+] .
+
+foxr:org.aksw.fox.tools.re.en.OcelotEN
+        a                       schema:SoftwareApplication , prov:SoftwareAgent ;
+        schema:softwareVersion  "0.0.1" ;
+        foaf:name               "org.aksw.fox.tools.re.en.OcelotEN" .
+
+[ a                   foxo:RelationExtraction , prov:Activity ;
+  prov:endedAtTime    "2018-11-19T18:08:39.326+01:00"^^xsd:dateTime ;
+  prov:generated      foxr:1542647321464 ;
+  prov:startedAtTime  "2018-11-19T18:08:39.090+01:00"^^xsd:dateTime ;
+  prov:used           foxr:org.aksw.fox.tools.re.en.OcelotEN
+] .

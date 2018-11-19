@@ -17,8 +17,7 @@ WHERE {
 
 # Create stops
 INSERT {
-  GRAPH ?x { ?s a eg:Stop }
-  GRAPH ?x { ?s eg:stopId ?i }
+  GRAPH ?x { ?s a eg:Stop; eg:stopId ?i }
 }
 # SELECT ?stops
 WHERE {

@@ -1,0 +1,44 @@
+{
+  "@context" : {
+    "taIdentRef" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taIdentRef",
+      "@type" : "@id"
+    },
+    "taClassRef" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taClassRef",
+      "@type" : "@id"
+    },
+    "referenceContext" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#referenceContext",
+      "@type" : "@id"
+    },
+    "beginIndex" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "anchorOf" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf",
+    "endIndex" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    }
+  },
+  "@graph" : [ {
+    "@id" : "http://ns.aksw.org/fox/demo/document-1#char0,12",
+    "@type" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase",
+    "anchorOf" : "Barack Obama",
+    "beginIndex" : "0",
+    "endIndex" : "12",
+    "referenceContext" : "http://ns.aksw.org/fox/demo/document-1#char0,58",
+    "taClassRef" : [ "http://dbpedia.org/ontology/Person", "http://ns.aksw.org/fox/ontology#PERSON", "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person", "http://schema.org/Person" ],
+    "taIdentRef" : "http://dbpedia.org/resource/Barack_Obama"
+  }, {
+    "@id" : "http://ns.aksw.org/fox/demo/document-1#char17,34",
+    "@type" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Phrase",
+    "anchorOf" : "Michelle Robinson",
+    "beginIndex" : "17",
+    "endIndex" : "34",
+    "referenceContext" : "http://ns.aksw.org/fox/demo/document-1#char0,58",
+    "taClassRef" : [ "http://schema.org/Person", "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person", "http://dbpedia.org/ontology/Person", "http://ns.aksw.org/fox/ontology#PERSON" ],
+    "taIdentRef" : "http://dbpedia.org/resource/Michelle_Obama"
+  } ]
+}
