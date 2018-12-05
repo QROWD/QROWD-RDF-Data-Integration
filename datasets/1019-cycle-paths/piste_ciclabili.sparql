@@ -25,14 +25,14 @@ WHERE {
   ?xml xml:unnest ("//*[local-name()='piste_ciclabili']" ?o)
  
   # Read out attributes from each (xml) node
-  BIND(xml:path(?o, "@fid") AS ?id)
+  BIND(xml:path(?o, "//@fid") AS ?id)
 
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 
   BIND(URI(CONCAT(?ns, ?id)) AS ?s)
-  BIND(xml:path(?o, "tipo") AS ?tipo)
-  BIND(xml:path(?o, "fumetto") AS ?l)
-  BIND(xml:path(?o, "descrizione") AS ?c)
+  BIND(xml:path(?o, "//*[local-name()='tipo']") AS ?tipo)
+  BIND(xml:path(?o, "//*[local-name()='fumetto']") AS ?l)
+  BIND(xml:path(?o, "//*[local-name()='descrizione']") AS ?c)
   # TODO Add conversion function for geo reference systems...
 
   # Check the local store for whether there is an URI for the strings of ?tipo
