@@ -59,21 +59,21 @@ WHERE {
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 
   # Create subject URI
-  BIND(xml:path(?o, "codice") AS ?c)
+  BIND(xml:path(?o, "//codice") AS ?c)
   BIND(URI(CONCAT(?ns, ?c)) AS ?s)
 
   # Attributes
-  BIND(xml:path(?o, "nome") AS ?l)
-  BIND(xml:path(?o, "nomebreve") AS ?sl)
-  BIND(xsd:integer(xml:path(?o, "quota")) AS ?q)
-  BIND(xsd:decimal(xml:path(?o, "longitudine")) AS ?long)
-  BIND(xsd:decimal(xml:path(?o, "latitudine")) AS ?lat)
-  BIND(xsd:decimal(xml:path(?o, "est")) AS ?east)
-  BIND(xsd:decimal(xml:path(?o, "north")) AS ?north)
+  BIND(xml:path(?o, "//nome") AS ?l)
+  BIND(xml:path(?o, "//nomebreve") AS ?sl)
+  BIND(xsd:integer(xml:path(?o, "//quota")) AS ?q)
+  BIND(xsd:decimal(xml:path(?o, "//longitudine")) AS ?long)
+  BIND(xsd:decimal(xml:path(?o, "//latitudine")) AS ?lat)
+  BIND(xsd:decimal(xml:path(?o, "//est")) AS ?east)
+  BIND(xsd:decimal(xml:path(?o, "//north")) AS ?north)
 
   # TODO Add a date:parse(format, string) sparql extension
-  BIND((xml:path(?o, "inizio")) AS ?start)
-  BIND((xml:path(?o, "fine")) AS ?end)
+  BIND((xml:path(?o, "//inizio")) AS ?start)
+  BIND((xml:path(?o, "//fine")) AS ?end)
 
 }
 

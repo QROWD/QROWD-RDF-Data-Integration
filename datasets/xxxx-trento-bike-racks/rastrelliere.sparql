@@ -6,7 +6,7 @@ INSERT {
     eg:resultGraph <rastrelliere.kml>
 } WHERE {
   # Load the content of the relative URL and parse the string as XML
-  <rastrelliere.kml> url:text ?src .
+  <raw/rastrelliere.kml> url:text ?src .
   BIND(STRDT(?src, xsd:xml) AS ?xml) .
 }
 
