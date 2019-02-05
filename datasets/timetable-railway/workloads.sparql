@@ -1,0 +1,16 @@
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+CONSTRUCT {
+  [] a eg:Workload ;
+     rdfs:label ?label ;
+eg:file ?file ;
+     eg:payload ?json .
+}
+WHERE {
+  <> fs:find ?file
+  FILTER(STRENDS(STR(?file), "json"))
+  ?file url:text ?str
+  BIND(STRDT(?str, xsd:json) AS ?json)
+
+  BIND(afn:localname(?file) AS ?label)
+}
+

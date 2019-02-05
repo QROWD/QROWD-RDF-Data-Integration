@@ -1,0 +1,76 @@
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+CONSTRUCT {
+  ?checkin
+    a eg:CheckIn ;
+ #   eg:id ?checkinId ;
+    eg:shortUrl ?checkinShortUrl ;
+    eg:createdAt ?createdAt ;
+    eg:user ?user ;
+    .
+
+  ?user
+    a eg:User ;
+    eg:firstName ?firstName ;
+    eg:lastName ?lastName ;
+    eg:gender ?gender ;
+    .
+
+  ?venue
+    a eg:Venue ;
+    rdfs:label ?venueLabel ;
+    eg:address ?address ;
+    eg:countryCode ?cc ;
+    eg:city ?city ;
+    eg:contextLine ?contextLine ;
+    eg:country ?country ;
+    eg:isFuzzed ?isFuzzed ;
+    wgs:long ?lng ;
+    wgs:lat ?lat ;
+    eg:neigborhood ?neighborhood ;
+    eg:postalCode ?postalCode ;
+    eg:state ?state ;
+    .
+}
+{
+  <foursq_json> fs:find ?file .
+  ?file url:text ?o .
+  BIND(STRDT(?o, xsd:json) AS ?json) .
+  FILTER(BOUND(?json))
+
+  BIND("http://www.example.org/" AS ?ns)
+
+  # checkin
+#  BIND(json:path(?json, "$.checkin.id") AS ?checkinId)
+#  BIND(IRI(CONCAT(?ns, "checkin-", ?id)) AS ?checkin)
+  BIND(STRBEFORE(STRAFTER(STR(?file), STR(<foursq_json/>)), ".json") AS ?checkinShortId)
+  BIND(IRI(CONCAT("https://t.co/", ?checkinShortId)) AS ?checkinShortUrl)
+  BIND(IRI(json:path(?json, "$.checkin.canonicalUrl")) AS ?checkin)
+  
+  BIND(xsd:long(json:path(?json, "$.checkin.createdAt")) AS ?createdAt)
+
+  # user
+  BIND(IRI(json:path(?json, "$.checkin.user.canonicalUrl")) AS ?user)
+  BIND(json:path(?json, "$.checkin.user.firstName") AS ?firstName)
+  BIND(json:path(?json, "$.checkin.user.lastName") AS ?lastName)
+  BIND(json:path(?json, "$.checkin.user.gender") AS ?gender)
+
+
+  # venue / location
+  BIND(IRI(json:path(?json, "$.checkin.venue.canonicalUrl")) AS ?venue)
+  BIND(json:path(?json, "$.checkin.venue.location.address") AS ?address)
+  BIND(json:path(?json, "$.checkin.venue.location.cc") AS ?cc)
+  BIND(json:path(?json, "$.checkin.venue.location.city") AS ?city)
+  BIND(json:path(?json, "$.checkin.venue.location.contextLine") AS ?contextLine)
+  BIND(json:path(?json, "$.checkin.venue.location.country") AS ?country)
+  BIND(json:path(?json, "$.checkin.venue.location.isFuzzed") AS ?isFuzzed)
+  BIND(xsd:decimal(json:path(?json, "$.checkin.venue.location.lng")) AS ?lng)
+  BIND(xsd:decimal(json:path(?json, "$.checkin.venue.location.lat")) AS ?lat)
+  BIND(json:path(?json, "$.checkin.venue.location.neighborhood") AS ?neighborhood)
+  BIND(json:path(?json, "$.checkin.venue.location.postalCode") AS ?postalCode)
+  BIND(json:path(?json, "$.checkin.venue.location.state") AS ?state)
+
+  BIND(json:path(?json, "$.checkin.venue.name") AS ?venueLabel)
+
+} LIMIT 1
+
+

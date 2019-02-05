@@ -1,0 +1,8 @@
+#SELECT * { <data.csv> csv:parse (?rowJson "excel -h") }
+
+SELECT * {
+"""fn,ln
+Mary,Major
+John,Doe""" csv:parse (?rowJson "excel -h")
+}
+

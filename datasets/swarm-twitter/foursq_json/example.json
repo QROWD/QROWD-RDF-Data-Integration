@@ -1,0 +1,36 @@
+{
+   "checkin" : {
+      "canonicalPath" : "/user/foo/checkin/bar",
+      "canonicalUrl" : "https://foursquare.com/user/foo/checkin/bar",
+      "createdAt" : 0,
+      "id" : "foobar",
+      "venue" : {
+         "canonicalPath" : "/v/foobar",
+         "canonicalUrl" : "https://foursquare.com/v/foobar",
+         "categories" : [
+         ],
+         "id" : "foobar",
+         "location" : {
+            "cc" : "cc",
+            "city" : "city",
+            "contextLine" : "contextLine",
+            "country" : "country",
+            "isFuzzed" : true,
+            "lat" : 10,
+            "lng" : 10,
+            "state" : "XY"
+         },
+         "name" : "name"
+      },
+      "user" : {
+         "canonicalPath" : "/user/foobar",
+         "canonicalUrl" : "https://foursquare.com/user/foobar",
+         "firstName" : "firstName",
+         "gender" : "gender",
+         "id" : "0",
+         "lastName" : "lastName"
+      }
+  }
+}
+
+
