@@ -1,0 +1,312 @@
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "passaggio Peterlongo" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "10" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "passaggio Peterlongo  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "passaggio Peterlongo  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663957.7594407402 5103981.64908889, 663955.9156555551 5103991.151674075)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "passaggio Peterlongo" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "passaggio Peterlongo  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "passaggio Peterlongo  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663955.2065074069 5103995.548392594, 663953.9300407402 5104002.072555557)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza della Portella" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza della Portella  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza della Portella  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663850.7489851846 5103966.969722224, 663848.7633703698 5103977.039625928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Roma" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "32" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Roma  n.posti  32  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Roma  n.posti  32  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664002.400316666 5103970.373633337, 664012.6829648141 5103972.501077781)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Manci" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTLL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Manci  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Manci  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664080.2293259253 5103983.8119907435, 664071.1522296291 5103982.110035188)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Manci" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "32" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Manci  n.posti  32  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Manci  n.posti  32  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664070.0530499994 5103981.897290743, 664050.7996777772 5103978.422464818)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via della Mostra" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "4" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via della Mostra  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via della Mostra  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664410.6214481485 5104111.352285188, 664410.6214481485 5104108.728437039)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via della Mostra" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via della Mostra  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via della Mostra  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664410.6347075814 5104107.522650276, 664410.5372739034 5104102.771827512)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via S. Marco" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "4" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via S. Marco  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via S. Marco  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664460.4745629635 5104078.802385187, 664463.3111555561 5104078.518725928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via S. Marco" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via S. Marco  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via S. Marco  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664253.8997074073 5104008.242144448, 664262.409485185 5104012.071544447)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza C. Battisti" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza C. Battisti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza C. Battisti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664231.9161148146 5103962.998492594, 664227.0229925924 5103962.856662964)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza C. Battisti" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza C. Battisti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza C. Battisti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664214.3292407406 5103938.107392595, 664214.7547296295 5103933.214270373)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via S. Pietro" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "4" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via S. Pietro  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via S. Pietro  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664294.8175555556 5103940.802155558, 664298.3632962964 5103941.085814817)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via S. Maria Maddalena" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "4" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via S. Maria Maddalena  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via S. Maria Maddalena  n.posti  4  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664411.7560851857 5103909.45780741, 664412.8198074079 5103906.550300002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via S. Maria Maddalena" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via S. Maria Maddalena  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via S. Maria Maddalena  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664413.2452962968 5103905.415662966, 664415.0890814819 5103900.309796299)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza S. Maria Maggiore" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "bifacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "24" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza S. Maria Maggiore  n.posti  24  -  bifacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza S. Maria Maggiore  n.posti  24  -  bifacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663906.771688888 5103877.900714816, 663914.430488888 5103878.893522223)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "vicolo Colico" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "vicolo Colico  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "vicolo Colico  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663959.1068222215 5103864.072325927, 663962.2270740734 5103864.8523888895)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Oss Mazzurana" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "9" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Oss Mazzurana  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Oss Mazzurana  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664155.7536037037 5103858.611885188, 664155.7536037037 5103851.662233336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Oss Mazzurana" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Oss Mazzurana  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Oss Mazzurana  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664155.4699444444 5103847.832833336, 664155.3281148148 5103836.486462966)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "largo Carducci" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "largo Carducci  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "largo Carducci  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664268.0117555555 5103845.067155559, 664273.8267703704 5103845.492644448)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "largo Carducci" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "largo Carducci  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "largo Carducci  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664255.1052592592 5103842.656051855, 664251.7013481482 5103838.684822225)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Galilei" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "16" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Galilei  n.posti  16  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Galilei  n.posti  16  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664376.8659962965 5103804.2911370415, 664366.7960925928 5103810.815300005)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Roggia Grande" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "10" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Roggia Grande  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Roggia Grande  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664319.1413370371 5103780.605588893, 664318.4321888889 5103774.506914819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Lodron" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "10" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Lodron  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Lodron  n.posti  10  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664221.2788925923 5103773.655937043, 664228.6540333331 5103775.783381487)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Lodron" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Lodron  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Lodron  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664158.7320259254 5103777.627166673, 664164.263381481 5103776.492529635)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza del Duomo" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "20" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza del Duomo  n.posti  20  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza del Duomo  n.posti  20  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664095.6178407402 5103738.198529635, 664098.1707740736 5103724.157396302)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Verzeri" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Verzeri  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Verzeri  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663947.334962962 5103740.113229634, 663951.8735111101 5103740.325974078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Don Rizzi" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Don Rizzi  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Don Rizzi  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663967.5456851842 5103691.536581486, 663972.3678925916 5103691.962070375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Verdi" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "52" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Verdi  n.posti  52  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Verdi  n.posti  52  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663896.7726999989 5103632.251796301, 663920.3164185175 5103636.223025931)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Verdi" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "36" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Verdi  n.posti  36  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Verdi  n.posti  36  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (663944.2856259249 5103640.761574079, 663959.177737036 5103643.314507413)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Calepina" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "56" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Calepina  n.posti  56  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Calepina  n.posti  56  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664185.9633148144 5103674.800685191, 664205.3230592589 5103679.197403709)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Garzetti" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "13" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Garzetti  n.posti  13  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Garzetti  n.posti  13  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664277.2306814814 5103594.099625929, 664278.2944037037 5103588.568270374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Garzetti" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Garzetti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Garzetti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664280.8473370369 5103573.179755559, 664280.2800185183 5103576.300007411)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via II Androna Borgonuovo" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "9" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via II Androna Borgonuovo  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via II Androna Borgonuovo  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664239.9294888886 5103535.098500004, 664243.1206555553 5103535.2403296335)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via II Androna Borgonuovo" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "9" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via II Androna Borgonuovo  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via II Androna Borgonuovo  n.posti  9  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664244.6098666664 5103535.382159263, 664247.7301185183 5103535.5594463)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "piazza Garzetti" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "8" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "piazza Garzetti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "piazza Garzetti  n.posti  8  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664321.7651851849 5103546.60442871, 664324.4599481479 5103546.781715747)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Al Torrione" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "15" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Al Torrione  n.posti  15  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Al Torrione  n.posti  15  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664188.073030555 5103467.073463895, 664195.8027453698 5103468.1371861175)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Al Torrione" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "28" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Al Torrione  n.posti  28  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Al Torrione  n.posti  28  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664161.9054638884 5103486.504123154, 664150.4172638884 5103488.915226858)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://todo/BikeRack> .
+<http://qrowd-project.eu/resource/> <http://todo/Street> "via Al Torrione" .
+<http://qrowd-project.eu/resource/> <http://todo/Area> "ZTL" .
+<http://qrowd-project.eu/resource/> <http://todo/Type> "monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Capacity> "12" .
+<http://qrowd-project.eu/resource/> <http://todo/Label> "via Al Torrione  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Description> "via Al Torrione  n.posti  12  -  monofacciale" .
+<http://qrowd-project.eu/resource/> <http://todo/Wkt> "LINESTRING (664144.6731638884 5103490.12077871, 664140.9146787032 5103490.900841673)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

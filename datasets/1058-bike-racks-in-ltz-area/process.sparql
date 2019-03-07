@@ -8,8 +8,9 @@ CONSTRUCT {
     todo:Area ?area ;
     todo:Type ?type ;
     todo:Capacity ?capacity ;
-    todo:Label ?hint ;
+    todo:Label ?label ;
     todo:Description ?description ;
+    todo:Wkt ?wkt ;
     .
 }
 WHERE {
@@ -27,10 +28,12 @@ WHERE {
   BIND(xml:path(?node, "@fid") AS ?id)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
   BIND(URI(CONCAT(?ns, ?id)) AS ?bikerack)
-  BIND(xml:path(?node, "via") AS ?street)
-  BIND(xml:path(?node, "zona") AS ?area)
-  BIND(xml:path(?node, "tipologia") AS ?type)
-  BIND(xml:path(?node, "n_posti") AS ?capacity)
-  BIND(xml:path(?node, "fumetto") AS ?label)
-  BIND(xml:path(?node, "descrizione") AS ?description)
+  BIND(xml:path(?node, "//*[local-name()='via']") AS ?street)
+  BIND(xml:path(?node, "//*[local-name()='zona']") AS ?area)
+  BIND(xml:path(?node, "//*[local-name()='tipologia']") AS ?type)
+  BIND(xml:path(?node, "//*[local-name()='n_posti']") AS ?capacity)
+  BIND(xml:path(?node, "//*[local-name()='fumetto']") AS ?label)
+  BIND(xml:path(?node, "//*[local-name()='descrizione']") AS ?description)
+  ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?g )
+  BIND(fn:gml2Wkt(str(?g)) AS ?wkt)
 }
