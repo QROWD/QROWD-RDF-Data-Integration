@@ -1,4 +1,0 @@
-
-PREFIX fn: <http://jsa.aksw.org/fn/gml/> 
-
-SELECT ?g { BIND(fn:gml2Wkt('<gml:LineString><gml:coordinates>6.8,5.3 6.1,5.1</gml:coordinates></gml:LineString>') AS ?g) }
