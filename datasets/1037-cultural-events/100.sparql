@@ -25,7 +25,7 @@ CONSTRUCT {
   BIND(json:path(?json, "$.nodes") AS ?events)
 
   # Unnest each item of the json array into its own SPARQL result set row
-  ?events json:unnest (?event) .
+  ?events json:unnest (?event ?i) .
 
   # For each row, craft the values for the CONSTRUCT template
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
