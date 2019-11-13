@@ -1,172 +1,172 @@
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Aeroporto - Trento" .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Aeroporto - Trento" .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Aeroporto" .
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Lidorno / Aeroporto Caproni" .
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Lidorno / Aeroporto Caproni" .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.01983619754026"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Aeroporto%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.127080654939277"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Azienda Sanitaria - Trento" .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Azienda Sanitaria - Trento" .
 <http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Azienda Sanitaria" .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via De Gasperi - Lato Trento Frutta" .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "7.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via De Gasperi - Lato Trento Frutta" .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "7.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.044433415996814"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Azienda%20Sanitaria%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.12804971230321"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Bezzi - Trento" .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Bezzi - Trento" .
 <http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Bezzi" .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Bezzi / Via Vittorio Veneto" .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Bezzi / Via Vittorio Veneto" .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.058020904033015"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Bezzi%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.119315767528406"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Biblioteca - Trento" .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Biblioteca - Trento" .
 <http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Biblioteca" .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Alfieri / Via Torre Vanga" .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Alfieri / Via Torre Vanga" .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.07043395910254"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Biblioteca%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.121399842327946"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Bren Center - Trento" .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Bren Center - Trento" .
 <http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Bren Center" .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Guardini fr. civ. 75" .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "17.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Guardini fr. civ. 75" .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "17.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.094653868146885"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Bren%20Center%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.117693389024225"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Centro Santa Chiara - Trento" .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Centro Santa Chiara - Trento" .
 <http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Centro Santa Chiara" .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via S. Croce 78" .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via S. Croce 78" .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.06345393738132"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Centro%20Santa%20Chiara%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.12375366752849"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Cimitero - Trento" .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Cimitero - Trento" .
 <http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Cimitero" .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/ontology/address> "via Madruzzo / via Rosmini" .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/vocab/address> "via Madruzzo / via Rosmini" .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.063653753791996"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Cimitero%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.119203004368615"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Gardolo - Trento" .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Gardolo - Trento" .
 <http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Gardolo" .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via IV Novembre / Piscina" .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via IV Novembre / Piscina" .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.10407094472173"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Gardolo%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.112932473016372"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Lidorno - Trento" .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Lidorno - Trento" .
 <http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Lidorno" .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Lidorno / Park Trento Sud" .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Lidorno / Park Trento Sud" .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.03316279422745"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Lidorno%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.126252122229062"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Muse - Trento" .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Muse - Trento" .
 <http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Muse" .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Corso del Lavoro e della Scienza" .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Corso del Lavoro e della Scienza" .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.06137765005302"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Muse%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.116027144580812"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Piazza della Mostra - Trento" .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Piazza della Mostra - Trento" .
 <http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Piazza della Mostra" .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/ontology/address> "P.za della Mostra 30" .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/vocab/address> "P.za della Mostra 30" .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "11.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.071784324082046"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20della%20Mostra%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.125761136176266"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Piazza di Centa - Trento" .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Piazza di Centa - Trento" .
 <http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Piazza di Centa" .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/ontology/address> "P.le di Centa / Via Vannetti" .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/vocab/address> "P.le di Centa / Via Vannetti" .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.07538723420181"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20di%20Centa%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.12382177686004"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Piazza Venezia - Trento" .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Piazza Venezia - Trento" .
 <http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Piazza Venezia" .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Grazioli / P.za Venezia" .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Grazioli / P.za Venezia" .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.06753791402558"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piazza%20Venezia%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.126987115869156"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Piscina - Trento" .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Piscina - Trento" .
 <http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Piscina" .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Fogazzaro / Via Gocciadoro" .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Fogazzaro / Via Gocciadoro" .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "2.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "9.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.05627509524844"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Piscina%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.13094278895494"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Stazione Autocorriere - Trento" .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Stazione Autocorriere - Trento" .
 <http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Stazione Autocorriere" .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Pozzo / Via Torre Vanga" .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Pozzo / Via Torre Vanga" .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.07023563810641"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Stazione%20Autocorriere%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.119849430688419"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Stazione FFSS - Ospedale - Trento" .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Stazione FFSS - Ospedale - Trento" .
 <http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Stazione FFSS - Ospedale" .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Gocciadoro - Staz. S. Chiara" .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Gocciadoro - Staz. S. Chiara" .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "12.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.054586705531555"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Stazione%20FFSS%20-%20Ospedale%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.135349258821861"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Top Center - Trento" .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Top Center - Trento" .
 <http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Top Center" .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Pranzelores / Via Giuseppe Gilli" .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "19.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Pranzelores / Via Giuseppe Gilli" .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "3.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "19.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "24.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.09010372321067"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Top%20Center%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.118583717279193"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Università - Trento" .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Università - Trento" .
 <http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Università" .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/ontology/address> "Via Rosmini 50 - Università" .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/vocab/address> "Via Rosmini 50 - Università" .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "13.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "18.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.06632943181332"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Universit%C3%A0%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.119020308598351"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/BikeStation> .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/id> "Vannetti - Trento" .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/vocab/BikeStation> .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/vocab/id> "Vannetti - Trento" .
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/2000/01/rdf-schema#label> "Vannetti" .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/address> "piazza Dante / via Vannetti" .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/slots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/ontology/totalSlots> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/vocab/address> "piazza Dante / via Vannetti" .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/vocab/bikes> "4.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/vocab/slots> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://qrowd-project.eu/vocab/totalSlots> "14.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "46.072996732945235"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/Vannetti%20-%20Trento> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "11.121911281089751"^^<http://www.w3.org/2001/XMLSchema#double> .
 <http://qrowd-project.eu/resource/electric-bikesharing-stations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
@@ -182,11 +182,11 @@
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/identifier> "1014-electric-bikesharing-stations-nt" .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/title> "Electric Bikesharing Stations N-TRIPLES" .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://purl.org/dc/terms/isFormatOf> <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> .
-<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://www.w3.org/ns/dcat#downloadURL> <file:///home/beavis/Cloud/work/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/dataset.nq> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-nt> <http://www.w3.org/ns/dcat#downloadURL> <file://dataset.nq> .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/description> "This distribution describes bike sharing stations in Trento." .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/identifier> "1014-electric-bikesharing-stations-json" .
 <http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://purl.org/dc/terms/title> "Electric Bikesharing Stations JSON" .
-<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://www.w3.org/ns/dcat#downloadURL> <file:///home/beavis/Cloud/work/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/trento-bike-sharing.json> .
+<http://qrowd-project.eu/resource/1014-electric-bikesharing-stations-json> <http://www.w3.org/ns/dcat#downloadURL> <file:///home/patrick/infai/projects/qrowd/wp04/src/QROWD-RDF-Data-Integration/datasets/1014-electric-bikesharing-stations/trento-bike-sharing.json> .
 <http://orgs.vocab.org/some-org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
 <http://orgs.vocab.org/some-org> <http://xmlns.com/foaf/0.1/name> "QROWD" .
