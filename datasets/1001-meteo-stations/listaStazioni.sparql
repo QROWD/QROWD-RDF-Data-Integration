@@ -3,30 +3,37 @@
 
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
+PREFIX qrowd-resource: <http://qrowd-project.eu/resource/>
+
 CONSTRUCT {
-  eg:MeteoStationsDataset
+  qrowd-resource:meteoStationsDataset
     a dcat:Dataset ;
-    dct:identifier "Meteo-Stations" ;
+    dct:identifier "meteo-stations" ;
     dct:title "Meteo-Stations" ;
-    dct:description "Stuff" ;
-    dcat:keyword "Keyword", "Keyword" ;
-    dcat:distribution eg:resource-meteo-stations ;
+    dct:description "Meteorological data from an automatic measurement network" ;
+    dcat:keyword "meteorology", "temperature", "precipitation", "wind", "wind direction", "radiation" ;
+    dcat:distribution qrowd-resource:resource-meteo-stations ;
     .
 
-  eg:resource-resource-meteo-stations
+  qrowd-resource:resource-resource-meteo-stations
     a dcat:Distribution ;
 #   dct:identifier \"$DISTRIBUTION_NAME\" ;
     dct:title "Meteo-Stations" ;
-    dct:description "RDF dataset with meteorological data for trento." ;
+    dct:description "RDF dataset with meteorological data for Trento." ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
     dcat:accessURL <dataset.nq> ;
     .
 
-  eg:quote
+  qrowd-vocab:quote
     rdfs:label "I don't know what this quote measures" ;
     .
   
-  eg:east
+  qrowd-vocab:east
+    rdfs:label "I don't know what reference system this refers to" ;
+    .
+
+  qrowd-vocab:north
     rdfs:label "I don't know what reference system this refers to" ;
     .
 } WHERE {
@@ -37,17 +44,17 @@ CONSTRUCT {
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 CONSTRUCT {
   ?s
-    a eg:WeatherStation ;
+    a qrowd-vocab:WeatherStation ;
     rdfs:label ?l ;
-    eg:shortName ?sl ;
-    eg:code ?c ;
-    eg:quote ?q ;
+    qrowd-vocab:shortName ?sl ;
+    qrowd-vocab:code ?c ;
+    qrowd-vocab:quote ?q ;
     geo:long ?long ;
     geo:lat ?lat ;
-    eg:east ?east ;
-    eg:north ?north ;
-    eg:start ?start ;
-    eg:end ?end ;
+    qrowd-vocab:east ?east ;
+    qrowd-vocab:north ?north ;
+    qrowd-vocab:start ?start ;
+    qrowd-vocab:end ?end ;
     .
 }
 WHERE {
