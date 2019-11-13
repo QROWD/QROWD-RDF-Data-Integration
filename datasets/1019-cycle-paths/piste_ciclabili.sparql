@@ -1,15 +1,17 @@
+PREFIX qrowd-resource: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 
 # Mappings of types to IRIs
 INSERT DATA {
-  eg:RT1 rdfs:label "Pista di raccordo" .
-  eg:RT2 rdfs:label "Pista verde" .
+  qrowd-resource:RT1 rdfs:label "Pista di raccordo" .
+  qrowd-resource:RT2 rdfs:label "Pista verde" .
 }
 
 
 CONSTRUCT {
   ?s
-    a eg:BikeRack ;
-    eg:type ?t ;
+    a qrowd-vocab:BikeRack ;
+    qrowd-vocab:type ?t ;
     rdfs:label ?l ;
     rdfs:comment ?c ;
     .
