@@ -27,10 +27,10 @@ WHERE {
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
 
   BIND(URI(CONCAT(?ns, ?id)) AS ?p)
-  BIND(xml:path(?o, "fumetto") AS ?l)
-  BIND(xml:path(?o, "descrizione") AS ?c)
-  BIND(xml:path(?o, "area") AS ?a)
-  BIND(xml:path(?o, "perimeter") AS ?pe)
-  BIND(xml:path(?o, "pianopark") AS ?pi)
+  BIND(xml:path(?o, '//*[local-name() = "fumetto"]') AS ?l)
+  BIND(xml:path(?o, '//*[local-name() = "descrizione"]') AS ?c)
+  BIND(xml:path(?o, '//*[local-name() = "area"]') AS ?a)
+  BIND(xml:path(?o, '//*[local-name() = "perimeter"]') AS ?pe)
+  BIND(xml:path(?o, '//*[local-name() = "pianopark"]') AS ?pi)
   # TODO Add conversion function for geo reference systems...
 }
