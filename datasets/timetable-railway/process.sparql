@@ -2,11 +2,12 @@ LOAD <dcat.ttl>
 
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
 ?distribution
-  eg:workload ?sourceString ;
+  qrowd-vocab:workload ?sourceString ;
   dcat:accessURL ?distribution ;
-  eg:resultGraph ?distribution .
+  qrowd-vocab:resultGraph ?distribution .
 }
 WHERE {
   ?distribution dct:isFormatOf ?sourceDistribution .
@@ -17,11 +18,11 @@ WHERE {
 
 # Create stops
 INSERT {
-  GRAPH ?x { ?s a eg:Stop; eg:stopId ?i }
+  GRAPH ?x { ?s a qrowd-vocab:Stop; qrowd-vocab:stopId ?i }
 }
 # SELECT ?stops
 WHERE {
-  ?x eg:workload ?o .
+  ?x qrowd-vocab:workload ?o .
   BIND(json:path(?o, "$.stopIds") AS ?stops)
   ?stops json:unnest (?stop ?i)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
@@ -34,29 +35,29 @@ INSERT {
 }
 # SELECT ?s ?i ?l
 WHERE {
-  ?x eg:workload ?o  .
+  ?x qrowd-vocab:workload ?o  .
   BIND(json:path(?o, "$.stopNames") AS ?stopNames)
   ?stopNames json:unnest (?l ?i) .
-  GRAPH ?x { ?s eg:stopId ?i }
+  GRAPH ?x { ?s qrowd-vocab:stopId ?i }
 }
 
 # A trip is a sequence of stops served at certain times
 INSERT {
   GRAPH ?x {
     ?trip
-      a eg:Trip ;
-      eg:serves ?service ;
+      a qrowd-vocab:Trip ;
+      qrowd-vocab:serves ?service ;
       .
 
     ?service
-      eg:stop ?stop ;
-      eg:atTime ?time ;
+      qrowd-vocab:stop ?stop ;
+      qrowd-vocab:atTime ?time ;
      .
   }
 }
 # SELECT ?tripId ?stopId ?time ?trip ?service ?stop
 WHERE {
-  ?x eg:workload ?o .
+  ?x qrowd-vocab:workload ?o .
   BIND(json:path(?o, "$.trips") AS ?trips)
   ?trips json:unnest (?tripJson ?i) .
   BIND(json:path(?tripJson, "$.tripId") AS ?tripId)
@@ -69,7 +70,7 @@ WHERE {
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
   BIND(URI(CONCAT(?ns, 'trip-', ?tripId)) AS ?trip)
   BIND(URI(CONCAT(?ns, 'service-', ?tripId, "-", ?timeStr)) AS ?service)
-  GRAPH ?x { ?stop eg:stopId ?stopId }
+  GRAPH ?x { ?stop qrowd-vocab:stopId ?stopId }
 } 
 
 # Emit the triples
