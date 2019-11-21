@@ -1,8 +1,9 @@
 
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
 INSERT DATA{
-  eg:WeatherDataDataset
+  qrowd:WeatherDataDataset
     a dcat:Dataset ;
     dct:identifier "weather-data" ;
     dct:title " Weather Data" ;
@@ -15,23 +16,25 @@ INSERT DATA{
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
-  eg:WeatherDataDataset
-    dcat:distribution eg:resource-1004-trento-east ;
+  qrowd:WeatherDataDataset
+    dcat:distribution qrowd:resource-1004-trento-east ;
     .  
 
-  eg:resource-1004-trento-east
+  qrowd:resource-1004-trento-east
     a dcat:Distribution ;
 #   dct:identifier "1004-trento-east" ;
     dct:title "1004-trento-east" ;
     dct:description "RDF dataset with timetables for 1004-trento-east" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
-    dcat:accessURL eg:graph-1004-trento-east ;
+    dcat:accessURL qrowd:graph-1004-trento-east ;
     .
 
-  eg:workload-1004-trento-east
-    eg:workload ?workload ;
-    eg:resultGraph eg:graph-1004-trento-east ;
+  qrowd:workload-1004-trento-east
+    qrowd-vocab:workload ?workload ;
+    qrowd-vocab:resultGraph qrowd:graph-1004-trento-east ;
     aws:TemperatureSensor <http://qrowd-project.eu/resource/1004-trento-east-sensor> ;
     .
 
@@ -44,23 +47,25 @@ WHERE {
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
-  eg:WeatherDataDataset
-    dcat:distribution eg:resource-1005-trento-north ;
+  qrowd:WeatherDataDataset
+    dcat:distribution qrowd:resource-1005-trento-north ;
     .  
 
-  eg:resource-1005-trento-north
+  qrowd:resource-1005-trento-north
     a dcat:Distribution ;
 #   dct:identifier "1005-trento-north" ;
     dct:title "1005-trento-north" ;
     dct:description "RDF dataset with timetables for 1005-trento-north" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
-    dcat:accessURL eg:graph-1005-trento-north ;
+    dcat:accessURL qrowd:graph-1005-trento-north ;
     .
 
-  eg:workload-1005-trento-north
-    eg:workload ?workload ;
-    eg:resultGraph eg:graph-1005-trento-north ;
+  qrowd:workload-1005-trento-north
+    qrowd-vocab:workload ?workload ;
+    qrowd-vocab:resultGraph qrowd:graph-1005-trento-north ;
     aws:TemperatureSensor <http://qrowd-project.eu/resource/1005-trento-north-sensor> ;
     .
 

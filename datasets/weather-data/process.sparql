@@ -1,5 +1,6 @@
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 
 INSERT {
   GRAPH ?g {
@@ -14,7 +15,7 @@ INSERT {
 }
 
 WHERE {
-  ?x eg:workload ?workload ; eg:resultGraph ?g ; aws:TemperatureSensor ?s .
+  ?x qrowd-vocab:workload ?workload ; qrowd-vocab:resultGraph ?g ; aws:TemperatureSensor ?s .
   BIND(STRDT(?workload, xsd:xml) AS ?w)
   ?w xml:unnest ("//temperatura_aria" ?observation)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
