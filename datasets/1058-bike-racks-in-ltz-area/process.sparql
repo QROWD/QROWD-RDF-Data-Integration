@@ -1,16 +1,16 @@
-PREFIX todo: <http://todo/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 PREFIX fn: <http://jsa.aksw.org/fn/gml/>
 
 CONSTRUCT {
   ?bikerack
-    a todo:BikeRack ;
-    todo:Street ?street ;
-    todo:Area ?area ;
-    todo:Type ?type ;
-    todo:Capacity ?capacity ;
-    todo:Label ?label ;
-    todo:Description ?description ;
-    todo:Wkt ?wkt ;
+    a qrowd-vocab:BikeRack ;
+    qrowd-vocab:street ?street ;
+    qrowd-vocab:area ?area ;
+    qrowd-vocab:type ?type ;
+    qrowd-vocab:capacity ?capacity ;
+    qrowd-vocab:label ?label ;
+    qrowd-vocab:description ?description ;
+    qrowd-vocab:wkt ?wkt ;
     .
 }
 WHERE {
