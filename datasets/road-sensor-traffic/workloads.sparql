@@ -1,8 +1,9 @@
 
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
 INSERT DATA{
-  eg:RoadSensorTrafficDataset
+  qrowd:RoadSensorTrafficDataset
     a dcat:Dataset ;
     dct:identifier "road-sensor-traffic" ;
     dct:title " Road Sensor Traffic" ;
@@ -15,23 +16,25 @@ INSERT DATA{
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
-  eg:RoadSensorTrafficDataset
-    dcat:distribution eg:resource-1012-2015.csv ;
+  qrowd:RoadSensorTrafficDataset
+    dcat:distribution qrowd:resource-1012-2015.csv ;
     .  
 
-  eg:resource-1012-2015.csv
+  qrowd:resource-1012-2015.csv
     a dcat:Distribution ;
 #   dct:identifier "1012-2015.csv" ;
     dct:title "1012-2015.csv" ;
     dct:description "RDF dataset with timetables for 1012-2015.csv" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
-    dcat:accessURL eg:graph-1012-2015.csv ;
+    dcat:accessURL qrowd:graph-1012-2015.csv ;
     .
 
-  eg:workload-1012-2015.csv
-    eg:workload ?workload ;
-    eg:resultGraph eg:graph-1012-2015.csv ;
+  qrowd:workload-1012-2015.csv
+    qrowd-vocab:workload ?workload ;
+    qrowd-vocab:resultGraph qrowd:graph-1012-2015.csv ;
     .
 
 }
@@ -43,23 +46,25 @@ WHERE {
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
-  eg:RoadSensorTrafficDataset
-    dcat:distribution eg:resource-1013-2014.csv ;
+  qrowd:RoadSensorTrafficDataset
+    dcat:distribution qrowd:resource-1013-2014.csv ;
     .  
 
-  eg:resource-1013-2014.csv
+  qrowd:resource-1013-2014.csv
     a dcat:Distribution ;
 #   dct:identifier "1013-2014.csv" ;
     dct:title "1013-2014.csv" ;
     dct:description "RDF dataset with timetables for 1013-2014.csv" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
-    dcat:accessURL eg:graph-1013-2014.csv ;
+    dcat:accessURL qrowd:graph-1013-2014.csv ;
     .
 
-  eg:workload-1013-2014.csv
-    eg:workload ?workload ;
-    eg:resultGraph eg:graph-1013-2014.csv ;
+  qrowd:workload-1013-2014.csv
+    qrowd-vocab:workload ?workload ;
+    qrowd-vocab:resultGraph qrowd:graph-1013-2014.csv ;
     .
 
 }

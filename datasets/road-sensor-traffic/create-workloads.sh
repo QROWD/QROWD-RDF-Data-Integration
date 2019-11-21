@@ -7,8 +7,9 @@ DATASET_TITLE=$(echo "$DATASET" | sed -r 's/(^|-)(\w)/\U \2/g')
 echo "
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
 INSERT DATA{
-  eg:"$DATASET_CAMEL_CASE"Dataset
+  qrowd:"$DATASET_CAMEL_CASE"Dataset
     a dcat:Dataset ;
     dct:identifier \"$DATASET\" ;
     dct:title \"$DATASET_TITLE\" ;
@@ -24,23 +25,25 @@ for DISTRIBUTION in distributions/*; do
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX aws: <http://purl.oclc.org/NET/ssnx/meteo/aws/>
+PREFIX qrowd: <http://qrowd-project.eu/resource/>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 INSERT {
-  eg:"$DATASET_CAMEL_CASE"Dataset
-    dcat:distribution eg:resource-$DISTRIBUTION_NAME ;
+  qrowd:"$DATASET_CAMEL_CASE"Dataset
+    dcat:distribution qrowd:resource-$DISTRIBUTION_NAME ;
     .  
 
-  eg:resource-$DISTRIBUTION_NAME
+  qrowd:resource-$DISTRIBUTION_NAME
     a dcat:Distribution ;
 #   dct:identifier \"$DISTRIBUTION_NAME\" ;
     dct:title \"$DISTRIBUTION_NAME\" ;
     dct:description \"RDF dataset with timetables for $DISTRIBUTION_NAME\" ;
 # Hijacking the dcat namespace to refer to a set of graphs within this dataset
-    dcat:accessURL eg:graph-$DISTRIBUTION_NAME ;
+    dcat:accessURL qrowd:graph-$DISTRIBUTION_NAME ;
     .
 
-  eg:workload-$DISTRIBUTION_NAME
-    eg:workload ?workload ;
-    eg:resultGraph eg:graph-$DISTRIBUTION_NAME ;
+  qrowd:workload-$DISTRIBUTION_NAME
+    qrowd-vocab:workload ?workload ;
+    qrowd-vocab:resultGraph qrowd:graph-$DISTRIBUTION_NAME ;
     .
 
 }
