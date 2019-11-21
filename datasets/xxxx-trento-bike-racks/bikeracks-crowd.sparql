@@ -3,12 +3,13 @@
 PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX qrowd-vocab: <http://qrowd-project.eu/vocab/>
 CONSTRUCT {
   ?s
     a lgdo:BicycleParking ;
     dct:identifier ?id ;
     geo:geometry ?g ;
-    eg:source <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
+    qrowd-vocab:source <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
     .
 
   ?g
@@ -22,7 +23,7 @@ CONSTRUCT {
 
   ?json json:unnest (?o ?i) .
 
-  BIND("http://example.org" AS ?ns)
+  BIND("http://qrowd-project.eu" AS ?ns)
   BIND("crowdsourcing-bikeracks-2018-02" AS ?dataset)
   BIND("bikerack" AS ?entity)
   BIND(CONCAT(?ns, "/resource/", ?dataset, "/", ?entity) AS ?resourceBase)
