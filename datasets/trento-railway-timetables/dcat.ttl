@@ -92,9 +92,10 @@
   a dcat:Dataset ;
   dct:description "Timetables for Trento railways" ;
   dct:publisher <http://orgs.vocab.org/some-org> ;
-  dct:identifier "timetable-railway" ;
+  dct:identifier "trento-railway-timetables" ;
   dct:title "Trento Railway Timetables" ;
   dcat:keyword "qrowd", "trento", "timetable", "railway", "rdf" ;
+  dcat:format "RDF" ;
   dcat:distribution <http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-json> ;
   dcat:distribution <http://qrowd-project.eu/resource/1046-timetable-railway-trento-male-nt> ;
   dcat:distribution <http://qrowd-project.eu/resource/1047-timetable-railway-male-trento-json> ;
